@@ -1,0 +1,105 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 1000px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "green", "id": "temperature", "label": "temperature", "node_type": "topic", "shape": "dot", "title": "temperature"}, {"color": "green", "id": "land degredation", "label": "land degredation", "node_type": "topic", "shape": "dot", "title": "land degredation"}, {"color": "red", "id": "teph", "label": "teph", "node_type": "dataset", "shape": "dot", "title": "teph"}, {"color": "green", "id": "tephrachronology", "label": "tephrachronology", "node_type": "topic", "shape": "dot", "title": "tephrachronology"}, {"color": "green", "id": "natural change", "label": "natural change", "node_type": "topic", "shape": "dot", "title": "natural change"}, {"color": "green", "id": "sea ice", "label": "sea ice", "node_type": "topic", "shape": "dot", "title": "sea ice"}, {"color": "green", "id": "soil accumulation", "label": "soil accumulation", "node_type": "topic", "shape": "dot", "title": "soil accumulation"}, {"color": "green", "id": "charcoal pit", "label": "charcoal pit", "node_type": "topic", "shape": "dot", "title": "charcoal pit"}, {"color": "green", "id": "glacier", "label": "glacier", "node_type": "topic", "shape": "dot", "title": "glacier"}, {"color": "green", "id": "storminess", "label": "storminess", "node_type": "topic", "shape": "dot", "title": "storminess"}, {"color": "green", "id": "landscape change", "label": "landscape change", "node_type": "topic", "shape": "dot", "title": "landscape change"}, {"color": "green", "id": "slope stability", "label": "slope stability", "node_type": "topic", "shape": "dot", "title": "slope stability"}, {"color": "green", "id": "burial", "label": "burial", "node_type": "topic", "shape": "dot", "title": "burial"}, {"color": "green", "id": "woodland decline", "label": "woodland decline", "node_type": "topic", "shape": "dot", "title": "woodland decline"}, {"color": "green", "id": "Little Ice Age", "label": "Little Ice Age", "node_type": "topic", "shape": "dot", "title": "Little Ice Age"}, {"color": "green", "id": "charcoal pits", "label": "charcoal pits", "node_type": "topic", "shape": "dot", "title": "charcoal pits"}, {"color": "green", "id": "agricultural landscape", "label": "agricultural landscape", "node_type": "topic", "shape": "dot", "title": "agricultural landscape"}, {"color": "green", "id": "precipitation", "label": "precipitation", "node_type": "topic", "shape": "dot", "title": "precipitation"}, {"color": "green", "id": "erosion", "label": "erosion", "node_type": "topic", "shape": "dot", "title": "erosion"}, {"color": "green", "id": "Historical Chronology", "label": "Historical Chronology", "node_type": "topic", "shape": "dot", "title": "Historical Chronology"}, {"color": "green", "id": "building", "label": "building", "node_type": "topic", "shape": "dot", "title": "building"}, {"color": "green", "id": "volcanic activity", "label": "volcanic activity", "node_type": "topic", "shape": "dot", "title": "volcanic activity"}, {"color": "green", "id": "human induced change", "label": "human induced change", "node_type": "topic", "shape": "dot", "title": "human induced change"}, {"color": "green", "id": "modeled climatic systems", "label": "modeled climatic systems", "node_type": "topic", "shape": "dot", "title": "modeled climatic systems"}, {"color": "green", "id": "tephra", "label": "tephra", "node_type": "topic", "shape": "dot", "title": "tephra"}]);
+        edges = new vis.DataSet([{"color": "black", "from": "temperature", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "teph"}, {"color": "black", "from": "land degredation", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "teph"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "tephrachronology"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "modeled climatic systems"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "natural change"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "precipitation"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "storminess"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "Historical Chronology"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "sea ice"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "Little Ice Age"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "glacier"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "agricultural landscape"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "building"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "erosion"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "human induced change"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "soil accumulation"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "charcoal pit"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "tephra"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "burial"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "landscape change"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "slope stability"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "woodland decline"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "volcanic activity"}, {"color": "black", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers\u003cbr/\u003e\u003chr/\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e More data goes here", "to": "charcoal pits"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
