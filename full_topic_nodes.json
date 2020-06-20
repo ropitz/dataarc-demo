@@ -476,6 +476,11 @@
   ],
   "edges": [
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of",
+      "source": -1508324456,
+      "target": -1508324456
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
       "source": -1508324456,
       "target": 1810609610
@@ -521,6 +526,11 @@
       "target": -1412621438
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+      "source": -496393226,
+      "target": -809648984
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by",
       "source": 867932494,
       "target": 1359819694
@@ -531,9 +541,44 @@
       "target": 1359819694
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of",
+      "source": -1647981776,
+      "target": -498015694
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P11_had_participant",
+      "source": -1647981776,
+      "target": -1591220550
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -1647981776,
+      "target": -2108681132
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
       "source": -1647981776,
       "target": 490133072
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P11_had_participant",
+      "source": -863680022,
+      "target": -481008040
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in",
+      "source": -863680022,
+      "target": -748695168
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P94_has_created",
+      "source": -1253488614,
+      "target": -863680022
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -863680022,
+      "target": -751616688
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of",
@@ -572,8 +617,43 @@
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in",
+      "source": -1408856122,
+      "target": -1052056184
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P11_had_participant",
+      "source": -1408856122,
+      "target": -1626277010
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P113_removed",
+      "source": -1459029020,
+      "target": -1408856122
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member",
+      "source": -1408856122,
+      "target": -1527094374
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in",
       "source": -541964198,
       "target": 1183560992
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in",
+      "source": -541964198,
+      "target": -1748374792
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P19_was_intended_use_of",
+      "source": -1176865722,
+      "target": -1094626584
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
+      "source": -1176865722,
+      "target": -1665279950
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
@@ -584,6 +664,11 @@
       "label": "http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of",
       "source": -1176865722,
       "target": 1717597686
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+      "source": -899462842,
+      "target": -1176865722
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P11_had_participant",
@@ -645,6 +730,11 @@
       "source": 1440991096,
       "target": -1989028542
     },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in",
+      "source": -641101450,
+      "target": -748695168
+    },
     { "label": "grave", "source": 1976646946, "target": 1976646946 },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
@@ -687,6 +777,16 @@
       "target": 489020444
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+      "source": -558064858,
+      "target": -1253488614
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+      "source": -273764106,
+      "target": -1253488614
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P19i_was_made_for",
       "source": 1239054198,
       "target": 1275960826
@@ -697,6 +797,26 @@
       "target": 224370138
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "source": -1253488614,
+      "target": -1331675222
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P53i_is_former_or_current_location_of",
+      "source": -1757955742,
+      "target": -1331675222
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of",
+      "source": -1331675222,
+      "target": -896638586
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P21_had_general_purpose",
+      "source": -698548500,
+      "target": -896638586
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
       "source": 833510936,
       "target": 552784298
@@ -705,6 +825,11 @@
       "label": "http://www.cidoc-crm.org/cidoc-crm/P168i_defines_place",
       "source": 2013620700,
       "target": -572149508
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member",
+      "source": -1589511308,
+      "target": -1527094374
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in",
@@ -733,6 +858,11 @@
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
+      "source": -1748374792,
+      "target": -1344510676
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
       "source": 678132652,
       "target": -1344510676
     },
@@ -742,8 +872,23 @@
       "target": -1344510676
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
+      "source": -481008040,
+      "target": -1344510676
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P136i_supported_type_creation",
       "source": 2020350764,
+      "target": -1344510676
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -1344510676,
+      "target": -1514094562
+    },
+    {
+      "label": "http://www.ics.forth.gr/isl/CRMsci/O11_described",
+      "source": -392852380,
       "target": -1344510676
     },
     {
@@ -822,9 +967,19 @@
       "target": -432457136
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+      "source": -227335358,
+      "target": -1292697222
+    },
+    {
       "label": "http://www.ics.forth.gr/isl/CRMba/B1_Built_Work",
       "source": -227335358,
       "target": 234225062
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P53i_is_former_or_current_location_of",
+      "source": -1839868314,
+      "target": -227335358
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by",
@@ -842,6 +997,11 @@
       "target": 1986823278
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+      "source": -481008040,
+      "target": -967227322
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P105i_has_right_on",
       "source": -1253488614,
       "target": 1253427052
@@ -857,8 +1017,23 @@
       "target": -1253488614
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of",
+      "source": -1253488614,
+      "target": -1408203388
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -1527094374,
+      "target": -1514094562
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
       "source": 837252542,
+      "target": -1527094374
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -1634516944,
       "target": -1527094374
     },
     {
@@ -927,6 +1102,16 @@
       "target": 443130456
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
+      "source": -1839868314,
+      "target": -2121408798
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by",
+      "source": -1839868314,
+      "target": -1825063624
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P53i_is_former_or_current_location_of",
       "source": -1839868314,
       "target": 660916028
@@ -947,9 +1132,29 @@
       "target": -1981885370
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by",
+      "source": -1825063624,
+      "target": -1376086106
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
       "source": -1825063624,
       "target": 1991192932
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -2121408798,
+      "target": -1825063624
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P105i_has_right_on",
+      "source": -2121408798,
+      "target": -1376086106
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P123i_resulted_from",
+      "source": -2121408798,
+      "target": -1879466280
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P105i_has_right_on",
@@ -968,6 +1173,31 @@
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -2061889838,
+      "target": -1981885370
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+      "source": -432457136,
+      "target": -2108681132
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+      "source": -84849294,
+      "target": -2108681132
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -2108681132,
+      "target": -231506774
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -2108681132,
+      "target": -1377863360
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
       "source": -2108681132,
       "target": 1558611734
     },
@@ -975,6 +1205,26 @@
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
       "source": -2108681132,
       "target": 1195170110
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+      "source": -2108681132,
+      "target": -1322112950
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P123i_resulted_from",
+      "source": -1469304598,
+      "target": -1879466280
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -1093255282,
+      "target": -1879466280
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -2109119944,
+      "target": -1879466280
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
@@ -992,9 +1242,19 @@
       "target": -391235246
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+      "source": -84849294,
+      "target": -391235246
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P14i_performed",
       "source": -1712813748,
       "target": 418173230
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P14i_performed",
+      "source": -1712813748,
+      "target": -2061889838
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P14i_performed",
@@ -1010,6 +1270,11 @@
       "label": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
       "source": -1712813748,
       "target": 709858854
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
+      "source": -1712813748,
+      "target": -1052056184
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in",
@@ -1037,6 +1302,21 @@
       "target": 598458752
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for",
+      "source": -1469304598,
+      "target": -860173970
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -362297916,
+      "target": -392852380
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+      "source": -1989028542,
+      "target": -392852380
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
       "source": 456451618,
       "target": -392852380
@@ -1045,6 +1325,11 @@
       "label": "http://www.ics.forth.gr/isl/CRMsci/O11i_was_described_by",
       "source": -362297916,
       "target": 1195170110
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -582631340,
+      "target": -362297916
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
@@ -1057,9 +1342,29 @@
       "target": -1098827772
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P69_is_associated_with",
+      "source": -485484386,
+      "target": -231506774
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -1277731924,
+      "target": -1138775504
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P31_has_modified",
       "source": -1138775504,
       "target": 705925806
+    },
+    {
+      "label": "http://www.ics.forth.gr/isl/CRMsci/O24i_was_measured_by",
+      "source": -2146908152,
+      "target": -1542652782
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
+      "source": -582631340,
+      "target": -1482769728
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P69_is_associated_with",
@@ -1105,6 +1410,21 @@
       "label": "http://www.cidoc-crm.org/cidoc-crm/P19i_was_made_for",
       "source": -481008040,
       "target": 1682691978
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P21_had_general_purpose",
+      "source": -481008040,
+      "target": -1277731924
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -481008040,
+      "target": -42041936
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -481008040,
+      "target": -1628999904
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term",
@@ -1172,6 +1492,21 @@
       "target": -1626277010
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by",
+      "source": -1626277010,
+      "target": -819420204
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by",
+      "source": -1626277010,
+      "target": -1638591514
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by",
+      "source": -1626277010,
+      "target": -160290986
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P21_had_general_purpose",
       "source": 119879038,
       "target": 833510936
@@ -1192,14 +1527,29 @@
       "target": -1638591514
     },
     {
+      "label": "http://www.topicmaps.org/xtm/1.0/core.xtm#superclass-subclass",
+      "source": -1412621438,
+      "target": -860173970
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P21_had_general_purpose",
       "source": 1967455718,
       "target": -2093270470
     },
     {
+      "label": "http://www.topicmaps.org/xtm/1.0/core.xtm#superclass-subclass",
+      "source": -1412621438,
+      "target": -1277731924
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P21_had_general_purpose",
       "source": 1239054198,
       "target": -1277731924
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P123i_resulted_from",
+      "source": -1277731924,
+      "target": -1459029020
     },
     {
       "label": "http://www.topicmaps.org/xtm/1.0/core.xtm#superclass-subclass",
@@ -1297,6 +1647,16 @@
       "target": 228810738
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+      "source": -899462842,
+      "target": -91199746
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -1093255282,
+      "target": -1176618364
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P39_measured",
       "source": 1111274090,
       "target": 322719938
@@ -1332,6 +1692,16 @@
       "target": -84849294
     },
     {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P14i_performed",
+      "source": -748695168,
+      "target": -1376086106
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -432457136,
+      "target": -1591220550
+    },
+    {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
       "source": -231506774,
       "target": 456451618
@@ -1340,6 +1710,11 @@
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
       "source": 456451618,
       "target": 821407356
+    },
+    {
+      "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+      "source": -1322112950,
+      "target": -1770186354
     },
     {
       "label": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
