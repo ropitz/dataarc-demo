@@ -1,0 +1,105 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 1000px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "#D81B60", "id": "excav_finds_units", "label": "excav_finds_units", "node_type": "dataset", "shape": "dot", "title": "excav_finds_units"}, {"id": "plants", "label": "plants", "node_type": "topic", "shape": "dot", "title": "plants"}, {"color": "#D81B60", "id": "sagas", "label": "sagas", "node_type": "dataset", "shape": "dot", "title": "sagas"}, {"color": "#D81B60", "id": "sead", "label": "sead", "node_type": "dataset", "shape": "dot", "title": "sead"}, {"id": "volcanic activity", "label": "volcanic activity", "node_type": "topic", "shape": "dot", "title": "volcanic activity"}, {"color": "#D81B60", "id": "teph", "label": "teph", "node_type": "dataset", "shape": "dot", "title": "teph"}, {"color": "#D81B60", "id": "new_units_finds_iceland", "label": "new_units_finds_iceland", "node_type": "dataset", "shape": "dot", "title": "new_units_finds_iceland"}, {"id": "tephrachronology", "label": "tephrachronology", "node_type": "topic", "shape": "dot", "title": "tephrachronology"}, {"color": "#1E88E5", "id": "tephra", "label": "tephra", "node_type": "topic", "shape": "dot", "title": "tephra"}, {"id": "abandonment", "label": "abandonment", "node_type": "topic", "shape": "dot", "title": "abandonment"}]);
+        edges = new vis.DataSet([{"color": "black", "comb": "Artefactual evidence for grain grinding", "from": "excav_finds_units", "title": "Artefactual evidence for grain grinding", "to": "plants"}, {"color": "black", "comb": "Artefactual evidence for grain grinding", "from": "plants", "title": "Artefactual evidence for grain grinding", "to": "new_units_finds_iceland"}, {"color": "black", "comb": "Insect grain indicators", "from": "plants", "title": "Insect grain indicators", "to": "sead"}, {"color": "black", "comb": "Saga references to wetlands", "from": "plants", "title": "Saga references to wetlands", "to": "sagas"}, {"color": "black", "comb": "", "from": "plants", "title": "P67i_is_referred_to_by", "to": "tephra"}, {"color": "black", "comb": "Tephrochronology: Historic Tephra Layers", "from": "volcanic activity", "title": "Tephrochronology: Historic Tephra Layers", "to": "teph"}, {"color": "black", "comb": "", "from": "volcanic activity", "title": "P14i_performed", "to": "tephra"}, {"color": "black", "comb": "Tephrochronology: Historic Tephra Layers", "from": "teph", "title": "Tephrochronology: Historic Tephra Layers", "to": "tephrachronology"}, {"color": "black", "comb": "Tephrochronology: Viking Period", "from": "teph", "title": "Tephrochronology: Viking Period", "to": "tephra"}, {"color": "black", "comb": "", "from": "tephrachronology", "title": "O23i_defines", "to": "tephra"}, {"color": "black", "comb": "", "from": "tephra", "title": "P15i_influenced", "to": "abandonment"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
