@@ -12,7 +12,7 @@ At the time of this project, the GML file that stored nodes and edges was not a 
 
 To address this, we've added a series of scripts to generate topic nodes and edges from a GML file.
 
-** Note: You will only need to do the following if you are a project maintainer and the knowledge graph has changed, requiring you to add new topic nodes to the DataArc Explorer.**
+**Note: You will only need to do the following if you are a project maintainer and the knowledge graph has changed, requiring you to add new topic nodes to the DataArc Explorer.**
 
 ## Topic Nodes (Knowledge Graph) Data Cleaning Steps
 
