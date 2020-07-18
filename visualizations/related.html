@@ -1,0 +1,105 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 1000px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "#D81B60", "id": "sagas", "label": "sagas", "node_type": "dataset", "physics": false, "shape": "dot", "title": "sagas"}, {"id": "whetstone", "label": "whetstone", "node_type": "topic", "physics": false, "shape": "dot", "title": "whetstone"}, {"color": "#D81B60", "id": "new_units_finds_iceland", "label": "new_units_finds_iceland", "node_type": "dataset", "physics": false, "shape": "dot", "title": "new_units_finds_iceland"}, {"color": "#D81B60", "id": "excav_finds_units", "label": "excav_finds_units", "node_type": "dataset", "physics": false, "shape": "dot", "title": "excav_finds_units"}, {"id": "ceramic vessel", "label": "ceramic vessel", "node_type": "topic", "physics": false, "shape": "dot", "title": "ceramic vessel"}, {"id": "milking", "label": "milking", "node_type": "topic", "physics": false, "shape": "dot", "title": "milking"}, {"id": "knife", "label": "knife", "node_type": "topic", "physics": false, "shape": "dot", "title": "knife"}, {"color": "#1E88E5", "id": "food preparation", "label": "food preparation", "node_type": "topic", "physics": false, "shape": "dot", "title": "food preparation"}]);
+        edges = new vis.DataSet([{"color": "black", "comb": "Saga references to livestock ", "from": "sagas", "label": 2, "physics": false, "title": "Saga references to livestock ", "to": "milking"}, {"color": "black", "comb": "", "from": "whetstone", "physics": false, "title": "P16i_was_used_for", "to": "food preparation"}, {"color": "black", "comb": "Ceramic artefacts", "from": "new_units_finds_iceland", "label": 1, "physics": false, "title": "Ceramic artefacts", "to": "ceramic vessel"}, {"color": "black", "comb": "Artefactual evidence for grain grinding", "from": "new_units_finds_iceland", "label": 2, "physics": false, "title": "Artefactual evidence for grain grinding", "to": "food preparation"}, {"color": "black", "comb": "Ceramic artefacts", "from": "excav_finds_units", "label": 1, "physics": false, "title": "Ceramic artefacts", "to": "ceramic vessel"}, {"color": "black", "comb": "Artefactual evidence for grain grinding", "from": "excav_finds_units", "label": 2, "physics": false, "title": "Artefactual evidence for grain grinding", "to": "food preparation"}, {"color": "black", "comb": "", "from": "ceramic vessel", "physics": false, "title": "P16i_was_used_for", "to": "food preparation"}, {"color": "black", "comb": "", "from": "milking", "physics": false, "title": "P21_had_general_purpose", "to": "food preparation"}, {"color": "black", "comb": "", "from": "knife", "physics": false, "title": "P11_had_participant", "to": "food preparation"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
