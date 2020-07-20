@@ -2,6 +2,10 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aelydens/dataarc-demo/master)
 
+# User Guide
+
+Check out the detailed user information at [Read the Docs](https://dataarc-demo.readthedocs.io/en/latest/).
+
 # Technical Notes
 
 At the time of this project, the GML file that stored nodes and edges was not a valid GML file. It contained edges that pointed to nodes that were not in the file.

@@ -39,8 +39,8 @@ Exploring the existing Knowledge Map
 
     <a href=https://github.com/ropitz/experiments/tree/master/docs/dataarc-concepts target=_blank>on GitHub &#8663;</a>
 
-Including mappings to DataARC
-=============================
+Mapping your connections
+========================
 
 Below is a list of suggestions to get you started with adding mappings of your dataset to the knowledge map built within DataARC. Any of these items can be visited multiple times in the process, and there is no requirement to go in any specific order. We suggest you come back to this list often to help recenter and reclaim scope.
 

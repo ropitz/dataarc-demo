@@ -32,6 +32,7 @@ release = '1.0.0'
 # ones.
 extensions = [
         'recommonmark',
+        'sphinx.ext.autosectionlabel',
 ]
 
 master_doc = 'index'

@@ -24,21 +24,44 @@ your experience and point you toward the materials needed to complete your goals
 
 .. _DataArc Ecosystem Exporer: https://github.com/aelydens/dataarc-demo
 
+
+Getting Started
+===============
+
+This section includes some helpful background information if you aren't yet familiar with CIDOC CRM Concepts, existing
+DataArc data sets, or how you might start thinking about adding your own data sets. It may be helpful to note that you
+will not need to know the specifics of database queries to use the DataArc Ecosystem Explorer.
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    Getting-Started
    Choosing-Data
    Include-Data-and-Combinators
    Developing-a-Good-Combinator
-   glossary
+
+Tutorials
+=========
+
+Follow along with these step-by-step guides for the specifics of working with the DataArc Ecosystem Explorer.
+
+.. toctree::
+  :maxdepth: 1
+
+  tutorials/jupyter_notebooks
+  tutorials/dataarc_ecosystem_explorer
+  tutorials/add_combinator
 
 
 
-Indices and tables
-==================
+Navigation Tools
+================
 
-* :ref:`genindex`
-* :ref:`modindex`
+* :ref:`glossary`
 * :ref:`search`
+
+.. toctree::
+  :hidden:
+
+  glossary
+
