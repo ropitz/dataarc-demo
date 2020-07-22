@@ -1,14 +1,15 @@
 Include your data and mappings
 ==============================
 
-> Note: This procedure is meant to aid the incorporation of data into the set of Jupyter Notebooks that are supported for mapping ventures. The data included via this procedure will not be uploaded to the main DataARC catalog for dissemination on the AR platform.
+.. note::
+   This procedure is meant to aid the incorporation of data into the set of Jupyter Notebooks that are supported for mapping ventures. The data included via this procedure **will not** be uploaded to the main DataARC catalog for dissemination on the AR platform.
 
 To add a dataset to the visualization tool, **you will need to be signed into your GitHub account.**
 
 Procedure
 #########
 
-1. Navigate to https://github.com/ropitz/experiments.
+1. Navigate to |DataArc|.
 
 2. Fork the repository. Click the :lime:`Fork` button at the top right of the screen
 
@@ -24,10 +25,13 @@ Procedure
    |data_folder|
 
 6. From here, you can choose to add your data set as a whole JSON file, or add mapping(s) to the existing `dataarc_combinators.csv`. Jump to the detailed instructions for these options by following these links:
-    1. Upload a JSON file
-    2. Add a mapping from the browser
-    3. Add a mapping with your favorite CSV editor
-    4. Add a mapping in the Jupyter Notebook
+    1. :ref:`Upload a file`
+    2. :ref:`Add a mapping from the browser`
+    3. :ref:`Add a mapping with your favorite CSV editor`
+
+.. |DataArc| raw:: html
+
+   <a href=https://github.com/ropitz/experiments target=_blank>the DataArc GitHub</a>
 
 .. |fork| raw:: html
 

@@ -4,16 +4,26 @@ Concept Map Overview
 - Dataset overview
     * The full list of current datasets is included in |DEE|.
     * A short summary of the datasets can be found at the |about_dataarc|.
-    * Full dataset biographies are included here: TBD.
-    * What is important about these datasets to be included here? From the perspective of scientists who work in one discipline, environmental policy makers, data mining folks. Maybe aim for new undergrad level.
-    * Use JN1 to see existing connections within DataARC. (JN tells story about how connections exist)
+    * Full dataset biographies are included in the data repository under the `data_descriptions` subdirectory.
+    * Use the DataArc Ecosystem Explorer, a Jupyter Notebook hosted by Binder, to more fully understand existing connections within DataARC.
 
 - Concepts overview
-    * Become familiar with concepts. 
-    * Concepts are taken directly from the CIDOC CRM v 6.0+. For an exploratory examination of these concepts, visit
+    * Become familiar with concepts.
+    * Concepts that link datasets in DataArc are mapped to the CIDOC CRM v 6.0+. For an exploratory examination of these concepts, visit
       the |use_and_learn|.
-    * A full set of DataARC concepts with descriptions is available |concepts|.
+    * A full set of DataARC concepts with descriptions is available |concepts|. The diagram below may also be helpful
+      for exploring heirarchical relationships between DataArch concepts. 
+        - Use zoom, click and drag, and scroll features when exploring the grahic.
+        - Darker blue represents mroe general concepts, while more granularity is represented by lighter shades (and
+          deeper down the graph).
     * The list of concepts should be treated as static. Try to find concepts that can be linked to your data from those that already exist.
+
+.. raw:: html
+
+   <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://app.lucidchart.com/documents/embeddedchart/8186e587-133d-47f2-88a6-1040368100d7" id="GKofz3JhU3pp"></iframe></div>
+
+
+
 
 Exploring the existing Knowledge Map
 ==================================== 
@@ -24,8 +34,7 @@ Exploring the existing Knowledge Map
 
 .. |DEE| raw:: html
 
-    <a href=https://github.com/aelydens/dataarc-demo<https://github.com/ropitz/experiments/tree/master/data
-    target=_blank>DataArc Ecosystem Explorer &#8663;</a>
+    <a href=https://github.com/aelydens/dataarc-demo target=_blank>DataArc Ecosystem Explorer &#8663;</a>
 
 .. |about_dataarc| raw:: html
 
@@ -47,8 +56,12 @@ Below is a list of suggestions to get you started with adding mappings of your d
 - Identify the key dataset for mapping in DataARC.
     * See Choosing which data to add later in this document for more guidelines to consider.
 - Understand the concepts represented by the knowledge graph.
-    * Concepts are taken directly from the CIDOC CRM. For an exploratory examination of these concepts, visit
+    * Concepts used by DataArc are all mapped to CIDOC CRM concepts. For an exploratory examination of those concepts, visit
       |use_and_learn|
+    * The DataArc Team have developed a domain-specific ontology using common concepts that will serve to connect many
+      of the contributed datasets. 
+    * Note that some of the concepts may be associated with more than one CIDOC CRM concept, e.g., a whale may be both
+      an actor and a biological entity.
 - Collect concepts from literature associated with the key dataset. 
     * Recall that the CIDOC CRM is chosen specifically to be consistent in mapping concepts across the ontologies of archaeology.
     * JN3 will be helpful for seeing existing connections between two datasets that have already been mapped.

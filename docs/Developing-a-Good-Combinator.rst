@@ -11,5 +11,4 @@ A combinator is essentially a label for a query that will combine your data with
 
 .. |spreadsheet| raw:: html
 
-    <a href https://docs.google.com/spreadsheets/d/1SVHcOZpkFzMAP7amMO0Q5PIpx5A2FbPKVRutxzcqzCI/edit#gid=0
-    target=_blank> this spreadsheet </a>
+    <a href=https://github.com/ropitz/experiments/blob/master/data/dataarc_combinators.csv target=_blank> this spreadsheet </a>
