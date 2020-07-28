@@ -6,8 +6,11 @@
 Welcome to DataArc Ecosystem Explorer's documentation!
 ======================================================
 
-This guide will serve as the overview and tutorial for getting acquainted with the |DEE| -- a
-Jupyter Notebook tool for exploring the DataArc Knowledge Map as an |ug_graph|. The flow chart below can help guide
+This guide will serve as the overview and tutorial for getting acquainted with the |DEE|. The Ecosystem Explorer is
+designed to help dataset contributors think through mapping their data to the DataArc community's knowledge map of the
+concept of "changing landscapes" and to help advanced users better understand how data and concepts are connected in the
+DataArc Ecosystem. The Ecosystem Explorer is provided as a Jupyter Notebook, containing tools for exploring the DataArc
+Concept Map, which is structured as an |ug_graph|, and data connections to it. The flow chart below can help guide
 your experience and point you toward the materials needed to complete your goals.
 
 .. raw:: html
@@ -29,8 +32,7 @@ Getting Started
 ===============
 
 This section includes some helpful background information if you aren't yet familiar with CIDOC CRM Concepts, existing
-DataArc data sets, or how you might start thinking about adding your own data sets. It may be helpful to note that you
-will not need to know the specifics of database queries to use the DataArc Ecosystem Explorer.
+DataArc data sets, or how you might start thinking about adding your own data sets.
 
 .. toctree::
    :maxdepth: 2
@@ -43,7 +45,7 @@ will not need to know the specifics of database queries to use the DataArc Ecosy
 Tutorials
 =========
 
-Follow along with these step-by-step guides for the specifics of working with the DataArc Ecosystem Explorer.
+Follow along with these step-by-step guides to get started working with the DataArc Ecosystem Explorer.
 
 .. toctree::
   :maxdepth: 1

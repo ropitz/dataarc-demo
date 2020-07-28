@@ -1,15 +1,16 @@
 Choosing which data to add
 ==========================
 
-It can be difficult to determine which, or how much, of your data to add to DataARC. Every data set is different, and there is no single right answer for what to include in DataARC. 
+It can be difficult to determine which of your data to map to the DataArc concept map. Every data set is different, and there is no single right answer for what to include in your DataArc mappings.
 
 Here are some factors to consider:
 
-* Data that may not map directly to a concept or additional dataset without a supporting dataset may not yet need the mapping, but the dataset could be useful for someone else. Feel free to add the dataset, but perhaps it is best to leave out any combinators that may be uncertain.
-* A dataset that is not complete could provide a couple of pieces of key evidence for someone else out there!
-* It could be helpful to flag data that you feel could provide a false sense of connection to the other observations and/or data points within your dataset.
+* Data that may not map directly to a concept could be useful for someone else. Data elements (fields in datasets) can be included in the system but not directly mapped.
+* A dataset that is not complete could provide a couple of pieces of key evidence for someone else out there. Partially
+  complete datasets can be added to in the future, provided the structure of the data does not change.
+* It could be helpful to flag data that you feel could provide a false sense of connection to the other observations and/or data points within your dataset. The _description_ part of the combinator mapping is designed to allow data contributors to highlight caveats about mappings or contributed data which might lead to dubious interpretations.
 
 
-The exercises for exploring the DataArc Knowledge Graph provide options for you to add mappings to new datasets, but in
-name only. If you'd like to add your full JSON data set to the DataArc repository, please contact Rachel Opitz to
-discuss that process.
+The exercises for exploring the DataArc Concept Map provide options for you to add mappings to new datasets, but you
+should recall that these notebooks are designed as "sandboxes" -- exploratory tools -- and do not directly connect to
+the official public facing DataArc repository. If you'd like to add your full JSON data set to the DataArc repository, please contact us to discuss that process.

@@ -2,7 +2,7 @@ Include your data and mappings
 ==============================
 
 .. note::
-   This procedure is meant to aid the incorporation of data into the set of Jupyter Notebooks that are supported for mapping ventures. The data included via this procedure **will not** be uploaded to the main DataARC catalog for dissemination on the AR platform.
+   This procedure is meant to aid the incorporation of data into the set of Jupyter Notebooks that are supported for mapping ventures. The data included via this procedure **will not** be uploaded to the main DataArc catalog for dissemination on the AR platform.
 
 To add a dataset to the visualization tool, **you will need to be signed into your GitHub account.**
 
