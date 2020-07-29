@@ -1,0 +1,18 @@
+name: dataarc
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.7
+  - pip=20.0*
+  - sphinx=3.1.2
+  - recommonmark=0.6.0
+  - jupyter=1.0.0
+  - pip:
+    - jsonpickle==1.4.1
+    - networkx==2.4
+    - numpy==1.18.5
+    - pandas==1.0.4
+    - pyvis==0.1.8.0
+

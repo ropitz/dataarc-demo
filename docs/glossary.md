@@ -15,6 +15,6 @@ Glossary
 
 **JN** - Jupyter Notebook; an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text https://jupyter.org/.
 
-**Knowledge** Map - the graphical representation of the datasets, combinators, and concepts 
+**Knowledge Map** - the graphical representation of the datasets, combinators, and concepts 
 
 **Query** - For JNs, the database language string used to return the desired combinator relationship from the database.

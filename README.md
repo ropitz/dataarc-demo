@@ -59,3 +59,38 @@ python scripts/generate_node_mapping.py > scripts/node-mapping.json
 ```
 
 After following these four steps in order, you should now have topic nodes loaded in a format that works with the Data Explorer Jupyter notebook!
+
+
+## Read the Docs
+
+The documentation published on readthedocs.org is contained entirely in the `docs/` directory of this repository and is
+built with Sphinx using restructured text files. Building the documentation locally requires a few Python packages that
+can be installed in a conda environment using the included `environment.yml` file.
+
+
+### Building locally
+
+To install the environment "dataarc" environment on your local machine (assuming conda is already installed):
+
+```
+conda env create -f environment.yml
+```
+
+Active the environment and make the Sphinx documentation by navigating to the `docs/` directory and running these
+commands:
+
+```
+conda activate dataarc
+make html
+```
+
+You can then open the local `docs/_build/html/index.html` file in your browser to check your edits as they will appear
+on the website.
+
+### Publishing your documentation
+
+- Commit any changes to the documentation to the repository, and push the commits to GitHub.
+- Navigate to readthedocs.org and sign in. There you should find the a list of "My Projects".
+- Click on the dataarc-demo project.
+- Click "Build version" 
+- Once the build is complete, click "View Docs"
