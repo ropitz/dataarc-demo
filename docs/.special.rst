@@ -12,9 +12,9 @@
 .. role:: pink
 .. role:: orange
 .. role:: yellow
-.. role:: lime
 .. role:: green
 .. role:: lime
+.. role:: jngreen
 .. role:: olive
 .. role:: teal
 .. role:: cyan

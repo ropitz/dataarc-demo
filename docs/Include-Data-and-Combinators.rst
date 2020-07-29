@@ -16,7 +16,7 @@ Procedure
    |fork|
 
 3. You may be prompted to choose a **location for the fork**. You will likely want to choose your favored personal account - work, school, other, etc. If you have only one space available to fork this repository, you may not see the prompt.
-4. You will be **redirected** to a new GitHub repository URL in your user space. 
+4. You will be **redirected** to a new GitHub repository URL in your user space.
 
     `https://github.com/[user name here]/experiments>`
  
@@ -100,11 +100,13 @@ These instructions will allow you to directly edit a comma-separated values (CSV
 
     **Cite** Any literature citations available as reference to this combination of data and concepts.
 
-    **Query** This section may contain a query string for database querying purposes. It is not used for visualization purposes, so there is no need to include it here.
+    **Query** This section may contain a query string for database querying purposes. It is not used for visualization
+    purposes, so there is no need to include it here.
 
     **Topics** A comma-separated list of topics 
 
-6. Save your changes. Add a short description as a commit message and (optionally) write a short description of the modification you included to the boxes at the bottom of the screen.
+6. Save your changes. Add a short description as a commit message and (optionally) write a short description of the
+   modification you included to the boxes at the bottom of the screen.
 7. Click **Commit changes** to save.
 
    |commit|
