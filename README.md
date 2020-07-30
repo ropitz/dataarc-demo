@@ -65,7 +65,7 @@ After following these four steps in order, you should now have topic nodes loade
 
 The documentation published on readthedocs.org is contained entirely in the `docs/` directory of this repository and is
 built with Sphinx using restructured text files. Building the documentation locally requires a few Python packages that
-can be installed in a conda environment using the included `environment.yml` file.
+can be installed in a conda environment using the included `docs/environment.yml` file.
 
 
 ### Building locally
