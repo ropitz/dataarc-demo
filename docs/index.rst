@@ -19,13 +19,13 @@ your experience and point you toward the materials needed to complete your goals
 
 .. |DEE| raw:: html
 
-   <a href="https://github.com/aelydens/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
+   <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
 
 .. |ug_graph| raw:: html
 
    <a href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)#Graph" target="_blank">Undirected Graph &#8663;</a>
 
-.. _DataArc Ecosystem Exporer: https://github.com/aelydens/dataarc-demo
+.. _DataArc Ecosystem Exporer: https://github.com/ropitz/dataarc-demo
 
 
 Getting Started

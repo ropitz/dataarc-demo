@@ -86,7 +86,7 @@ Exploring the existing Knowledge Map
 
 .. |DEE| raw:: html
 
-    <a href=https://github.com/aelydens/dataarc-demo target=_blank>DataArc Ecosystem Explorer &#8663;</a>
+    <a href=https://github.com/ropitz/dataarc-demo target=_blank>DataArc Ecosystem Explorer &#8663;</a>
 
 .. |about_dataarc| raw:: html
 

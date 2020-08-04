@@ -146,7 +146,7 @@ process can be repeated many times for tweaking existing combinators, or adding 
 
 .. |demo| raw:: html
 
-  <a href="https://github.com/aelydens/dataarc-demo" target=_blank> DataArc Demo GitHub Repository</a>
+  <a href="https://github.com/ropitz/dataarc-demo" target=_blank> DataArc Demo GitHub Repository</a>
 
 .. |launch| raw:: html
 
