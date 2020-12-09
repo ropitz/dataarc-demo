@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to DataArc Ecosystem Explorer's documentation!  UPDATES BY ANGIE TEST
+Welcome to DataArc Ecosystem Explorer's documentation!  
 ======================================================
 
 This guide will serve as the overview and tutorial for getting acquainted with the |DEE|. The Ecosystem Explorer is
@@ -67,3 +67,4 @@ Navigation Tools
 
   glossary
 
+new_index
