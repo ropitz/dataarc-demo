@@ -160,6 +160,6 @@ These instructions will guide you through the process of editing a comma-separat
     </center>
 
 |download|
-|unnamed|
+|unnamed.jpg|
 
 
