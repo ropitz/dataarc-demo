@@ -68,7 +68,7 @@ Navigation Tools
   glossary
 
 * :ref:`glossary`
-* :ref:`new_index'
+* :ref:`index`
 .. toctree::
   :hidden:
 
