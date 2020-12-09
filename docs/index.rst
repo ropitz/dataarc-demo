@@ -67,4 +67,4 @@ Navigation Tools
 
   glossary
 
-new_index
+* :ref:`new_index'
