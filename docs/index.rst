@@ -12,9 +12,9 @@ This guide provides information on how to use the |DST| and also detailed instru
 
    <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
    
-   .. |DEE| raw:: html
+   .. |DPW| raw:: html
 
-   <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
+   <a href="https://www.data-arc.org/" target="_blank">DataArc project website</a>
 
 .. |DST| raw:: html
 
