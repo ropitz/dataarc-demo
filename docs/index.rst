@@ -37,6 +37,8 @@ DataARC Search Tool Help
 
 `Anchor text <https://www.google.com>`__
 
+:ref:`Angie <Ecosystem_explorer.rst>`
+
 Interested in Adding your data?  Learn how...
 =============================================
 
