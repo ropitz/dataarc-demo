@@ -3,16 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to DataArc Help Documentation!  
-======================================
-
-This guide provides information on how to use the |DST| and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the dataARC project website. 
-
 .. |DEE| raw:: html
 
    <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
    
-   .. |DPW| raw:: html
+ .. |DPW| raw:: html
 
    <a href="https://www.data-arc.org/" target="_blank">DataArc project website</a>
 
@@ -21,6 +16,13 @@ This guide provides information on how to use the |DST| and also detailed instru
    <a href="https://ui.data-arc.org/" target="_blank">DataARC Search Tool</a>
 
 .. _DataArc Ecosystem Exporer: https://github.com/ropitz/dataarc-demo
+
+Welcome to DataArc Help Documentation!  
+======================================
+
+This guide provides information on how to use the |DST| and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the |DPW|. 
+
+
 
 
 DataARC Search Tool Help
@@ -32,7 +34,7 @@ DataARC Search Tool Help
 
 
 Interested in Adding your data?  Learn how...
-=========
+=============================================
 
 
 
@@ -48,6 +50,4 @@ Concept Map, which is structured as an |ug_graph|, and data connections to it. T
 your experience and point you toward the materials needed to complete your goals.
 
 
-  glossary
-
-* :ref:`new_index'
+ 
