@@ -35,6 +35,7 @@ DataARC Search Tool Help
 
 
 
+`Anchor text <www.google.com>`__
 
 Interested in Adding your data?  Learn how...
 =============================================
