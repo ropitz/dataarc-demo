@@ -14,6 +14,10 @@
 .. |DST| raw:: html
 
    <a href="https://ui.data-arc.org/" target="_blank">DataARC Search Tool</a>
+   
+   .. |TEST| raw:: html
+
+   <a href="new_index.rst" target="_blank">TEST</a>
 
 
 
@@ -33,7 +37,7 @@ DataARC Search Tool Help
 :ref:`glossary`
 .. _a link: https://domain.invalid/
 
-
+|TEST|
 
 `Anchor text <https://www.google.com>`__
 
