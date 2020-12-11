@@ -27,7 +27,7 @@ Welcome to DataArc Help Documentation!
 This guide provides information on how to use the |DST| and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the |DPW|. 
 
 
-
+.. image:: path/filename.png
 
 DataARC Search Tool Help
 ========================
