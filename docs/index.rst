@@ -26,13 +26,12 @@ This guide provides information on how to use the |DST| and also detailed instru
 DataARC Search Tool Help
 ========================
 
-This section includes some helpful background information if you aren't yet familiar with CIDOC CRM Concepts, existing
-DataArc data sets, or how you might start thinking about adding your own data sets.
-
-.. _relative link: Ecosystem_explorer.rst
+* :ref:`glossary`
 
 
-Interested in Adding your d
+
+
+Interested in Adding your data?  Learn how...
 =========
 
 
