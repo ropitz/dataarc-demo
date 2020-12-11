@@ -6,9 +6,7 @@
 Welcome to DataArc Ecosystem Explorer's documentation!  
 ======================================================
 
-|unnamed|
-
-This guide will serve as the overview and tutorial for getting acquainted with the |DEE|. The Ecosystem Explorer is
+|This guide will serve as the overview and tutorial for getting acquainted with the |DEE|. The Ecosystem Explorer is
 designed to help dataset contributors think through mapping their data to the DataArc community's knowledge map of the
 concept of "changing landscapes" and to help advanced users better understand how data and concepts are connected in the
 DataArc Ecosystem. The Ecosystem Explorer is provided as a Jupyter Notebook, containing tools for exploring the DataArc
