@@ -27,8 +27,8 @@ This guide provides information on how to use the |DST| and also detailed instru
 
 DataARC Search Tool Help
 ========================
-
-* :ref:`glossary`
+:ref:`Ecosystem_explorer.rst`
+:ref:`glossary`
 .. _a link: https://domain.invalid/
 
 
