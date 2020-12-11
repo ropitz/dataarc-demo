@@ -28,6 +28,8 @@ your experience and point you toward the materials needed to complete your goals
 .. _DataArc Ecosystem Exporer: https://github.com/ropitz/dataarc-demo
 
 
+
+
 Getting Started
 ===============
 
@@ -72,4 +74,4 @@ Navigation Tools
 .. toctree::
   :hidden:
 
-  new_index
+   Getting-Started
