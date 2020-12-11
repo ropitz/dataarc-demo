@@ -32,7 +32,7 @@ This guide provides information on how to use the |DST| and also detailed instru
 DataARC Search Tool Help
 ========================
 :ref:`Ecosystem_explorer.rst`
-:ref:`anchor text <Ecosystem_explorer>`
+:ref:`Ecosystem_explorer`
 
 :ref:`glossary`
 .. _a link: https://domain.invalid/
