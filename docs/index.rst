@@ -7,7 +7,7 @@
 
    <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
    
- .. |DPW| raw:: html
+.. |DPW| raw:: html
 
    <a href="https://www.data-arc.org/" target="_blank">DataArc project website</a>
 
@@ -15,7 +15,7 @@
 
    <a href="https://ui.data-arc.org/" target="_blank">DataARC Search Tool</a>
 
-.. _DataArc Ecosystem Exporer: https://github.com/ropitz/dataarc-demo
+
 
 Welcome to DataArc Help Documentation!  
 ======================================
@@ -29,6 +29,7 @@ DataARC Search Tool Help
 ========================
 
 * :ref:`glossary`
+.. _a link: https://domain.invalid/
 
 
 
