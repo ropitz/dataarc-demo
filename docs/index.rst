@@ -6,7 +6,7 @@
 Welcome to DataArc Help Documentation!  
 ======================================
 
-This guide provides information on how to use the dataARC Search Tool and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the dataARC project website. 
+This guide provides information on how to use the dataARC Search Tool and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the dataARC project website. <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
 
 
 .. |DEE| raw:: html
