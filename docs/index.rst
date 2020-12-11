@@ -6,16 +6,19 @@
 Welcome to DataArc Help Documentation!  
 ======================================
 
-This guide provides information on how to use the dataARC Search Tool and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the dataARC project website. <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
-
+This guide provides information on how to use the |DST| and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the dataARC project website. 
 
 .. |DEE| raw:: html
 
    <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
+   
+   .. |DEE| raw:: html
 
-.. |ug_graph| raw:: html
+   <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
 
-   <a href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)#Graph" target="_blank">Undirected Graph &#8663;</a>
+.. |DST| raw:: html
+
+   <a href="https://ui.data-arc.org/" target="_blank">DataARC Search Tool</a>
 
 .. _DataArc Ecosystem Exporer: https://github.com/ropitz/dataarc-demo
 
