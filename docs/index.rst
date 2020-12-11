@@ -29,25 +29,13 @@ DataARC Search Tool Help
 This section includes some helpful background information if you aren't yet familiar with CIDOC CRM Concepts, existing
 DataArc data sets, or how you might start thinking about adding your own data sets.
 
-.. toctree::
-   :maxdepth: 2
+.. _relative link: Ecosystem_explorer.rst
 
-   Getting-Started
-   Choosing-Data
-   Include-Data-and-Combinators
-   Developing-a-Good-Combinator
 
 Interested in Adding your d
 =========
 
-Follow along with these step-by-step guides to get started working with the DataArc Ecosystem Explorer.
 
-.. toctree::
-  :maxdepth: 1
-
-  tutorials/jupyter_notebooks
-  tutorials/dataarc_ecosystem_explorer
-  tutorials/add_combinator
 
 
 
@@ -59,11 +47,7 @@ concept of "changing landscapes" and to help advanced users better understand ho
 DataArc Ecosystem. The Ecosystem Explorer is provided as a Jupyter Notebook, containing tools for exploring the DataArc
 Concept Map, which is structured as an |ug_graph|, and data connections to it. The flow chart below can help guide
 your experience and point you toward the materials needed to complete your goals.
-* :ref:`glossary`
-* :ref:`search`
 
-.. toctree::
-  :hidden:
 
   glossary
 
