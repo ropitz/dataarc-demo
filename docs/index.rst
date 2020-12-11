@@ -6,12 +6,7 @@
 Welcome to DataArc Help Documentation!  
 ======================================
 
-This guide will serve as the overview and tutorial for getting acquainted with the |DEE|. The Ecosystem Explorer is
-designed to help dataset contributors think through mapping their data to the DataArc community's knowledge map of the
-concept of "changing landscapes" and to help advanced users better understand how data and concepts are connected in the
-DataArc Ecosystem. The Ecosystem Explorer is provided as a Jupyter Notebook, containing tools for exploring the DataArc
-Concept Map, which is structured as an |ug_graph|, and data connections to it. The flow chart below can help guide
-your experience and point you toward the materials needed to complete your goals.
+This guide provides information on how to use the dataARC Search Tool and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the dataARC project website. 
 
 
 .. |DEE| raw:: html
