@@ -61,6 +61,7 @@ Navigation Tools
 
 * :ref:`glossary`
 * :ref:`search`
+* :ref:`dataarc-search-tool`
 
 .. toctree::
   :hidden:
