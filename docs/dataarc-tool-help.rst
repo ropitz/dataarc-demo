@@ -34,15 +34,13 @@ Select a century (if applicable).  The graph changes again to show data availabi
 
 2.  To view exact data numbers, hover over each colored square in the graph to view the exact number of data records available in the desired time period.  
 
-3.  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
-
 .. note:: Note:  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
 
-4. The time last selected in the timeline graph will be auto populated in the Start Date and End Date boxes. 
+3. The time last selected in the timeline graph will be auto-populated in the Start Date and End Date boxes of the Filter dialog.
 
-5.  Modify the Start and End Dates if necessary to reflect the period of interest.  Make sure all BCE dates are represented with a negative number.
+4.  Modify the Start and End Dates if necessary to reflect the period of interest.  Make sure all BCE dates are represented with a negative number.
 
-6.  Select Add Temporal Filter. 
+5.  Select Add Temporal Filter. 
 
 Create a Temporal Filter for a predefined time period. 
 ---------------------------------------------------------
