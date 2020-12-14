@@ -25,7 +25,32 @@ A user may choose to define one or a combination of filters.  The time, space, a
 
 Temporal Filter: How do I use the timeline graph to create a temporal filter?
 =============================================================================
-The dataARC timeline provides a visual indication of data availability or richness for different temporal ranges (e.g. millennium, century, and decade).  If you have a specific time period that you are interested in, it is recommended to explore the dataARC timeline to assess data availability for your defined period.  The data in the timeline are displayed according to the dataARC color scheme (:blue:`archaeological`, textual, and environmental) with **darker colors indicating more data and lighter colors indicating less data.**  
+The dataARC timeline provides a visual indication of data availability or richness for different temporal ranges (e.g. millennium, century, and decade).  If you have a specific time period that you are interested in, it is recommended to explore the timeline graph to assess data availability for your defined period.  The data in the timeline are displayed according to the dataARC color scheme (:blue:`archaeological`, textual, and environmental) with **darker colors indicating more data and lighter colors indicating less data.**  
 
 .. image:: _static/timeline.jpg
+
+Assess data availability and create a temporal filter for a period of interest
+-------------------------------------------------------------------------------
+1.  To begin using the timeline graph, select a millennium of interest.  Once a millennium is selected, the graph changes to show the data availability by century.  
+Select a century (if applicable).  The graph changes again to show data availability by decade.  Select a decade (if applicable).
+2.  To view exact data numbers, hover over each colored square in the graph to view the exact number of data records available in the desired time period.  
+3.  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
+
+Create a Temporal Filter for a period of interest
+---------------------------------------------------
+1.  Once you have assessed data availability and refined your search query using the timeline graph, you are ready to enter your temporal filter parameters
+The time last selected in the timeline graph will be auto populated in the Start Date and End Date boxes. 
+Modify the Start and End Dates if necessary to reflect the period of interest.  Make sure all BCE dates are represented with a negative number.
+Select Add Temporal Filter. 
+Create a Temporal Filter for a predefined time period. 
+Archaeologists, geologists, climatologists, and literary historians all think about time differently. Predefined time periods are focused on discrete events (e.g. the Indonesian volcano eruption in 1257), rapid events (e.g. the Black Death in Norway from 1347-1350), or larger periods of time (e.g. the Early Medieval Period from 1050-1250) that are commonly referenced in the different disciplines represented in dataARC.  
+To see a list of the available predefined time periods,  select the dropdown list under Time Period.
+Choose a predefined time period. 
+Ensure the start and end dates match the desired predefined time period. Make sure all BCE dates are represented with a negative number.
+Select Apply Filter
+Evaluate Results (optional)
+Once the filter has been applied, the gray Filter and Results dialogue box  on the right of the screen will update to show the new filter and results subsets.
+Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to the Interpreting Results section in this document) or continue on to another section to add another filter.
+Note: The data displayed in the other visualization graphs (map and concepts) will be updated based on the temporal filter and the new results subset.
+
   
