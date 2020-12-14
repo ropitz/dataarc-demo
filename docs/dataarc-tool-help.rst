@@ -33,7 +33,9 @@ Assess data availability and create a temporal filter for a period of interest
 -------------------------------------------------------------------------------
 1.  To begin using the timeline graph, select a millennium of interest.  Once a millennium is selected, the graph changes to show the data availability by century.  
 Select a century (if applicable).  The graph changes again to show data availability by decade.  Select a decade (if applicable).
+
 2.  To view exact data numbers, hover over each colored square in the graph to view the exact number of data records available in the desired time period.  
+
 3.  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
 
 Create a Temporal Filter for a period of interest
