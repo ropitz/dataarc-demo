@@ -28,6 +28,7 @@ The dataARC timeline provides a visual indication of data availability or richne
 
 Assess data availability and create a temporal filter for a period of interest
 -------------------------------------------------------------------------------
+
 1.  To begin using the timeline graph, select a millennium of interest.  Once a millennium is selected, the graph changes to show the data availability by century.  
 Select a century (if applicable).  The graph changes again to show data availability by decade.  Select a decade (if applicable).
 
@@ -42,6 +43,7 @@ Select a century (if applicable).  The graph changes again to show data availabi
 5.  Modify the Start and End Dates if necessary to reflect the period of interest.  Make sure all BCE dates are represented with a negative number.
 
 6.  Select Add Temporal Filter. 
+
 Create a Temporal Filter for a predefined time period. 
 ---------------------------------------------------------
 
