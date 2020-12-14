@@ -1,7 +1,5 @@
 
-.. raw:: html
 
-    <style> .blue {color:#aa0060; font-weight:bold; font-size:16px} </style>
     
 
 What is the purpose of the dataArc search tool?
