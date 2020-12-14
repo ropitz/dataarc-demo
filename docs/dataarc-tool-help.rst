@@ -36,7 +36,7 @@ Select a century (if applicable).  The graph changes again to show data availabi
 
 .. note:: Note:  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
 
-3. The time last selected in the timeline graph will be auto-populated in the Start Date and End Date boxes of the Filter dialog.
+3.  When you are ready to begin entering your filter parameters, it is important to note that the time last selected in the timeline graph will be auto-populated in the Start Date and End Date boxes of the Filter dialog.
 
 4.  Modify the Start and End Dates if necessary to reflect the period of interest.  Make sure all BCE dates are represented with a negative number.
 
