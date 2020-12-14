@@ -26,3 +26,5 @@ A user may choose to define one or a combination of filters.  The time, space, a
 Temporal Filter: How do I use the timeline graph to create a temporal filter?
 =============================================================================
 The dataARC timeline provides a visual indication of data availability or richness for different temporal ranges (e.g. millennium, century, and decade).  If you have a specific time period that you are interested in, it is recommended to explore the dataARC timeline to assess data availability for your defined period.  The data in the timeline are displayed according to the dataARC color scheme (:blue:`archaeological`, textual, and environmental) with **darker colors indicating more data and lighter colors indicating less data.**  
+.. image:: _static\timeline.jpg
+   :width: 800
