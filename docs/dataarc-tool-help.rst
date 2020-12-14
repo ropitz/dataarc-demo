@@ -28,13 +28,13 @@ The dataARC timeline provides a visual indication of data availability or richne
 
 Assess data availability and create a temporal filter for a period of interest
 -------------------------------------------------------------------------------
-
 1.  To begin using the timeline graph, select a millennium of interest.  Once a millennium is selected, the graph changes to show the data availability by century.  
 Select a century (if applicable).  The graph changes again to show data availability by decade.  Select a decade (if applicable).
 
 2.  To view exact data numbers, hover over each colored square in the graph to view the exact number of data records available in the desired time period.  
 
 3.  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
+
 .. note:: Note:  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
 
 4. The time last selected in the timeline graph will be auto populated in the Start Date and End Date boxes. 
@@ -42,11 +42,11 @@ Select a century (if applicable).  The graph changes again to show data availabi
 5.  Modify the Start and End Dates if necessary to reflect the period of interest.  Make sure all BCE dates are represented with a negative number.
 
 6.  Select Add Temporal Filter. 
-
 Create a Temporal Filter for a predefined time period. 
 ---------------------------------------------------------
 
 Archaeologists, geologists, climatologists, and literary historians all think about time differently. Predefined time periods are focused on discrete events (e.g. the Indonesian volcano eruption in 1257), rapid events (e.g. the Black Death in Norway from 1347-1350), or larger periods of time (e.g. the Early Medieval Period from 1050-1250) that are commonly referenced in the different disciplines represented in dataARC.  
+
 1.  To see a list of the available predefined time periods,  select the dropdown list under Time Period.
 
 2.  Choose a predefined time period. 
