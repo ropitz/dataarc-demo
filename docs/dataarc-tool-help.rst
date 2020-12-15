@@ -183,7 +183,7 @@ It is important to note that related and contextual results are produced in the 
 
 * **Contextual results:** All data records with concepts identified as second degree connections of the  “fishing” concept LESS the related results AND LESS the matched results.
 
-.. note:: Related and contextual results are the first-degree (related) and second-degree (contextual) concept connections for a selected concept or for the matched concepts that have been identified from a temporal, spatial, or keyword filter.  
+.. note:: Related and contextual results are the first-degree (related) and second-degree (contextual) concept connections for a selected concept or for the pool of matched concepts that have been identified from any combination of temporal, spatial, and keyword filters.  
 Insert table - 
 
 
