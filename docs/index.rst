@@ -68,4 +68,4 @@ Navigation Tools
 
   glossary
 
-`TEST <dataarc-tool-help.html#What kind of data is available through the search tool?>`
+`TEST <dataarc-tool-help.html#What kind of data is available through the search tool?>`__
