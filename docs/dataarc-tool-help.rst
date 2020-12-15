@@ -31,7 +31,7 @@ A user may choose to define one or a combination of filters.  The time, space, a
 
 .. note:: Helpful Tip:  The filters do not need to be completed in any particular order.  Feel free to start with a concepts filter.  We recommend applying a filter and then revisiting the other data visualization graphs to view the changes that reflect the newly selected data.  The dynamic data visualization graphs are a powerful feature of dataARC.
 
-Temporal Filter: How do I use the timeline graph to create a temporal filter?
+Temporal Filter: How do I create a temporal filter?
 =============================================================================
 The dataARC timeline provides a visual indication of data availability or richness for different temporal ranges (e.g. millennium, century, and decade).  If you have a specific time period that you are interested in, it is recommended to explore the timeline graph to assess data availability for your defined period.  The data in the timeline are displayed according to the dataARC color scheme (:bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental`) with **darker colors indicating more data and lighter colors indicating less data.**  
 
@@ -74,7 +74,7 @@ Evaluate Results (optional)
 
 .. note::  Note: The data displayed in the other visualization graphs (map and concepts) will be updated based on the temporal filter and the new results subset.
 
-Spatial Filter: How do I use the maps to create a spatial filter?
+Spatial Filter: How do I create a spatial filter?
 ===================================================================
 
 Much like the timeline, the dataARC map interface is meant to rapidly convey data availability and richness across the multiple countries and island groups that make up the North Atlantic.
@@ -96,8 +96,9 @@ Evaluate Results (optional)
 .. note::  Note: The data displayed in the other visualization graphs (timeline and concepts) will be updated based on the temporal filter and the new results subset.
 
 
-Conceptual Filter: How do I use the concept map to create a conceptual filter?
+Conceptual Filter: How do I use  create a conceptual filter?
 ================================================================================
+
 Concepts are used to build links across the different disciplines’ datasets represented within dataARC. Building these links is important and is quite challenging in practice! How a zooarchaeologist thinks about and identifies different types of fish and fishing-related activities is quite different from how a saga specialist thinks about the same topics. Yet both researchers do work that involves thinking about and studying them. DataArc uses a ‘map’ of these shared concepts, like fish and fishing, as points of connection between data used by different domains.
 
 This map of shared concepts was developed by the dataArc community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC ‘changing landscapes’ ontology was developed, visit the dataARC website. 
@@ -132,18 +133,22 @@ Evaluate Results (optional)
    :class: align-left
 
 **A closer look at concepts**
-
 In the example to the right, fishing is the selected concept (represented with a green star).  In the image, we can see that fishing is also directly (one degree) related to fish, boat, spear, port, bone, luck, and production. These items are first-degree connections.  Continuing outward, we observe that some first-degree connections also have connections.  For example, production is related to fishing and is also related to other forms of production (e.g. hunting, miking, shearing, etc..). These other forms of production second-degree connections to fishing.  They are the friends-of-friends, so to speak, in the social world.  First- and second-degree concept connections are important in dataARC because they are used to create the Related Results (first degree) and Contextual Results (second degree) for your search. Go to the Interpreting Results section for a complete description of how the results are generated.
    
 Filters Section
 ================
-The filters section provides a list of all of the filters that have been applied to the data by filter type (temporal, spatial, conceptual, or keyword).  Filters are applied using AND logic meaning that all filter criteria are met.  For example, if spatial filter = Iceland and concept filter = fishing, then the results will contain records located in Iceland that have also been tagged with the fishing concept.  
+The filters section provides a list of all of the filters that have been applied to the data by filter type (temporal, spatial, conceptual, or keyword).  Filters are applied using AND logic meaning that all filter criteria are met.  For example, if spatial filter = Iceland and concept filter = fishing, then the results will contain records located in Iceland that have also been tagged with the fishing concept.
+
+.. image:: _static/filters.jpg
+
 To remove a filter, click the remove button (X) to the right of each filter.  It is important to reference the filters list when interpreting the results.   A running list of applied filters and results is also shown in the gray Filters/Results dialogue box on the right side of the screen.
 
 Interpreting Results:  Why do I have three sets of results?   
 ===============================================================
 
 The results section consists of three sections of results (matched, related, and contextual) that are grouped into:bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` categories. The matched results are the number of data records directly returned from the applied filter(s).  Related and contextual results are the first- and second-degree concept connections identified in the matched results subset. Refer to the Additional Info box in the “How do I create a conceptual fitler?” section above for a more detailed discussion of first-degree (related) and second-degree (contextual) connections.
+
+.. image:: _static/results.jpg
 
 Matched Results
 ---------------
