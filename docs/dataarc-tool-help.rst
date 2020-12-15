@@ -99,7 +99,7 @@ Concepts are used to build links across the different disciplines’ datasets re
 
 This map of shared concepts was developed by the dataArc community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC ‘changing landscapes’ ontology was developed, visit the dataARC website. 
 
-.. image:: _static/concepts.jpg
+.. image:: _static/concept.jpg
 
 
   
