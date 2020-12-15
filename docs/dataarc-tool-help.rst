@@ -131,7 +131,8 @@ Evaluate Results (optional)
    :width: 350
    :class: align-left
 
-Additional Info:  A closer look at concepts
+**A closer look at concepts**
+
 In the example to the right, fishing is the selected concept (represented with a green star).  In the image, we can see that fishing is also directly (one degree) related to fish, boat, spear, port, bone, luck, and production. These items are first-degree connections.  Continuing outward, we observe that some first-degree connections also have connections.  For example, production is related to fishing and is also related to other forms of production (e.g. hunting, miking, shearing, etc..). These other forms of production second-degree connections to fishing.  They are the friends-of-friends, so to speak, in the social world.  First- and second-degree concept connections are important in dataARC because they are used to create the Related Results (first degree) and Contextual Results (second degree) for your search. Go to the Interpreting Results section for a complete description of how the results are generated.
    
 Filters Section
@@ -139,8 +140,9 @@ Filters Section
 The filters section provides a list of all of the filters that have been applied to the data by filter type (temporal, spatial, conceptual, or keyword).  Filters are applied using AND logic meaning that all filter criteria are met.  For example, if spatial filter = Iceland and concept filter = fishing, then the results will contain records located in Iceland that have also been tagged with the fishing concept.  
 To remove a filter, click the remove button (X) to the right of each filter.  It is important to reference the filters list when interpreting the results.   A running list of applied filters and results is also shown in the gray Filters/Results dialogue box on the right side of the screen.
 
-Interpreting Results:  Why do I have three sets of results?  Understanding matched, related, and contextual results. 
-====================================================================================================================
+Interpreting Results:  Why do I have three sets of results?   
+===============================================================
+
 The results section consists of three sections of results (matched, related, and contextual) that are grouped into:bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` categories. The matched results are the number of data records directly returned from the applied filter(s).  Related and contextual results are the first- and second-degree concept connections identified in the matched results subset. Refer to the Additional Info box in the “How do I create a conceptual fitler?” section above for a more detailed discussion of first-degree (related) and second-degree (contextual) connections.
 
 Matched Results
@@ -150,14 +152,18 @@ The Matched Results section displays the number of records directly returned fro
 - Insert table - 
 
 Related and Contextual Results
+-------------------------------
 Related and contextual results are linked conceptually to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.
 
 Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In this example, say that there are 3500 results that those results share 20 concepts.  Let’s call these 20 shared concepts, “matched concepts.”  The related results are the first degree connections of the 20 matched concepts and the contextual results are the second degree connections of those same concepts .  
 
 Because of the extreme interrelated nature of the data, a first degree connection can also be a matched concept if multiple conceptual filters are applied.  Therefore to avoid data duplication, all matched results are removed from the related results subset.  And all matched results and related results are removed from the contextual results subset.   
 Therefore the matched results, related results, and contextual results for the temporal filter of “Time = 500-700 CE” are as follows:
+
 * **Matched results:**  All data records with a discreet, beginning, or end date within the range of 500 - 700 CE.  These results have concepts attached to them (“Matched concepts”).
+
 * **Related results:**  All data records with concepts identified as first degree connections of the matched concepts LESS the matched results
+
 * **Contextual results:**  All data records with concepts identified as second degree connections of the original matched concepts  LESS the related results  AND LESS the matched results 
 
 
