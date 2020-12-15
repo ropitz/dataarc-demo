@@ -153,18 +153,33 @@ The Matched Results section displays the number of records directly returned fro
 
 Related and Contextual Results
 -------------------------------
-Related and contextual results are linked conceptually to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.
+Related and contextual results are linked conceptually to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.  This is explained in greater detail below and applies to any combination of temporal, spatial, and keyword filters.  When a concept filter is applied (individually or in combination with another filter), the related and contextual are the first-degree (related) and second-degree (contextual) concept connections of only the selected concept.  
 
 Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In this example, say that there are 3500 results that those results share 20 concepts.  Let’s call these 20 shared concepts, “matched concepts.”  The related results are the first degree connections of the 20 matched concepts and the contextual results are the second degree connections of those same concepts .  
 
 Because of the extreme interrelated nature of the data, a first degree connection can also be a matched concept if multiple conceptual filters are applied.  Therefore to avoid data duplication, all matched results are removed from the related results subset.  And all matched results and related results are removed from the contextual results subset.   
 Therefore the matched results, related results, and contextual results for the temporal filter of “Time = 500-700 CE” are as follows:
 
+ **Temporal filter (500-700 CE)**
+ 
 * **Matched results:**  All data records with a discreet, beginning, or end date within the range of 500 - 700 CE.  These results have concepts attached to them (“Matched concepts”).
 
 * **Related results:**  All data records with concepts identified as first degree connections of the matched concepts LESS the matched results
 
 * **Contextual results:**  All data records with concepts identified as second degree connections of the original matched concepts  LESS the related results  AND LESS the matched results 
+
+It is important to note that related and contextual results are produced in the same manner for any combination of temporal, spatial, and keyword filters however when a concept filter is also added, then the related and contextual results will only apply to the selected concept(s).  Let’s add a Concept Filter = Fishing to the filter example above.
+
+**Temporal filter (500-700 CE) AND Concept Filter (Fishing) **
+
+* **Matched results:** All data records with a date within the range of 500 - 700 CE and tagged with the “fishing” concept
+
+* **Related results:**  All data records with concepts identified as first degree connections of the  “fishing” concept LESS the matched results
+
+* **Contextual results:** All data records with concepts identified as second degree connections of the  “fishing” concept LESS the related results AND LESS the matched results.
+
+.. note:: Related and contextual results are the first-degree (related) and second-degree (contextual) concept connections for a selected concept or for the matched concepts that have been identified from a temporal, spatial, or keyword filter.  
+Insert table - 
 
 
 Viewing a results set
@@ -181,7 +196,7 @@ Each dataset in dataArc is mapped to the community’s set of shared concepts by
 
 Let’s explore this with an example:
 
- A specialist in Saga Studies might feel confident that some of her data is directly relevant to studies of production, but not feel confident that it provides direct evidence for animal husbandry. A zooarchaeologist might think that some of his data speaks directly to animal husbandry, but that the concept of production is too broad to be useful. These two researchers won’t map their data to the same concepts. This means that a search on any given concept will  likely miss out relevant data from other disciplines because of basic gaps in their core vocabularies and how researchers trained in them think about their data. 
+A specialist in Saga Studies might feel confident that some of her data is directly relevant to studies of production, but not feel confident that it provides direct evidence for animal husbandry. A zooarchaeologist might think that some of his data speaks directly to animal husbandry, but that the concept of production is too broad to be useful. These two researchers won’t map their data to the same concepts. This means that a search on any given concept will  likely miss out relevant data from other disciplines because of basic gaps in their core vocabularies and how researchers trained in them think about their data. 
  
 While our experts in this example will (for good reasons) map their data to the concepts to which it speaks with the most fidelity, they’ll agree that the concepts of production and animal husbandry are directly connected. This agreement has been captured in the concept map.
 
