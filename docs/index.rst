@@ -68,4 +68,4 @@ Navigation Tools
 
   glossary
 
-* :ref:`What is the purpose of the dataArc search tool?`
+* :ref:`dataarc-tool-help.rst#What is the purpose of the dataArc search tool?`
