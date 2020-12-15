@@ -40,18 +40,17 @@ The dataARC timeline provides a visual indication of data availability or richne
 Assess data availability and create a temporal filter for a period of interest
 -------------------------------------------------------------------------------
 
-1.  To begin using the timeline graph, select a millennium of interest.  Once a millennium is selected, the graph changes to show the data availability by century.  
-Select a century (if applicable).  The graph changes again to show data availability by decade.  Select a decade (if applicable).
+1.  To begin using the timeline graph, select a millennium of interest.  Once a millennium is selected, the graph changes to show the data availability by century.  Select a century (if applicable).  The graph changes again to show data availability by decade.  Select a decade (if applicable).
 
 2.  To view exact data numbers, hover over each colored square in the graph to view the exact number of data records available in the desired time period.  
-
-.. note:: Note:  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
 
 3.  When you are ready to begin entering your filter parameters, it is important to note that the time last selected in the timeline graph will be auto-populated in the Start Date and End Date boxes of the Filter dialog.
 
 4.  Modify the Start and End Dates if necessary to reflect the period of interest.  Make sure all BCE dates are represented with a negative number.
 
 5.  Select Add Temporal Filter. 
+
+.. note:: Note:  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
 
 Create a Temporal Filter for a predefined time period. 
 ---------------------------------------------------------
@@ -73,9 +72,34 @@ Evaluate Results (optional)
 
 2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to the Interpreting Results section in this document) or continue on to another section to add another filter.
 
-.. note:: 
-Note: The data displayed in the other visualization graphs (map and concepts) will be updated based on the temporal filter and the new results subset.
+.. note::  Note: The data displayed in the other visualization graphs (map and concepts) will be updated based on the temporal filter and the new results subset.
 
+Spatial Filter: How do I use the maps to create a spatial filter?
+===================================================================
+
+Much like the timeline, the dataARC map interface is meant to rapidly convey data availability and richness across the multiple countries and island groups that make up the North Atlantic.
+
+.. image:: _static/maps.jpg
+
+Assess data availability for a area/country of interest and create a spatial filter
+--------------------------------------------------------------------------------------
+1.  First zoom in on the map and view the distribution of :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` records available for your area of interest. To zoom in on the map, either scroll or use the plus and minus icons located in the upper right corner of the map.  Pan using the left mouse button.
+
+2.  Once an area of interest has been identified, use the Box Select or Lasso Select tools located in the upper right corner to draw a polygon around the area.   The filter is automatically applied when you release the left mouse button.
+
+Evaluate Results (optional)
+-----------------------------
+1.  Once the filter has been applied, the gray Filter and Results dialogue box  on the right of the screen will update to show the new filter and results subsets.
+2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to the Interpreting Results section in this document) or continue on to another section to add another filter.
+Note: The data displayed in the other visualization graphs (timeline and concepts) will be updated based on the spatial filter and the new results subset.
+
+Conceptual Filter: How do I use the concept map to create a conceptual filter?
+================================================================================
+Concepts are used to build links across the different disciplines’ datasets represented within dataARC. Building these links is important and is quite challenging in practice! How a zooarchaeologist thinks about and identifies different types of fish and fishing-related activities is quite different from how a saga specialist thinks about the same topics. Yet both researchers do work that involves thinking about and studying them. DataArc uses a ‘map’ of these shared concepts, like fish and fishing, as points of connection between data used by different domains.
+
+This map of shared concepts was developed by the dataArc community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC ‘changing landscapes’ ontology was developed, visit the dataARC website. 
+
+.. image:: _static/concepts.jpg
 
 
   
