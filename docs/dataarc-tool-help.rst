@@ -1,8 +1,12 @@
 .. raw:: html
 
-    <style> .red {color:cyan} </style>
+    <style> .bluish {color:#6177aa} </style>
+    <style> .orangish {color:#fb804f} </style>
+    <style> .greenish {color:#4cb897} </style>
     
-.. role:: red
+.. role:: bluish
+.. role:: orangish
+.. role:: greenish
 
 What is the purpose of the dataArc search tool?
 ===============================================
@@ -29,7 +33,7 @@ Helpful Tip:  The filters do not need to be completed in any particular order.  
 
 Temporal Filter: How do I use the timeline graph to create a temporal filter?
 =============================================================================
-The dataARC timeline provides a visual indication of data availability or richness for different temporal ranges (e.g. millennium, century, and decade).  If you have a specific time period that you are interested in, it is recommended to explore the timeline graph to assess data availability for your defined period.  The data in the timeline are displayed according to the dataARC color scheme (:red:`archaeological`, textual, and environmental) with **darker colors indicating more data and lighter colors indicating less data.**  
+The dataARC timeline provides a visual indication of data availability or richness for different temporal ranges (e.g. millennium, century, and decade).  If you have a specific time period that you are interested in, it is recommended to explore the timeline graph to assess data availability for your defined period.  The data in the timeline are displayed according to the dataARC color scheme (:bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental`) with **darker colors indicating more data and lighter colors indicating less data.**  
 
 .. image:: _static/timeline.jpg
 
