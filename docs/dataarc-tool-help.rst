@@ -131,10 +131,66 @@ Evaluate Results (optional)
    :width: 350
    :class: align-left
 
-**Additional Info:  A closer look at concepts**
-
+Additional Info:  A closer look at concepts
 In the example to the right, fishing is the selected concept (represented with a green star).  In the image, we can see that fishing is also directly (one degree) related to fish, boat, spear, port, bone, luck, and production. These items are first-degree connections.  Continuing outward, we observe that some first-degree connections also have connections.  For example, production is related to fishing and is also related to other forms of production (e.g. hunting, miking, shearing, etc..). These other forms of production second-degree connections to fishing.  They are the friends-of-friends, so to speak, in the social world.  First- and second-degree concept connections are important in dataARC because they are used to create the Related Results (first degree) and Contextual Results (second degree) for your search. Go to the Interpreting Results section for a complete description of how the results are generated.
    
+Filters Section
+================
+The filters section provides a list of all of the filters that have been applied to the data by filter type (temporal, spatial, conceptual, or keyword).  Filters are applied using AND logic meaning that all filter criteria are met.  For example, if spatial filter = Iceland and concept filter = fishing, then the results will contain records located in Iceland that have also been tagged with the fishing concept.  
+To remove a filter, click the remove button (X) to the right of each filter.  It is important to reference the filters list when interpreting the results.   A running list of applied filters and results is also shown in the gray Filters/Results dialogue box on the right side of the screen.
+
+Interpreting Results:  Why do I have three sets of results?  Understanding matched, related, and contextual results. 
+====================================================================================================================
+The results section consists of three sections of results (matched, related, and contextual) that are grouped into:bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` categories. The matched results are the number of data records directly returned from the applied filter(s).  Related and contextual results are the first- and second-degree concept connections identified in the matched results subset. Refer to the Additional Info box in the “How do I create a conceptual fitler?” section above for a more detailed discussion of first-degree (related) and second-degree (contextual) connections.
+
+Matched Results
+---------------
+The Matched Results section displays the number of records directly returned from one or more applied filter(s).  A simple filter example of “Time equals 500-700 CE” would return all data records with a discreet, beginning, or end date within the range of “500 - 700 CE.” These records are matched results.  Additional filter examples and the associated matched results are shown in the table below.
+
+- Insert table - 
+
+Related and Contextual Results
+Related and contextual results are linked conceptually to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.
+
+Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In this example, say that there are 3500 results that those results share 20 concepts.  Let’s call these 20 shared concepts, “matched concepts.”  The related results are the first degree connections of the 20 matched concepts and the contextual results are the second degree connections of those same concepts .  
+
+Because of the extreme interrelated nature of the data, a first degree connection can also be a matched concept if multiple conceptual filters are applied.  Therefore to avoid data duplication, all matched results are removed from the related results subset.  And all matched results and related results are removed from the contextual results subset.   
+Therefore the matched results, related results, and contextual results for the temporal filter of “Time = 500-700 CE” are as follows:
+* **Matched results:**  All data records with a discreet, beginning, or end date within the range of 500 - 700 CE.  These results have concepts attached to them (“Matched concepts”).
+* **Related results:**  All data records with concepts identified as first degree connections of the matched concepts LESS the matched results
+* **Contextual results:**  All data records with concepts identified as second degree connections of the original matched concepts  LESS the related results  AND LESS the matched results 
+
+
+Viewing a results set
+-------------------------
+
+By selecting the View button at the bottom of each results section, the user is provided with a preliminary view of the returned data records organized by dataset.  Select from the different tabs along the top of the screen that list the dataset name and the number of returned records.  A brief description of the selected dataset is provided on the right and a truncated view of the records in that dataset is provided on the left.   The user is also provided with a View option to view individual records in each dataset.  By clicking on the View button for a record, the information displayed on the right changes to display record level information.  This information is organized differently for each dataset and provides the user with a quick assessment of the record-level data before download.  
+
+Why are related and contextual results important? 
+--------------------------------------------------
+
+The dataArc search tool was created to support intentionally interdisciplinary data discovery. Related and contextual results are important when searching interdisciplinary data and researching interdisciplinary topics.
+
+Each dataset in dataArc is mapped to the community’s set of shared concepts by its contributor, who is an expert in a specific discipline and has a broad familiarity with the other disciplines represented in our tool. Different data contributors will have different ideas about which concepts their data speaks to most directly. This is quite normal, even inevitable! Different disciplines prioritise different concepts and these priorities change as research trends shift over time. An unintended outcome of this situation is that a search on any given concept will become discipline specific. The aim of the dataArc search tool is to encourage interdisciplinary search and to help its users to see connections and find data across these conceptual divides between specialisms and disciplines.
+
+Let’s explore this with an example:
+
+ A specialist in Saga Studies might feel confident that some of her data is directly relevant to studies of production, but not feel confident that it provides direct evidence for animal husbandry. A zooarchaeologist might think that some of his data speaks directly to animal husbandry, but that the concept of production is too broad to be useful. These two researchers won’t map their data to the same concepts. This means that a search on any given concept will  likely miss out relevant data from other disciplines because of basic gaps in their core vocabularies and how researchers trained in them think about their data. 
+ 
+While our experts in this example will (for good reasons) map their data to the concepts to which it speaks with the most fidelity, they’ll agree that the concepts of production and animal husbandry are directly connected. This agreement has been captured in the concept map.
+
+A second zooarchaeologist using the dataArc search tool would likely search using the concept animal husbandry because he shares a disciplinary background and vocabulary with the other zooarchaeologist. To help this second zooarchaeologist to discover the saga studies data, which might be relevant to his research question, the dataArc search tool presents results connected to topics the interdisciplinary community thinks are closely related - bridging disciplinary divides created when we search using our own discipline’s ‘obvious’ default terms. 
+---
+In the dataArc search tool, the most directly connected concepts and their mapped data are one-degree away on the concept map. Less connected but still potentially relevant concepts and their mapped data are two-degrees away. 
+
+Why not just group all the direct, related and contextual results together?
+---------------------------------------------------------------------------
+
+The dataArc search tool could, of course, group together all the results, rather than splitting them out based on how closely, conceptually speaking, they are related to the original search term. We’ve chosen to structure the results by how closely they are connected to the original search term, and to expose the explanations of these connections to help users to understand how experts from diverse domains have assessed the relevance of their data to shared different concepts. 
+
+Because the data and disciplines collected together through the dataArc search tool are so diverse, it’s likely that as a user you will encounter data with which you’re really quite unfamiliar and find yourself uncertain about how relevant it is to your original search terms and what that relevance might be. The ‘direct’, ‘related’ and ‘contextual’ tiers of search results indicate the degree of relevance. 
+
+
 
 
  
