@@ -88,10 +88,13 @@ Assess data availability for a area/country of interest and create a spatial fil
 2.  Once an area of interest has been identified, use the Box Select or Lasso Select tools located in the upper right corner to draw a polygon around the area.   The filter is automatically applied when you release the left mouse button.
 
 Evaluate Results (optional)
------------------------------
-1.  Once the filter has been applied, the gray Filter and Results dialogue box  on the right of the screen will update to show the new filter and results subsets.
+--------------------------------
+1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
+
 2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to the Interpreting Results section in this document) or continue on to another section to add another filter.
-Note: The data displayed in the other visualization graphs (timeline and concepts) will be updated based on the spatial filter and the new results subset.
+
+.. note::  Note: The data displayed in the other visualization graphs (timeline and concepts) will be updated based on the temporal filter and the new results subset.
+
 
 Conceptual Filter: How do I use the concept map to create a conceptual filter?
 ================================================================================
@@ -100,6 +103,29 @@ Concepts are used to build links across the different disciplines’ datasets re
 This map of shared concepts was developed by the dataArc community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC ‘changing landscapes’ ontology was developed, visit the dataARC website. 
 
 .. image:: _static/concept.jpg
+
+Explore the concept map, observe concepts and their connections.  Create a conceptual filter.
+------------------------------------------------------------------------------------------------
+
+1.  Zoom in on the concept map by using the middle mouse button to scroll.  Select a concept of interest or use the drop down list at the top right to select a specific concept.
+
+2.  Once selected, the graph changes to show the selected concept as a green star.  Concepts directly related (first degree) to the selected concept are shown with yellow triangles and concepts loosely related (second degree) to the selected concept are shown with blue circles  The first-degree connections become related results and the second-degree connections become contextual results.  * See additional info box below for a more in-depth explanation. 
+
+3.  Selecting another concept resets the graph and focuses the graph on the newly selected concept.  
+
+4.  To filter based on the selected concept (shown with a green star), select the green Add Filter button at the top left.  
+
+5.  Select the Show All Concepts button in the top right corner to reset the graph.
+
+6.  Repeat for multiple concepts if desired. 
+
+Evaluate Results (optional)
+--------------------------------
+1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
+
+2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to the Interpreting Results section in this document) or continue on to another section to add another filter.
+
+.. note::  Note: The data displayed in the other visualization graphs (timeline and map) will be updated based on the temporal filter and the new results subset.
 
 
   
