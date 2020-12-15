@@ -129,14 +129,15 @@ Evaluate Results (optional)
 
 .. container:: twocol
 
-   .. container:: leftside
+.. container:: leftside
 
-      Additional Info:  A closer look at concepts
-      In the example to the right, fishing is the selected concept (represented with a green star).  In the image, we can see that fishing is also directly (one degree) related to fish, boat, spear, port, bone, luck, and production. These items are first-degree connections.  Continuing outward, we observe that some first-degree connections also have connections.  For example, production is related to fishing and is also related to other forms of production (e.g. hunting, miking, shearing, etc..). These other forms of production second-degree connections to fishing.  They are the friends-of-friends, so to speak, in the social world.  First- and second-degree concept connections are important in dataARC because they are used to create the Related Results (first degree) and Contextual Results (second degree) for your search. Go to the Interpreting Results section for a complete description of how the results are generated.
+**Additional Info:  A closer look at concepts**
 
+In the example to the right, fishing is the selected concept (represented with a green star).  In the image, we can see that fishing is also directly (one degree) related to fish, boat, spear, port, bone, luck, and production. These items are first-degree connections.  Continuing outward, we observe that some first-degree connections also have connections.  For example, production is related to fishing and is also related to other forms of production (e.g. hunting, miking, shearing, etc..). These other forms of production second-degree connections to fishing.  They are the friends-of-friends, so to speak, in the social world.  First- and second-degree concept connections are important in dataARC because they are used to create the Related Results (first degree) and Contextual Results (second degree) for your search. Go to the Interpreting Results section for a complete description of how the results are generated.
+   
 
-   .. container:: rightside
+.. container:: rightside
 
-      .. figure:: _static/fishing.jpg
+.. image:: _static/fishing.jpg
  
   
