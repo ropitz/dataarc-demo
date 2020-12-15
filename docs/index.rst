@@ -61,10 +61,11 @@ Navigation Tools
 
 * :ref:`glossary`
 * :ref:`search`
-* :ref:`dataarc-tool-help`
+
 
 .. toctree::
   :hidden:
 
   glossary
 
+* :ref:`What is the purpose of the dataArc search tool?`
