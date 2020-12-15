@@ -127,5 +127,8 @@ Evaluate Results (optional)
 
 .. note::  Note: The data displayed in the other visualization graphs (timeline and map) will be updated based on the temporal filter and the new results subset.
 
-
++------------ +-----------+
+| sample text | |fishing| |
++------------+------------+
+ 
   
