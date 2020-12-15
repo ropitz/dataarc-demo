@@ -138,6 +138,6 @@ In the example to the right, fishing is the selected concept (represented with a
 
 .. container:: rightside
 
-.. image:: _static/fishing.jpg
+.. image:: _static/fishing2.jpg
  
   
