@@ -170,7 +170,7 @@ Therefore the matched results, related results, and contextual results for the t
 
 It is important to note that related and contextual results are produced in the same manner for any combination of temporal, spatial, and keyword filters however when a concept filter is also added, then the related and contextual results will only apply to the selected concept(s).  Let’s add a Concept Filter = Fishing to the filter example above.
 
-**Temporal filter (500-700 CE) AND Concept Filter (Fishing) **
+**Temporal filter (500-700 CE) AND Concept Filter (Fishing)**
 
 * **Matched results:** All data records with a date within the range of 500 - 700 CE and tagged with the “fishing” concept
 
