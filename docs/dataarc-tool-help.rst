@@ -129,7 +129,7 @@ Evaluate Results (optional)
 
 .. image:: _static/fishing2.jpg
    :width: 350
-   :aligh: left
+   :class: align-left
 
 **Additional Info:  A closer look at concepts**
 
