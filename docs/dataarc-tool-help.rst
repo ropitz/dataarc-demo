@@ -66,13 +66,14 @@ Archaeologists, geologists, climatologists, and literary historians all think ab
 4.  Select Apply Filter
 
 
-Evaluate Results (optional)
+Quick Results Evaluation (optional)
 --------------------------------
 1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
 
-2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to the Interpreting Results section in this document) or continue on to another section to add another filter.
+2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <dataarc-tool-help.html#Interpreting Results: Why do I have three sets of results?>`__) or continue on to another section to add another filter.
 
-.. note::  Note: The data displayed in the other visualization graphs (map and concepts) will be updated based on the temporal filter and the new results subset.
+3.  It is important to note that the data displayed in the other visualization graphs be updated based on newly applied filter and results subset. 
+
 
 Spatial Filter: How do I create a spatial filter?
 ===================================================================
@@ -87,13 +88,14 @@ Assess data availability for a area/country of interest and create a spatial fil
 
 2.  Once an area of interest has been identified, use the Box Select or Lasso Select tools located in the upper right corner to draw a polygon around the area.   The filter is automatically applied when you release the left mouse button.
 
-Evaluate Results (optional)
+
+Quick Results Evaluation (optional)
 --------------------------------
 1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
 
 2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to the Interpreting Results section in this document) or continue on to another section to add another filter.
 
-.. note::  Note: The data displayed in the other visualization graphs (timeline and concepts) will be updated based on the temporal filter and the new results subset.
+3.  It is important to note that the data displayed in the other visualization graphs be updated based on newly applied filter and results subset. 
 
 
 Conceptual Filter: How do I use  create a conceptual filter?
@@ -120,13 +122,15 @@ Explore the concept map, observe concepts and their connections.  Create a conce
 
 6.  Repeat for multiple concepts if desired. 
 
-Evaluate Results (optional)
+
+Quick Results Evaluation (optional)
 --------------------------------
 1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
 
-2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to the Interpreting Results section in this document) or continue on to another section to add another filter.
+2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <dataarc-tool-help.html#Interpreting Results: Why do I have three sets of results?>`__) or continue on to another section to add another filter.
 
-.. note::  Note: The data displayed in the other visualization graphs (timeline and map) will be updated based on the temporal filter and the new results subset.
+3.  It is important to note that the data displayed in the other visualization graphs be updated based on newly applied filter and results subset. 
+
 
 .. image:: _static/fishing2.jpg
    :width: 350
@@ -143,7 +147,7 @@ The filters section provides a list of all of the filters that have been applied
 
 To remove a filter, click the remove button (X) to the right of each filter.  It is important to reference the filters list when interpreting the results.   A running list of applied filters and results is also shown in the gray Filters/Results dialogue box on the right side of the screen.
 
-Interpreting Results:  Why do I have three sets of results?   
+Interpreting Results: Why do I have three sets of results?   
 ===============================================================
 
 The results section consists of three sections of results (matched, related, and contextual) that are grouped into :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` categories. The matched results are the number of data records directly returned from the applied filter(s).  Related and contextual results are the first- and second-degree concept connections identified in the matched results subset. Refer to the Additional Info box in the “How do I create a conceptual fitler?” section above for a more detailed discussion of first-degree (related) and second-degree (contextual) connections.
@@ -160,15 +164,14 @@ Related and Contextual Results
 -------------------------------
 Related and contextual results are linked conceptually to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.  This is explained in greater detail below and applies to any combination of temporal, spatial, and keyword filters.  When a concept filter is applied (individually or in combination with another filter), the related and contextual are the first-degree (related) and second-degree (contextual) concept connections of only the selected concept.  
 
+Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In the example shown below, lets say that there are 3500 results and that those results share 50 concepts.  Let’s call these 50 shared concepts, “matched concepts.”  The related results are the first degree connections of the 50 matched concepts that shown as yellow triangles in the concept graph and the contextual results are the second degree connections of the matched concepts that are shown as blue circles. 
+
 .. image:: _static/updated_concepts.jpg
-   :width: 350
-   :class: align-left 
-Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In this example, say that there are 3500 results that those results share 20 concepts.  Let’s call these 20 shared concepts, “matched concepts.”  The related results are the first degree connections of the 20 matched concepts (shown as yellow triangles in the concept graph) and the contextual results are the second degree connections of those same concepts (shown as blue circles).  
 
 Because of the extreme interrelated nature of the data, a first degree connection can also be a matched concept if multiple conceptual filters are applied.  Therefore to avoid data duplication, all matched results are removed from the related results subset.  And all matched results and related results are removed from the contextual results subset.   
 Therefore the matched results, related results, and contextual results for the temporal filter of “Time = 500-700 CE” are as follows:
 
- **Temporal filter (500-700 CE)**
+**Temporal filter (500-700 CE)**
  
 * **Matched results:**  All data records with a discreet, beginning, or end date within the range of 500 - 700 CE.  These results have concepts attached to them (“Matched concepts”).
 
@@ -187,7 +190,7 @@ It is important to note that related and contextual results are produced in the 
 * **Contextual results:** All data records with concepts identified as second degree connections of the  “fishing” concept LESS the related results AND LESS the matched results.
 
 .. note:: Related and contextual results are the first-degree (related) and second-degree (contextual) concept connections for a selected concept or for the pool of matched concepts that have been identified from any combination of temporal, spatial, and keyword filters.  
-Insert table - 
+
 
 
 Viewing a results set
