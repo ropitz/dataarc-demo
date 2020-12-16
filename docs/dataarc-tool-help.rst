@@ -3,10 +3,17 @@
     <style> .bluish {color:#6177aa} </style>
     <style> .orangish {color:#fb804f} </style>
     <style> .greenish {color:#4cb897} </style>
+    <style> .concept_green {color:#28a745} </style>
+    <style> .concept_blue {color:#007bff} </style>
+    <style> .concept_yellow {color:#e8b211} </style>
     
 .. role:: bluish
 .. role:: orangish
 .. role:: greenish
+.. role:: concept_green
+.. role:: concept_blue
+.. role:: concept_yellow
+
 
 What is the purpose of the dataArc search tool?
 ===============================================
@@ -143,9 +150,9 @@ Filters Section
 ================
 The filters section provides a list of all of the filters that have been applied to the data by filter type (temporal, spatial, conceptual, or keyword).  Filters are applied using AND logic meaning that all filter criteria are met.  For example, if spatial filter = Iceland and concept filter = fishing, then the results will contain records located in Iceland that have also been tagged with the fishing concept.
 
-.. image:: _static/filters.jpg
-
 To remove a filter, click the remove button (X) to the right of each filter.  It is important to reference the filters list when interpreting the results.   A running list of applied filters and results is also shown in the gray Filters/Results dialogue box on the right side of the screen.
+
+.. image:: _static/filters.jpg
 
 Interpreting Results: Why do I have three sets of results?   
 ===============================================================
@@ -156,15 +163,13 @@ The results section consists of three sections of results (matched, related, and
 
 Results (Matched Results)
 ---------------
-The Results section displays **the number of records directly returned from one or more applied filter(s)**.  A simple filter example of “Time equals 500-700 CE” would return all data records with a date within the range of “500 - 700 CE.” These records are matched results.  Additional filter examples and the associated matched results are shown in the table below.
-
-- Insert table - 
+The Results section displays **the number of records directly returned from one or more applied filter(s)**.  A simple filter example of “Time equals 500-700 CE” would return all data records with a date within the range of “500 - 700 CE.” These records are matched results.  
 
 Related and Contextual Results
 -------------------------------
-Related and contextual results are linked conceptually to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.  This is explained in greater detail below and applies to any combination of temporal, spatial, and keyword filters.  When a concept filter is applied (individually or in combination with another filter), the related and contextual are the first-degree (related) and second-degree (contextual) concept connections of only the selected concept.  
+Related and contextual results are linked **conceptually** to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.  This is explained in greater detail below and applies to any combination of temporal, spatial, and keyword filters.  When a concept filter is applied (individually or in combination with another filter), the related and contextual are the first-degree (related) and second-degree (contextual) concept connections of only the selected concept.  
 
-Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In the example shown below, lets say that there are 3500 results and that those results share 50 concepts.  Let’s call these 50 shared concepts, “matched concepts.”  The related results are the first degree connections of the 50 matched concepts that shown as yellow triangles in the concept graph and the contextual results are the second degree connections of the matched concepts that are shown as blue circles. 
+Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In the example shown below, lets say that there are 3500 results and that those results share 50 concepts.  Those 50 shared concepts referred to as "matched concepts" are depicted as :concept_green:`green circles` in the Concept graph. The related results are the first degree connections of the matched concepts depicted as :concept_yellow:`yellow triangles` and the contextual results are the second degree connections of the matched concepts depicted as :concept_blue:`blue circles`. 
 
 .. image:: _static/updated_concepts.jpg
 
@@ -173,11 +178,11 @@ Therefore the matched results, related results, and contextual results for the t
 
 **Temporal filter (500-700 CE)**
  
-* **Matched results:**  All data records with a discreet, beginning, or end date within the range of 500 - 700 CE.  These results have concepts attached to them (“Matched concepts”).
+* **Matched results:**  All data records with a date within the range of 500 - 700 CE.  These results have concepts attached to them referred to as matched concepts.
 
 * **Related results:**  All data records with concepts identified as first degree connections of the matched concepts LESS the matched results
 
-* **Contextual results:**  All data records with concepts identified as second degree connections of the original matched concepts  LESS the related results  AND LESS the matched results 
+* **Contextual results:**  All data records with concepts identified as second degree connections of the original matched concepts LESS the related results AND LESS the matched results 
 
 It is important to note that related and contextual results are produced in the same manner for any combination of temporal, spatial, and keyword filters however when a concept filter is also added, then the related and contextual results will only apply to the selected concept(s).  Let’s add a Concept Filter = Fishing to the filter example above.
 
@@ -190,8 +195,6 @@ It is important to note that related and contextual results are produced in the 
 * **Contextual results:** All data records with concepts identified as second degree connections of the  “fishing” concept LESS the related results AND LESS the matched results.
 
 .. note:: Related and contextual results are the first-degree (related) and second-degree (contextual) concept connections for a selected concept or for the pool of matched concepts that have been identified from any combination of temporal, spatial, and keyword filters.  
-
-
 
 Viewing a results set
 -------------------------
