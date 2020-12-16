@@ -70,7 +70,7 @@ Quick Results Evaluation (optional)
 --------------------------------
 1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
 
-2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <dataarc-tool-help.html#Interpreting Results: Why do I have three sets of results?>`__) or continue on to another section to add another filter.
+2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <dataarc-tool-help.html#Interpreting Results: Why do I have three sets of results?>`__)  or continue on to another section to add another filter.
 
 3.  It is important to note that the data displayed in the other visualization graphs be updated based on newly applied filter and results subset. 
 
