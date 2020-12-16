@@ -7,6 +7,7 @@
     <style> .concept_blue {color:#007bff} </style>
     <style> .concept_yellow {color:#e8b211} </style>
     
+    
 .. role:: bluish
 .. role:: orangish
 .. role:: greenish
@@ -75,6 +76,10 @@ Archaeologists, geologists, climatologists, and literary historians all think ab
 
 Quick Results Evaluation (optional)
 --------------------------------
+.. image:: _static/filter_box.jpg
+   :width: 400
+   :class: align-left
+   
 1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
 
 2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__)  or continue on to another section to add another filter.
