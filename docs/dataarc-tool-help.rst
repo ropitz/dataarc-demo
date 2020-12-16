@@ -24,7 +24,7 @@ How do I run a basic search?  What happens when multiple filters are applied?
 There are four methods for filtering or querying data in dataARC:
         -          Time (temporal filter)
         -          Space (spatial or geographic filter)
-        -          Concepts (conceptual filter based on an ontology)
+        -          Concepts (conceptual filter based on `CIDOC CRM ontology<http://www.cidoc-crm.org/>`__)
         -          Keyword (traditional keyword search)
         
 A user may choose to define one or a combination of filters.  The time, space, and concept filters each feature a graph that provides the user with a quick visual indication of the quantity of data available for different time periods, different locations, and connected to different concepts.  As the user begins to filter the data, the information depicted in each graph changes based on the newly filtered results.  For example, if the user applies a temporal filter of 500-700 CE and gets a 2,500 result subset, then the map and concepts visualizations are updated to only show the data from those 2,500 newly selected records.  The aim is to help researchers identify areas that are data-rich across multiple datasets. Most users will be familiar with where the data-rich areas are for their own domain, but won't know where good sets of complementary data from other domains are available. A detailed guide on how to use each filter is provided in the sections below.
@@ -160,7 +160,10 @@ Related and Contextual Results
 -------------------------------
 Related and contextual results are linked conceptually to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.  This is explained in greater detail below and applies to any combination of temporal, spatial, and keyword filters.  When a concept filter is applied (individually or in combination with another filter), the related and contextual are the first-degree (related) and second-degree (contextual) concept connections of only the selected concept.  
 
-Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In this example, say that there are 3500 results that those results share 20 concepts.  Let’s call these 20 shared concepts, “matched concepts.”  The related results are the first degree connections of the 20 matched concepts and the contextual results are the second degree connections of those same concepts .  
+.. image:: _static/updated_concepts.jpg
+   :width: 350
+   :class: align-left 
+Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In this example, say that there are 3500 results that those results share 20 concepts.  Let’s call these 20 shared concepts, “matched concepts.”  The related results are the first degree connections of the 20 matched concepts (shown as yellow triangles in the concept graph) and the contextual results are the second degree connections of those same concepts (shown as blue circles).  
 
 Because of the extreme interrelated nature of the data, a first degree connection can also be a matched concept if multiple conceptual filters are applied.  Therefore to avoid data duplication, all matched results are removed from the related results subset.  And all matched results and related results are removed from the contextual results subset.   
 Therefore the matched results, related results, and contextual results for the temporal filter of “Time = 500-700 CE” are as follows:
