@@ -93,7 +93,7 @@ Quick Results Evaluation (optional)
 --------------------------------
 1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
 
-2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to the Interpreting Results section in this document) or continue on to another section to add another filter.
+2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__) or continue on to another section to add another filter.
 
 3.  It is important to note that the data displayed in the other visualization graphs be updated based on newly applied filter and results subset. 
 
@@ -127,7 +127,7 @@ Quick Results Evaluation (optional)
 --------------------------------
 1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
 
-2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <dataarc-tool-help.html#Interpreting Results: Why do I have three sets of results?>`__) or continue on to another section to add another filter.
+2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__) or continue on to another section to add another filter.
 
 3.  It is important to note that the data displayed in the other visualization graphs be updated based on newly applied filter and results subset. 
 
@@ -154,9 +154,9 @@ The results section consists of three sections of results (matched, related, and
 
 .. image:: _static/results.jpg
 
-Matched Results
+Results (Matched Results)
 ---------------
-The Matched Results section displays the number of records directly returned from one or more applied filter(s).  A simple filter example of “Time equals 500-700 CE” would return all data records with a discreet, beginning, or end date within the range of “500 - 700 CE.” These records are matched results.  Additional filter examples and the associated matched results are shown in the table below.
+The Results section displays **the number of records directly returned from one or more applied filter(s)**.  A simple filter example of “Time equals 500-700 CE” would return all data records with a date within the range of “500 - 700 CE.” These records are matched results.  Additional filter examples and the associated matched results are shown in the table below.
 
 - Insert table - 
 
