@@ -17,6 +17,7 @@
 
 
 .. image:: _static/dataarc_logo_final_sml.png
+          :class: align-center
 
 Accompanying the |DPW| and the |DST|, this guide provides "how-to" information on all things dataARC!  The result of two successful NSF awards (cyberNABO 1.0 and 2.0 - SMA 1439389 and1637076) and a strong international research collaboration, dataARC bridges data from the humanities to the environmental sciences to support the interdisciplinary study of human ecodynamics in the North Atlantic.  Read more about the project background, the international research team, and the wide array of datasets included in dataARC on the |DPW|
 dataARChow to use the |DST| and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the |DPW|. 
