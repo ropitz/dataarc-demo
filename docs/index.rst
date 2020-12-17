@@ -61,7 +61,9 @@ DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you thro
 
 3. Add your data using Github
 ------------------------------
-
+.. image:: _static/GitHub.jpg
+   :width: 200
+   :class: align-left
 
 
 
