@@ -217,11 +217,6 @@ It is important to note that related and contextual results are produced in the 
 
 .. note:: Related and contextual results are the first-degree (related) and second-degree (contextual) concept connections for a selected concept or for the pool of matched concepts that have been identified from any combination of temporal, spatial, and keyword filters.  
 
-Viewing a results set
--------------------------
-
-By selecting the View button at the bottom of each results section, the user is provided with a preliminary view of the returned data records organized by dataset.  Select from the different tabs along the top of the screen that list the dataset name and the number of returned records.  A brief description of the selected dataset is provided on the right and a truncated view of the records in that dataset is provided on the left.   The user is also provided with a View option to view individual records in each dataset.  By clicking on the View button for a record, the information displayed on the right changes to display record level information.  This information is organized differently for each dataset and provides the user with a quick assessment of the record-level data before download.  
-
 Why are related and contextual results important? 
 --------------------------------------------------
 
@@ -249,7 +244,8 @@ Because the data and disciplines collected together through the dataArc search t
 Results -  Preview the data before you download
 ------------------------------------------------
 
-By selecting the View button at the bottom of each results section, the user is provided with a preliminary view of the returned data records organized by dataset.  Select from the different tabs along the top of the screen that list the dataset name and the number of returned records.  A brief description of the selected dataset is provided on the right and a truncated view of the records in that dataset is provided on the left.   The user is also provided with a View option to view individual records in each dataset.  By clicking on the View button for a record, the information displayed on the right changes to display record level information.  This information is organized differently for each dataset and provides the user with a quick assessment of the record-level data before download. 
+Before you download your data, you can preview the different datasets returned from your search filters in the Results section. The results are grouped by the :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` classification used throughout the site with the number of records returned listed under each category. The different datasets and the number of records returned in each dataset are also listed under each category. To view the records returned, click on the dataset name.  Once in the dataset view window, you can view individual records and also basic metadata about the project and the dataset fields.  When you are ready to to download your data results, return to the Filters/Data Download section.    
+ 
 
 
  
