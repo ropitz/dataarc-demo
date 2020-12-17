@@ -173,7 +173,7 @@ Now that you are successfully logged in, you are ready to download your data.  G
 
 .. image:: _static/SaveSearch.jpg
 
-The newly saved dataset can now be accessed in your dataARC profile.  Select Manage - Profile (replaced Login text) located at the top right of the menu.  Your new dataset will be listed under Saved Searches.   Select Request Download to download the data in jSON format.  If you are interested in previewing what datasets are in your search result, go to the `Results Preview section <#results----preview-the-data-before-you-download below>`__.   
+The newly saved dataset can now be accessed in your dataARC profile.  Select Manage - Profile (replaced Login text) located at the top right of the menu.  Your new dataset will be listed under Saved Searches.   Select Request Download to download the data in jSON format.  If you are interested in previewing what datasets are in your search result, go to the `Results Preview section <#results----preview-the-data-before-you-download below>`__.  To better understand the three types of results (matched, related, and contextual), refer to the `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__ section below.  To better understand **why** you recieved the results that you did, visit the `Why Section <#why-a-powerful-visualization-tool-for-understanding-your-results>`__.  
 
 Interpreting Results: Why do I have three sets of results?   
 ===============================================================
@@ -244,7 +244,7 @@ Because the data and disciplines collected together through the dataArc search t
 Results -  Preview the data 
 ----------------------------
 
-Before you download your data, you can preview the different datasets returned from your search filters in the Results section. The results are grouped by the :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` classification used throughout the site with the number of records returned listed under each category. The different datasets and the number of records returned in each dataset are also listed under each category. To view the records returned, click on the dataset name.  Once in the dataset view window, you can view individual records and also basic metadata about the project and the dataset fields.  When you are ready to to download your data results, return to the `Filters/Data Download section <#filtersdownload-data>`__.  To better understand why you received the results that you did, visit the Why Section.
+Before you download your data, you can preview the different datasets returned from your search filters in the Results section. The results are grouped by the :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` classification used throughout the site with the number of records returned listed under each category. The different datasets and the number of records returned in each dataset are also listed under each category. To view the records returned, click on the dataset name.  Once in the dataset view window, you can view individual records and also basic metadata about the project and the dataset fields.  When you are ready to to download your data results, return to the `Filters/Data Download section <#filtersdownload-data>`__.  To better understand why you received the results that you did, visit the `Why Section <#why-a-powerful-visualization-tool-for-understanding-your-results>`__.
 
 .. image:: _static/results.jpg
 
