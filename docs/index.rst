@@ -48,8 +48,8 @@ Next, you will want to step through each of the sections below which include:
 1. A Conceptual Guide to Devoloping Good Mappings for your Data
 ----------------------------------------------------------------
 .. image:: _static/dataARC_chart3.jpg
-   :width: 500
-   :class: align-right
+   :width: 400
+   :class: align-left
 Thinking about how to map your data to the DataArc community's shared concept map can be challenging. Graduate students working with the project team have developed materials to guide PhD students considering contributing their data. These materials, designed to be used in a workshop, are relevant to anyone considering contributing project data to the DataArc Ecosystem.
 
 
@@ -63,7 +63,7 @@ DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you thro
 3. Add your data using Github
 ------------------------------
 .. image:: _static/GitHub.png
-   :width: 200
+   :width: 150
    :class: align-left
 
 
