@@ -151,13 +151,29 @@ Quick Results Evaluation (optional)
 **A closer look at concepts**
 In the example to the left, fishing is the selected concept (represented with a green star).  In the image, we can see that fishing is also directly (one degree) related to fish, boat, spear, port, bone, luck, and production. These items are first-degree connections.  Continuing outward, we observe that some first-degree connections also have connections.  For example, production is related to fishing and is also related to other forms of production (e.g. hunting, miking, shearing, etc..). These other forms of production second-degree connections to fishing.  They are the friends-of-friends, so to speak, in the social world.  First- and second-degree concept connections are important in dataARC because they are used to create the Related Results (first degree) and Contextual Results (second degree) for your search. Go to the Interpreting Results section for a complete description of how the results are generated.
    
-Filters Section
-================
-The filters section provides a list of all of the filters that have been applied to the data by filter type (temporal, spatial, conceptual, or keyword).  Filters are applied using AND logic meaning that all filter criteria are met.  For example, if spatial filter = Iceland and concept filter = fishing, then the results will contain records located in Iceland that have also been tagged with the fishing concept.
-
-To remove a filter, click the remove button (X) to the right of each filter.  It is important to reference the filters list when interpreting the results.   A running list of applied filters and results is also shown in the gray Filters/Results dialogue box on the right side of the screen.
+Filters/Download Data
+========================
 
 .. image:: _static/filters.jpg
+
+The filters section provides a list of all of the applied filters by filter type (temporal, spatial, conceptual, or keyword) and also provides options to save/download your results.  Filters in dataARC are applied using AND logic meaning that all filter criteria are met.  For example, if spatial filter = Iceland and concept filter = fishing, then the results will contain records located in Iceland that have also been tagged with the fishing concept.  
+
+To remove a filter, click the remove button (X) to the right of each filter. Removing a filter will update the results list.   A running list of applied filters and results is also shown in the Quick Filters/Results dialog box on the right side of the screen.
+
+Download Data
+--------------
+
+In order to download and save the results produced in the dataARC Search Tool, you have to first create a dataARC account.  To create an account, click the “Signup” button located on the far right of the top menu bar.  Next, you will be prompted to register by entering a username, email address, and password.  Once you have successfully registered, you will then be prompted to login to the site.
+
+.. image:: _static/register.jpg
+
+Go to the Login screen and enter your site credentials.
+
+Now that you are successfully logged in, you are ready to download your data.  Go back to the Filters section and select the green Save Search button. Enter a Title and description for your new dataset and select Save.  
+
+.. image:: _static/SaveSearch.jpg
+
+The newly saved dataset can now be accessed in your dataARC profile.  Select Manage - Profile (replaced Login text) located at the top right of the menu.  Your new dataset will be listed under Saved Searches.   Select Request Download to download the data in jSON format.  If you are interested in previewing what datasets are in your search result, go to the Results Preview section below.
 
 Interpreting Results: Why do I have three sets of results?   
 ===============================================================
@@ -230,7 +246,10 @@ The dataArc search tool could, of course, group together all the results, rather
 
 Because the data and disciplines collected together through the dataArc search tool are so diverse, it’s likely that as a user you will encounter data with which you’re really quite unfamiliar and find yourself uncertain about how relevant it is to your original search terms and what that relevance might be. The ‘direct’, ‘related’ and ‘contextual’ tiers of search results indicate the degree of relevance. 
  
+Results -  Preview the data before you download
+------------------------------------------------
 
+By selecting the View button at the bottom of each results section, the user is provided with a preliminary view of the returned data records organized by dataset.  Select from the different tabs along the top of the screen that list the dataset name and the number of returned records.  A brief description of the selected dataset is provided on the right and a truncated view of the records in that dataset is provided on the left.   The user is also provided with a View option to view individual records in each dataset.  By clicking on the View button for a record, the information displayed on the right changes to display record level information.  This information is organized differently for each dataset and provides the user with a quick assessment of the record-level data before download. 
 
 
  
