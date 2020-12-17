@@ -20,16 +20,18 @@
    <a href="new_index.rst" target="_blank">TEST</a>
 
 
+.. image:: _static/dataarc_logo_final_sml.png
+
 Welcome to the DataArc Help Documentation!  
 ===========================================
-
-Accompanying the |DPW| and the |DST|, this guide provides "how-to" information on all things dataARC.   
+.. image:: _static/dataarc_logo_final_sml.png
+Accompanying the |DPW| and the |DST|, this guide provides "how-to" information on all things dataARC!  The result of two successful NSF awards (cyberNABO 1.0 and 2.0 - SMA 1439389 and1637076) 
+Learn how to use the dataARC Search Tool in your research  
 
 dataARChow to use the |DST| and also detailed instructions on how to add your own data to dataARC.  For additional background information, please vist the |DPW|. 
 
 
 .. image:: path/filename.png
-
 DataARC Search Tool Help
 ========================
 
