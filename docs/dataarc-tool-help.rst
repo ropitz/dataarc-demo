@@ -4,7 +4,7 @@
   
 .. raw:: html
 
-    <style> .bluish {color:#6177aa} </style>
+    <style> .bluish {color:#6177aa} font-weight: 600</style>
     <style> .orangish {color:#fb804f} </style>
     <style> .greenish {color:#4cb897} </style>
     
@@ -25,7 +25,7 @@
 
 .. role:: conceptblue
 
-.. role:: concept
+.. role:: conceptyellow
 
 
 What is the dataArc search tool?
@@ -38,7 +38,7 @@ This dataARC search tool is designed to help students and researchers discover a
 What kind of data is available through the search tool?
 ----------------------------------------------------------
 
-The dataArc search tool includes diverse datasets contributed by researchers working in domains from Saga Studies through paleoentomology. Because the data are quite varied, and because these very different types of data have to be analysed and interpreted in different ways, we’ve categorized them into three general types:  archaeological, textual, and environmental.  Throughout the dataARC Search Tool, :bluish:`archaeological sources` are always shown in :bluish:`blue`, :orangish:`textual in orange`, and :greenish:`environmental in green`.  This simple color scheme is used throughout to visually categorize the data visualization graphs, filter, and result options. 
+The dataArc search tool includes diverse datasets contributed by researchers working in domains from Saga Studies through paleoentomology. Because the data are quite varied, and because these very different types of data have to be analysed and interpreted in different ways, we’ve categorized them into three general types:  archaeological, textual, and environmental.  Throughout the dataARC Search Tool, :bluish:`archaeological sources are always shown in blue`, :orangish:`textual in orange`, and :greenish:`environmental in green`.  This simple color scheme is used throughout to visually categorize the data visualization graphs, filter, and result options. 
 
 How do I run a basic search?  What happens when multiple filters are applied?
 ------------------------------------------------------------------------------
