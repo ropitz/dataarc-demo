@@ -180,8 +180,6 @@ Interpreting Results: Why do I have three sets of results?
 
 The results section consists of three sections of results (matched, related, and contextual) that are grouped into :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` categories. The matched results are the number of data records directly returned from the applied filter(s).  Related and contextual results are the first- and second-degree concept connections identified in the matched results subset. Refer to the Additional Info box in the “How do I create a conceptual fitler?” section above for a more detailed discussion of first-degree (related) and second-degree (contextual) connections.
 
-.. image:: _static/results.jpg
-
 Results (Matched Results)
 ---------------
 The Results section displays **the number of records directly returned from one or more applied filter(s)**.  A simple filter example of “Time equals 500-700 CE” would return all data records with a date within the range of “500 - 700 CE.” These records are matched results.  
@@ -231,7 +229,9 @@ A specialist in Saga Studies might feel confident that some of her data is direc
 While our experts in this example will (for good reasons) map their data to the concepts to which it speaks with the most fidelity, they’ll agree that the concepts of production and animal husbandry are directly connected. This agreement has been captured in the concept map.
 
 A second zooarchaeologist using the dataArc search tool would likely search using the concept animal husbandry because he shares a disciplinary background and vocabulary with the other zooarchaeologist. To help this second zooarchaeologist to discover the saga studies data, which might be relevant to his research question, the dataArc search tool presents results connected to topics the interdisciplinary community thinks are closely related - bridging disciplinary divides created when we search using our own discipline’s ‘obvious’ default terms. 
+
 ---
+
 In the dataArc search tool, the most directly connected concepts and their mapped data are one-degree away on the concept map. Less connected but still potentially relevant concepts and their mapped data are two-degrees away. 
 
 Why not just group all the direct, related and contextual results together?
@@ -241,10 +241,17 @@ The dataArc search tool could, of course, group together all the results, rather
 
 Because the data and disciplines collected together through the dataArc search tool are so diverse, it’s likely that as a user you will encounter data with which you’re really quite unfamiliar and find yourself uncertain about how relevant it is to your original search terms and what that relevance might be. The ‘direct’, ‘related’ and ‘contextual’ tiers of search results indicate the degree of relevance. 
  
-Results -  Preview the data before you download
-------------------------------------------------
+Results -  Preview the data 
+----------------------------
 
-Before you download your data, you can preview the different datasets returned from your search filters in the Results section. The results are grouped by the :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` classification used throughout the site with the number of records returned listed under each category. The different datasets and the number of records returned in each dataset are also listed under each category. To view the records returned, click on the dataset name.  Once in the dataset view window, you can view individual records and also basic metadata about the project and the dataset fields.  When you are ready to to download your data results, return to the Filters/Data Download section.    
+Before you download your data, you can preview the different datasets returned from your search filters in the Results section. The results are grouped by the :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` classification used throughout the site with the number of records returned listed under each category. The different datasets and the number of records returned in each dataset are also listed under each category. To view the records returned, click on the dataset name.  Once in the dataset view window, you can view individual records and also basic metadata about the project and the dataset fields.  When you are ready to to download your data results, return to the `Filters/Data Download section <#filtersdownload-data>`__.  To better understand why you received the results that you did, visit the Why Section.
+
+.. image:: _static/results.jpg
+
+Why? A powerful visualization tool for understanding your results.
+===================================================================
+
+
  
 
 
