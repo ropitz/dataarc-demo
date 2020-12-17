@@ -3,33 +3,44 @@
     <style> .bluish {color:#6177aa} </style>
     <style> .orangish {color:#fb804f} </style>
     <style> .greenish {color:#4cb897} </style>
+    
+.. raw:: html
+
     <style> .concept_green {color:#28a745} </style>
     <style> .concept_blue {color:#007bff} </style>
     <style> .concept_yellow {color:#e8b211} </style>
     
     
 .. role:: bluish
+
 .. role:: orangish
+
 .. role:: greenish
+
 .. role:: concept_green
+
 .. role:: concept_blue
+
 .. role:: concept_yellow
 
 
-What is the purpose of the dataArc search tool?
-===============================================
+What is the dataArc search tool?
+=================================
+
 This dataARC search tool is designed to help students and researchers discover and explore diverse interconnected data sources relevant for interdisciplinary studies of long-term human ecodynamics in the North Atlantic. Search results produced through this tool will include data provided by specialists in different domains, information about the connections between these datasets, and background information about the data sources and how they are typically used. The aim of the tool is to encourage users to assess the potential relevance to their research of datasets from outside their own area of expertise. It’s important to understand how datasets are interconnected in the tool to apply filters effectively and interpret your search results correctly. 
 
 .. image:: _static/dataarc.jpg
 
 What kind of data is available through the search tool?
-========================================================
-The dataArc search tool includes diverse datasets contributed by researchers working in domains from Saga Studies through paleoentomology. Because the data are quite varied, and because these very different types of data have to be analysed and interpreted in different ways, we’ve categorized them into three general types:  archaeological, textual, and environmental.  Throughout the dataARC Search Tool, archaeological sources are always shown in blue, textual in orange, and environmental in green.  This simple color scheme is used throughout to visually categorize the data visualization graphs, filter, and result options. 
+----------------------------------------------------------
+
+The dataArc search tool includes diverse datasets contributed by researchers working in domains from Saga Studies through paleoentomology. Because the data are quite varied, and because these very different types of data have to be analysed and interpreted in different ways, we’ve categorized them into three general types:  archaeological, textual, and environmental.  Throughout the dataARC Search Tool, :bluish:`archaeological sources` are always shown in :bluish:`blue`, :orangish:`textual in orange`, and :greenish:`environmental in green`.  This simple color scheme is used throughout to visually categorize the data visualization graphs, filter, and result options. 
 
 How do I run a basic search?  What happens when multiple filters are applied?
-=============================================================================
+------------------------------------------------------------------------------
 
 There are four methods for filtering or querying data in dataARC:
+
         -          Time (temporal filter)
         -          Space (spatial or geographic filter)
         -          Concepts (conceptual filter based on `CIDOC CRM ontology <http://www.cidoc-crm.org/>`__)
@@ -40,7 +51,8 @@ A user may choose to define one or a combination of filters.  The time, space, a
 .. note:: Helpful Tip:  The filters do not need to be completed in any particular order.  Feel free to start with a concepts filter.  We recommend applying a filter and then revisiting the other data visualization graphs to view the changes that reflect the newly selected data.  The dynamic data visualization graphs are a powerful feature of dataARC.
 
 Temporal Filter: How do I create a temporal filter?
-=============================================================================
+=====================================================
+
 The dataARC timeline provides a visual indication of data availability or richness for different temporal ranges (e.g. millennium, century, and decade).  If you have a specific time period that you are interested in, it is recommended to explore the timeline graph to assess data availability for your defined period.  The data in the timeline are displayed according to the dataARC color scheme (:bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental`) with **darker colors indicating more data and lighter colors indicating less data.**  
 
 .. image:: _static/timeline.jpg
@@ -111,7 +123,7 @@ Quick Results Evaluation (optional)
 
 
 Conceptual Filter: How do I use  create a conceptual filter?
-================================================================================
+=============================================================
 
 Concepts are used to build links across the different disciplines’ datasets represented within dataARC. Building these links is important and is quite challenging in practice! How a zooarchaeologist thinks about and identifies different types of fish and fishing-related activities is quite different from how a saga specialist thinks about the same topics. Yet both researchers do work that involves thinking about and studying them. DataArc uses a ‘map’ of these shared concepts, like fish and fishing, as points of connection between data used by different domains.
 
@@ -178,10 +190,10 @@ The newly saved dataset can now be accessed in your dataARC profile.  Select Man
 Interpreting Results: Why do I have three sets of results?   
 ===============================================================
 
-The results section consists of three sections of results (matched, related, and contextual) that are grouped into :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` categories. The matched results are the number of data records directly returned from the applied filter(s).  Related and contextual results are the first- and second-degree concept connections identified in the matched results subset. Refer to the Additional Info box in the “How do I create a conceptual fitler?” section above for a more detailed discussion of first-degree (related) and second-degree (contextual) connections.
+The results section consists of three sections of results (matched, related, and contextual) that are grouped into :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` categories. The matched results are the number of data records directly returned from the applied filter(s).  Related and contextual results are the first- and second-degree concept connections identified in the matched results subset. Refer to the discussion above "A closer look at concepts" for a more detailed discussion of first-degree (related) and second-degree (contextual) connections.
 
 Results (Matched Results)
----------------
+--------------------------
 The Results section displays **the number of records directly returned from one or more applied filter(s)**.  A simple filter example of “Time equals 500-700 CE” would return all data records with a date within the range of “500 - 700 CE.” These records are matched results.  
 
 Related and Contextual Results
@@ -224,11 +236,11 @@ Each dataset in dataArc is mapped to the community’s set of shared concepts by
 
 Let’s explore this with an example:
 
-A specialist in Saga Studies might feel confident that some of her data is directly relevant to studies of production, but not feel confident that it provides direct evidence for animal husbandry. A zooarchaeologist might think that some of his data speaks directly to animal husbandry, but that the concept of production is too broad to be useful. These two researchers won’t map their data to the same concepts. This means that a search on any given concept will  likely miss out relevant data from other disciplines because of basic gaps in their core vocabularies and how researchers trained in them think about their data. 
+  A specialist in Saga Studies might feel confident that some of her data is directly relevant to studies of production, but not feel confident that it provides direct evidence for animal husbandry. A zooarchaeologist might think that some of his data speaks directly to animal husbandry, but that the concept of production is too broad to be useful. These two researchers won’t map their data to the same concepts. This means that a search on any given concept will  likely miss out relevant data from other disciplines because of basic gaps in their core vocabularies and how researchers trained in them think about their data. 
  
-While our experts in this example will (for good reasons) map their data to the concepts to which it speaks with the most fidelity, they’ll agree that the concepts of production and animal husbandry are directly connected. This agreement has been captured in the concept map.
+  While our experts in this example will (for good reasons) map their data to the concepts to which it speaks with the most fidelity, they’ll agree that the concepts of production and animal husbandry are directly connected. This agreement has been captured in the concept map.
 
-A second zooarchaeologist using the dataArc search tool would likely search using the concept animal husbandry because he shares a disciplinary background and vocabulary with the other zooarchaeologist. To help this second zooarchaeologist to discover the saga studies data, which might be relevant to his research question, the dataArc search tool presents results connected to topics the interdisciplinary community thinks are closely related - bridging disciplinary divides created when we search using our own discipline’s ‘obvious’ default terms. 
+  A second zooarchaeologist using the dataArc search tool would likely search using the concept animal husbandry because he shares a disciplinary background and vocabulary with the other zooarchaeologist. To help this second zooarchaeologist to discover the saga studies data, which might be relevant to his research question, the dataArc search tool presents results connected to topics the interdisciplinary community thinks are closely related - bridging disciplinary divides created when we search using our own discipline’s ‘obvious’ default terms. 
 
 ---
 
