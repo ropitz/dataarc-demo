@@ -4,7 +4,7 @@
   
 .. raw:: html
 
-    <style> .bluish {color:#6177aa} font-weight: 600</style>
+    <style> .bluish {color:#6177aa} font-weight: bold</style>
     <style> .orangish {color:#fb804f} </style>
     <style> .greenish {color:#4cb897} </style>
     
