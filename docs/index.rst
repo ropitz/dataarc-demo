@@ -43,20 +43,20 @@ Next, you will want to step through each of the sections below which include:
   *  A guide to learn how to map your data to the dataARC concept map
   *  Take your data for a test drive using the Ecosystem explorer
   *  Add your data using Github and the |DST|
+  
    
+1. A Conceptual Guide to Devolping Good Mappings for your Data
+-------------------------------------------------------------
 
-  1. A Conceptual Guide to Devolping Good Mappings for your Data
-  -------------------------------------------------------------
 
-
-  2. `Learn how to use the dataARC Ecosystem Explorer! <ecosystem_explorer.html>`__
-  ----------------------------------------------------------------------------------
+2. `Learn how to use the dataARC Ecosystem Explorer! <ecosystem_explorer.html>`__
+----------------------------------------------------------------------------------
 The |dee| is a virtual sandbox designed to help dataset contributors think through mapping their data to the DataArc community's knowledge map of the
 concept of "changing landscapes." It is also designed to help advanced users better understand how data and concepts are connected in the
 DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.
 
-  3. Add your data using Github
-  ----------------------------
+3. Add your data using Github
+----------------------------
 
 
 
