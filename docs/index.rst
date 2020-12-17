@@ -42,11 +42,11 @@ Next, you will want to step through each of the sections below which include:
 
   *  A guide to learn how to map your data to the dataARC concept map
   *  Take your data for a test drive using the Ecosystem explorer
-  *  Add your data using Github and the |DST|
+  *  Add your data using Github and create concept mappings usine the |DST|
   
    
-1. A Conceptual Guide to Devolping Good Mappings for your Data
--------------------------------------------------------------
+1. A Conceptual Guide to Devoloping Good Mappings for your Data
+----------------------------------------------------------------
 
 
 2. `Learn how to use the dataARC Ecosystem Explorer! <ecosystem_explorer.html>`__
@@ -56,7 +56,7 @@ concept of "changing landscapes." It is also designed to help advanced users bet
 DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.
 
 3. Add your data using Github
-----------------------------
+------------------------------
 
 
 
