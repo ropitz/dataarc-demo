@@ -27,7 +27,10 @@ Reference the `dataARC Search Tool Help <#dataarc-search-tool-help>`__ to learn 
 
 DataARC Search Tool Help
 ========================
-The |dst| is the online interface that allows users to query the archaeological, textual, and environmental data in dataARC.  Users are able to filter data temporally, spatially, conceptually, and by keyword search.  Use this guide to better understand how the dynamic data visualization graphs work, how to filter and optimize your results, and also how to download your data.  
+.. image:: _static/dataarc.jpg
+   :width: 400
+   :class: align-left
+The |dst| is the online interface that allows users to query the archaeological, textual, and environmental data in dataARC.  Users are able to filter data temporally, spatially, conceptually, and by keyword search.  Use `this guide <dataarc-tool-help.html>`__ to better understand how the dynamic data visualization graphs work, how to filter and optimize your results, and also how to download your data.  
 
 
 Interested in Adding your data?  Learn how...
