@@ -6,9 +6,9 @@
     
 .. raw:: html
 
-    <style> .concept_green {color:#28a745} </style>
-    <style> .concept_blue {color:#007bff} </style>
-    <style> .concept_yellow {color:#e8b211} </style>
+    <style> .conceptgreen {color:#28a745} </style>
+    <style> .conceptblue {color:#007bff} </style>
+    <style> .conceptyellow {color:#e8b211} </style>
     
     
 .. role:: bluish
@@ -17,11 +17,11 @@
 
 .. role:: greenish
 
-.. role:: concept_green
+.. role:: conceptgreen
 
-.. role:: concept_blue
+.. role:: conceptblue
 
-.. role:: concept_yellow
+.. role:: concept
 
 
 What is the dataArc search tool?
@@ -136,7 +136,7 @@ Explore the concept map, observe concepts and their connections.  Create a conce
 
 1.  Zoom in on the concept map by using the middle mouse button to scroll.  Select a concept of interest or use the drop down list at the top right to select a specific concept.
 
-2.  Once selected, the graph changes to show the selected concept as a green star.  Concepts directly related (first degree) to the selected concept are shown with yellow triangles and concepts loosely related (second degree) to the selected concept are shown with blue circles  The first-degree connections become related results and the second-degree connections become contextual results.  * See additional info box below for a more in-depth explanation. 
+2.  Once selected, the graph changes to show the selected concept as a :conceptgreen:`green star`.  Concepts directly related (first degree) to the selected concept are shown with :conceptyellow:`yellow triangles` and concepts loosely related (second degree) to the selected concept are shown with :conceptblue:`blue circles`  The first-degree connections become related results and the second-degree connections become contextual results.  * See additional info box below for a more in-depth explanation. 
 
 3.  Selecting another concept resets the graph and focuses the graph on the newly selected concept.  
 
@@ -200,7 +200,7 @@ Related and Contextual Results
 -------------------------------
 Related and contextual results are linked **conceptually** to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.  This is explained in greater detail below and applies to any combination of temporal, spatial, and keyword filters.  When a concept filter is applied (individually or in combination with another filter), the related and contextual are the first-degree (related) and second-degree (contextual) concept connections of only the selected concept.  
 
-Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In the example shown below, lets say that there are 3500 results and that those results share 50 concepts.  Those 50 shared concepts referred to as "matched concepts" are depicted as :concept_green:`green circles` in the Concept graph. The related results are the first degree connections of the matched concepts depicted as :concept_yellow:`yellow triangles` and the contextual results are the second degree connections of the matched concepts depicted as :concept_blue:`blue circles`.  
+Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In the example shown below, lets say that there are 3500 results and that those results share 50 concepts.  Those 50 shared concepts referred to as "matched concepts" are depicted as :conceptgreen:`green circles` in the Concept graph. The related results are the first degree connections of the matched concepts depicted as :conceptyellow:`yellow triangles` and the contextual results are the second degree connections of the matched concepts depicted as :conceptblue:`blue circles`.  
 
 .. image:: _static/updated_concepts.jpg
 
