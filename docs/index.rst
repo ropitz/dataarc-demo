@@ -50,7 +50,9 @@ Next, you will want to step through each of the sections below which include:
 .. image:: _static/dataARC_chart3.jpg
    :width: 400
    :class: align-left
-Thinking about how to map your data to the DataArc community's shared concept map can be challenging. Graduate students working with the project team have developed materials to guide PhD students considering contributing their data. These materials, designed to be used in a workshop, are relevant to anyone considering contributing project data to the DataArc Ecosystem.
+Thinking about how to map your data to the DataArc community's shared concept map can be challenging. Graduate students working with the project team have developed materials to guide PhD students considering contributing their data. These materials, designed to be used in a workshop, are relevant to anyone considering contributing project data to the DataArc Ecosystem.  
+
+
 
 
 
@@ -62,12 +64,13 @@ The |dee| is a virtual sandbox designed to help dataset contributors think throu
 concept of "changing landscapes." It is also designed to help advanced users better understand how data and concepts are connected in the
 DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.
 
+
 3. Add your data using Github
 ------------------------------
 .. image:: _static/GitHub.png
    :width: 150
    :class: align-left
-
+Now that you have a better understanding of how to map your data to the dataARC concept map and you've experimented with creating combinators using the dataARC Ecosystem Explorer, you are ready to begin uploading your data into dataARC.  Click here for the step-by-step process to get started in Github.
 
 
 
