@@ -55,9 +55,6 @@ Thinking about how to map your data to the DataArc community's shared concept ma
 
 |
 |
-|
-|
-
 
 
 2. `Learn how to use the dataARC Ecosystem Explorer! <ecosystem_explorer.html>`__
