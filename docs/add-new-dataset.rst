@@ -1,8 +1,7 @@
 
-By now you should have a better understanding of the basics for preparing your data for dataARC.  You should know how to create combinators in order to map your data to the dataARC concept map and you should have a good sense of what concepts are applicable to your dataset. 
-
 Convert your data to GeoJSON and Validate (The spatial component of your data)
 ---------------------------------------------------------------------------------
+By now you should have a better understanding of the basics for preparing your data for dataARC.  You should know how to create combinators in order to map your data to the dataARC concept map and you should have a good sense of what concepts are applicable to your dataset. 
 
 If you have stepped through some of the exercises using the dataARC Ecosystem Explorer, you know that dataARC requires data to be in the GeoJSON format.  GeoJSON is an `open standard format <https://tools.ietf.org/html/rfc7946#section-3.1.2>`__ for representing simple geographic features, in this case point locations, with attribute information.  There are several free tools available online for converting your data to GeoJSON.  `Convert CSV for GeoJSON <https://www.convertcsv.com/csv-to-geojson.htm>`__ is free and is relatively straightforward and easy-to-use.  Feel free to use any GeoJSONconverter available to you. Remember that point locations must be stored as latitude and longitude and in separate columns in your table.
 
@@ -13,10 +12,16 @@ Next it is important to validate your newly created JSON file to ensure that the
    :class: align-left
 `JSON Formatter <https://jsonformatter.org/>`__  is one of the easiest yet advanced formatting and validating tools.  It can be used as a JSON validator, editor, and viewer.  While a login isn’t required to save your JSON data, data saved without a login becomes public.  To ensure that your data is private, create an account and login first.  
 
+|
+|
+
 .. image:: _static/GeoJSON_io.jpg
    :width: 400
-   :class: align-left
+   :class: align-right
 `GeoJSON IO <https://geojson.io/#map=4/53.57/-39.29>`__ is largely a viewer for GeoJSON data but also offers some conversion options (including CSV).  This interactive viewer allows you to drop your newly created JSON file onto the map and visualize the data quickly. 
+
+|
+|
 
 A Note about Dates  (The temporal component of your data)
 ---------------------------------------------------------
@@ -47,11 +52,13 @@ Create a dataARC account and finish adding your dataset
 
 1.  Before you begin, you will need to create an account with the dataARC Search Tool to become a data contributor.  Go to the dataARC Search Tool and select Signup.  Fill out the form and select Register.  
 
-.. image:: _static/dataARC_addnew.jpg
-
 2.  Now, select the Login option from the menu and Login using your credentials.
 
 3. Click on the Manage - Admin button and select Add a New Dataset.  Fill in all of the fields about your new dataset.
+
+.. image:: _static/dataARC_addnew.jpg
+
+
   *  Title: The formal title for your dataset.
   *  Description: A short two sentence description about your dataset.  Suggested formatting: The - Title of Resource - is/includes/contain/encompasses - the primary subject and topics of dataset with possible reference to time, place, etc..  Additional short descriptive sentence. 
   *  Citation:  Recommended format for citing your dataset
@@ -86,15 +93,15 @@ Now that your dataset has been added to dataARC, you are ready to create combina
 4.  As you are creating your query, it is important to think query logic if you are combining multiple criteria for your query. For example, you might be interested in isolating whale bones from the Early Viking Period or looking at multiple indicators for human occupation; therefore you will need to choose an appropriate logic operator to combine your queries.  The available logic operators are: and, or, not, nor and the definitions below are provided from `Logical Query Operators — MongoDB Manual <https://docs.mongodb.com/manual/reference/operator/query-logical/>`__
 
 
-   And: 	Joins query clauses with a logical AND returns all documents that match the conditions of both clauses.
+   *   And: 	Joins query clauses with a logical AND returns all documents that match the conditions of both clauses.
 
-   Or:   Joins query clauses with a logical OR returns all documents that match the conditions of either clause.
+   *   Or:   Joins query clauses with a logical OR returns all documents that match the conditions of either clause.
 
-   Not:  Inverts the effect of a query expression and returns documents that do not match the query expression.
+   *   Not:  Inverts the effect of a query expression and returns documents that do not match the query expression.
 
-   Nor:   Joins query clauses with a logical NOR returns all documents that fail to match both clauses.
+   *   Nor:   Joins query clauses with a logical NOR returns all documents that fail to match both clauses.
 
-* For both of the negation operators, a value is also considered false if the attribute is set to "null" or doesn't exist.
+- For both of the negation operators, a value is also considered false if the attribute is set to "null" or doesn't exist.
 
 5.  Once you have completed your query and chose the appropriate operator (if necessary).  Hit the Test Queries button.  Your query is successful if a new records set is returned on the right side of the page.
 
