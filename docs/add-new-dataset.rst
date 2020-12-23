@@ -12,20 +12,12 @@ Next it is important to validate your newly created JSON file to ensure that the
    :class: align-left
 `JSON Formatter <https://jsonformatter.org/>`__  is one of the easiest yet advanced formatting and validating tools.  It can be used as a JSON validator, editor, and viewer.  While a login isn’t required to save your JSON data, data saved without a login becomes public.  To ensure that your data is private, create an account and login first.  
 
-|
-|
-|
-|
 
-.. image:: _static/GeoJSON_io.jpg
-   :width: 400
-   :class: align-right
 `GeoJSON IO <https://geojson.io/#map=4/53.57/-39.29>`__ is largely a viewer for GeoJSON data but also offers some conversion options (including CSV).  This interactive viewer allows you to drop your newly created JSON file onto the map and visualize the data quickly. 
 
 |
 |
-|
-|
+
 
 A Note about Dates  (The temporal component of your data)
 ---------------------------------------------------------
