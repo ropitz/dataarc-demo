@@ -62,14 +62,14 @@ Create a dataARC account and finish adding your dataset
 
 .. image:: _static/dataARC_addnew.jpg
 
-  *  Title: The formal title for your dataset.
-  *  Description: A short two sentence description about your dataset.  Suggested formatting: The - Title of Resource - is/includes/contain/encompasses - the primary subject and topics of dataset with possible reference to time, place, etc..  Additional short descriptive sentence. 
-  *  Citation:  Recommended format for citing your dataset
-  *  Metadata:  Link to the markdown metadata file in Github For example: datasets/nabonosead/nabonosead.md
-  *  URL:  Link to original data source or relevant project website
-  *  Image:  An image that can be used to accompany your data description.
-  *  Source:  The path with the Github repo to the GeoJSON file.  For example: datasets/nabonosead/nabonosead.geojson
-  *  Category:  Choose between Archaeological, Textual, or Environmental.
+*  Title: The formal title for your dataset.
+*  Description: A short two sentence description about your dataset.  Suggested formatting: The - Title of Resource - is/includes/contain/encompasses - the primary subject and topics of dataset with possible reference to time, place, etc..  Additional short descriptive sentence. 
+*  Citation:  Recommended format for citing your dataset
+*  Metadata:  Link to the markdown metadata file in Github For example: datasets/nabonosead/nabonosead.md
+*  URL:  Link to original data source or relevant project website
+*  Image:  An image that can be used to accompany your data description.
+*  Source:  The path with the Github repo to the GeoJSON file.  For example: datasets/nabonosead/nabonosead.geojson
+*  Category:  Choose between Archaeological, Textual, or Environmental.
   
 4. Once all fields have been completed, press the Submit button.
 
