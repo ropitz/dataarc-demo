@@ -15,8 +15,6 @@ Next it is important to validate your newly created JSON file to ensure that the
 
 `GeoJSON IO <https://geojson.io/#map=4/53.57/-39.29>`__ is largely a viewer for GeoJSON data but also offers some conversion options (including CSV).  This interactive viewer allows you to drop your newly created JSON file onto the map and visualize the data quickly. 
 
-|
-|
 
 
 A Note about Dates  (The temporal component of your data)
