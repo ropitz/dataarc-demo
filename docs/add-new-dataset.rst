@@ -14,12 +14,16 @@ Next it is important to validate your newly created JSON file to ensure that the
 
 |
 |
+|
+|
 
 .. image:: _static/GeoJSON_io.jpg
    :width: 400
    :class: align-right
 `GeoJSON IO <https://geojson.io/#map=4/53.57/-39.29>`__ is largely a viewer for GeoJSON data but also offers some conversion options (including CSV).  This interactive viewer allows you to drop your newly created JSON file onto the map and visualize the data quickly. 
 
+|
+|
 |
 |
 
@@ -57,7 +61,6 @@ Create a dataARC account and finish adding your dataset
 3. Click on the Manage - Admin button and select Add a New Dataset.  Fill in all of the fields about your new dataset.
 
 .. image:: _static/dataARC_addnew.jpg
-
 
   *  Title: The formal title for your dataset.
   *  Description: A short two sentence description about your dataset.  Suggested formatting: The - Title of Resource - is/includes/contain/encompasses - the primary subject and topics of dataset with possible reference to time, place, etc..  Additional short descriptive sentence. 
