@@ -69,7 +69,7 @@ DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you thro
 .. image:: _static/GitHub.png
    :width: 150
    :class: align-left
-Now that you have a better understanding of how to map your data to the dataARC concept map and you've experimented with creating combinators using the dataARC Ecosystem Explorer, you are ready to begin uploading your data into dataARC.  `Click here <add-new-dataset.html>` for step-by-step guidance for creating your dataset, uploading it to Github, and creating combinators in dataARC.  
+Now that you have a better understanding of how to map your data to the dataARC concept map and you've experimented with creating combinators using the dataARC Ecosystem Explorer, you are ready to begin uploading your data into dataARC.  `Click here <add-new-dataset.html>`__ for step-by-step guidance for creating your dataset, uploading it to Github, and creating combinators in dataARC.  
 
 
 
