@@ -36,13 +36,7 @@ The |dst| is the online interface that allows users to query the archaeological,
 Interested in Adding your data?  Learn how...
 =============================================
 
-Preparing your data for ingest into dataARC will be a multistep process.  If you haven't already, familiarize yourself with the |DST| and take a thorough glance of the contents of the |DPW| to better understand the project context and how the data are structured.  
-
-Next, you will want to step through each of the sections below which include:
-
-  *  A guide to learn how to map your data to the dataARC concept map
-  *  Take your data for a test drive using the Ecosystem explorer
-  *  Add your data using Github and create concept mappings usine the |DST|
+Preparing your data for ingest into dataARC will be a multistep process.  If you haven't already, familiarize yourself with the |DST| and take a thorough glance of the contents of the |DPW| to better understand the project context and how the data are structured.  Next, you will want to step through each of the sections below.
   
    
 1. A Conceptual Guide to Devoloping Good Mappings for your Data
@@ -57,7 +51,7 @@ Thinking about how to map your data to the DataArc community's shared concept ma
 |
 
 
-2. `Learn how to use the dataARC Ecosystem Explorer! <ecosystem_explorer.html>`__
+2. `Learn how <ecosystem_explorer.html>`__ to use the dataARC Ecosystem Explorer! 
 ----------------------------------------------------------------------------------
 The |dee| is a virtual sandbox designed to help dataset contributors think through mapping their data to the DataArc community's knowledge map of the
 concept of "changing landscapes." It is also designed to help advanced users better understand how data and concepts are connected in the
