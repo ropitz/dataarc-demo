@@ -99,6 +99,7 @@ Now that your dataset has been added to dataARC, you are ready to create combina
 5.  Once you have completed your query and chose the appropriate operator (if necessary).  Hit the Test Queries button.  Your query is successful if a new records set is returned on the right side of the page.
 
 6. Now that you have created and tested your query and it functions correctly, finish completing the information for the combinator.  Give the combinator an appropriate title, description, and citation.  Finally, choose the appropriate concept(s) from the concept list that accurately describe the newly queried dataset.  See the example below that selects whale bones (with all possible spellings) from a materials list to identify the presence of whale bone at a site.  Note the five concepts applied to the query:  butchery, sea, whale/dolphin, bone, and hunting.   
+
 .. image:: _static/dataARC_Addcombinator2.jpg
 
 7.  Continue to add more combinators to map your dataset to the dataARC concept map. 
