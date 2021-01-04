@@ -126,7 +126,7 @@ Quick Results Evaluation (optional)
 3.  It is important to note that the data displayed in the other visualization graphs be updated based on newly applied filter and results subset. 
 
 
-Conceptual Filter: How do I use  create a conceptual filter?
+Conceptual Filter: How do I create a conceptual filter?
 =============================================================
 
 Concepts are used to build links across the different disciplines’ datasets represented within dataARC. Building these links is important and is quite challenging in practice! How a zooarchaeologist thinks about and identifies different types of fish and fishing-related activities is quite different from how a saga specialist thinks about the same topics. Yet both researchers do work that involves thinking about and studying them. DataArc uses a ‘map’ of these shared concepts, like fish and fishing, as points of connection between data used by different domains.
@@ -148,7 +148,7 @@ Explore the concept map, observe concepts and their connections.  Create a conce
 
 5.  Select the Show All Concepts button in the top right corner to reset the graph.
 
-6.  Repeat for multiple concepts if desired. 
+6.  Repeat for multiple concepts if desired. Filtering by more concepts will yield more results.  Filtering by the "insects" and "land management" concepts will return fields that have been tagged with either the "insects" or "land management" concepts but not necessarily both.
 
 
 Quick Results Evaluation (optional)
@@ -167,6 +167,13 @@ Quick Results Evaluation (optional)
 **A closer look at concepts**
 In the example to the left, fishing is the selected concept (represented with a green star).  In the image, we can see that fishing is also directly (one degree) related to fish, boat, spear, port, bone, luck, and production. These items are first-degree connections.  Continuing outward, we observe that some first-degree connections also have connections.  For example, production is related to fishing and is also related to other forms of production (e.g. hunting, miking, shearing, etc..). These other forms of production second-degree connections to fishing.  They are the friends-of-friends, so to speak, in the social world.  First- and second-degree concept connections are important in dataARC because they are used to create the Related Results (first degree) and Contextual Results (second degree) for your search. Go to the  `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__ for a complete description of how the results are generated.
    
+Keywords Filter: How do I search by keywords?
+====================================================
+
+When you want to search the database for a specific term (that is not a dataARC concept), a keyword search is likely best.  In dataARC, keywords are commonly occurring words that have been auto-generated from the text fields in the database.  It is recommended to first check the Concepts list for your term before doing a keyword search because a Concept Search specific to the term will return more valuable and directly applicable related and contextual results.
+
+To search by keyword, type the word and click the Add button on the right.  To remove the keyword from the search, select the Remove Tag button next to the term.  Like Concepts, the Keyword search is cumulative. So the more keywords that you add to the search, the more results you'll get. When a keyword search is combined with another filter, like a temporal filter, it is combined using AND logic.  For example, if temporal filter = 1,000 - 1,200 CE, keywords filter = insects or land managment, the results will return all records with a date in the range of 1,000 - 1,200 CE that also have either the insects or land management keywords in their text.
+
 Filters/Download Data
 ========================
 
