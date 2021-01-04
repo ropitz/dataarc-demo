@@ -172,7 +172,9 @@ Keywords Filter: How do I search by keywords?
 
 When you want to search the database for a specific term (that is not a dataARC concept), a keyword search is likely best.  In dataARC, keywords are commonly occurring words that have been auto-generated from the text fields in the database.  It is recommended to first check the Concepts list for your term before doing a keyword search because a Concept Search specific to the term will return more valuable and directly applicable related and contextual results.
 
-To search by keyword, type the word and click the Add button on the right.  To remove the keyword from the search, select the Remove Tag button next to the term.  Like Concepts, the Keyword search is cumulative. So the more keywords that you add to the search, the more results you'll get. When a keyword search is combined with another filter, like a temporal filter, it is combined using AND logic.  For example, if temporal filter = 1,000 - 1,200 CE, keywords filter = insects or land managment, the results will return all records with a date in the range of 1,000 - 1,200 CE that also have either the insects or land management keywords in their text.
+To search by keyword, type the word and click the Add button on the right.  To remove the keyword from the search, select the Remove Tag button next to the term.  Like Concepts, the Keyword search is cumulative. So the more keywords that you add to the search, the more results you'll get.  Searching by "ice" and "fjord" and "valley" will return fields that have either the ice or fjord or valley keywords in their text. 
+
+When a keyword search is combined with another filter, like a temporal filter, it is combined using AND logic.  For example, if temporal filter = 1,000 - 1,200 CE, keywords filter = ice or fjord, the results will return all records with a date in the range of 1,000 - 1,200 CE that also have either the ice or fjord keywords in their text.
 
 Filters/Download Data
 ========================
