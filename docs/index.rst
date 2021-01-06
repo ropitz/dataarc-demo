@@ -15,7 +15,7 @@
 
    <a href="https://ui.data-arc.org/" target="_blank">DataARC Search Tool</a>
    
-   .. |materials| raw:: html
+   .. |WS| raw:: html
 
    <a href="https://www.data-arc.org/contributors-toolbox/map-your-data//" target="_blank">materials</a>
 
@@ -48,7 +48,7 @@ Preparing your data for ingest into dataARC will be a multistep process.  If you
 .. image:: _static/dataARC_chart3.jpg
    :width: 400
    :class: align-left
-Thinking about how to map your data to the DataArc community's shared concept map can be challenging. Graduate students working with the project team have developed materials to guide PhD students considering contributing their data. These |materials| designed to be used in a workshop, are relevant to anyone considering contributing project data to the DataArc Ecosystem and should be reviewed before creating combinators for your dataset. 
+Thinking about how to map your data to the DataArc community's shared concept map can be challenging. Graduate students working with the project team have developed materials to guide PhD students considering contributing their data. These |ws| designed to be used in a workshop, are relevant to anyone considering contributing project data to the DataArc Ecosystem and should be reviewed before creating combinators for your dataset. 
 
 
 |
