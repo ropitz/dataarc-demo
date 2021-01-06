@@ -17,7 +17,7 @@
    
    .. |materials| raw:: html
 
-   <a href="https://www.data-arc.org/contributors-toolbox/map-your-data//" target="_blank">DataARC Search Tool</a>
+   <a href="https://www.data-arc.org/contributors-toolbox/map-your-data//" target="_blank">materials</a>
 
 
 .. image:: _static/dataarc_logo_final_sml.png
