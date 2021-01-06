@@ -66,8 +66,8 @@ concept of "changing landscapes." It is also designed to help advanced users bet
 DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.
 
 
-3. Add your data using Github
-------------------------------
+3. Add your dataset using Github
+----------------------------------
 .. image:: _static/GitHub.png
    :width: 150
    :class: align-left
