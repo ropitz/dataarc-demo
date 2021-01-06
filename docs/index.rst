@@ -19,6 +19,9 @@
 
    <a href="https://www.data-arc.org/contributors-toolbox/map-your-data/" target="_blank">materials</a>
    
+.. |WS2| raw:: html
+
+   <a href="https://www.data-arc.org/contributors-toolbox/map-your-data/" target="_blank">Conceptual Guide</a>
 
 
 .. image:: _static/dataarc_logo_final_sml.png
@@ -44,7 +47,7 @@ Interested in Adding your data?  Learn how...
 Preparing your data for ingest into dataARC will be a multistep process.  If you haven't already, familiarize yourself with the |DST| and take a thorough glance of the contents of the |DPW| to better understand the project context and how the data are structured.  Next, you will want to step through each of the sections below.
   
    
-1. A Conceptual Guide to Devoloping Good Mappings for your Data
+1. A |WS2| to Devoloping Good Mappings for your Data
 ----------------------------------------------------------------
 .. image:: _static/dataARC_chart3.jpg
    :width: 400
