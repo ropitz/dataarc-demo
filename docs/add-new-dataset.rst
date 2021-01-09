@@ -45,9 +45,13 @@ To edit the markdown file, go to https://stackedit.io/app# and select Start Writ
 
 **Markdown File to Dublin Core elements**
 - Title - Title
+
 - Creator - Creator
+
 - Description - Both Short and Long Description fields combined
+
 - Publisher - Publisher
+
 - Contributor(s) - Contributor(s)
 - Created - Start Date or Date Range if provided
 - DCMI Type - Type
