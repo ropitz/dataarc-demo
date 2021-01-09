@@ -45,17 +45,22 @@ To edit the markdown file, go to https://stackedit.io/app# and select Start Writ
 .. list-table:: 
    :widths: 20 50 
    :header-rows: 1
-   :class: tight-table   
+
 * - Markdown File 
   - Dublin Core elements
 * - Title 
   - Title
-* 
-- Creator - Creator
-- Description -  Both Short and Long Description fields combined
-- Publisher -  Publisher
-- Contributor(s) - Contributor(s)
-- Created - Start Date or Date Range if provided
+* - Creator 
+  - Creator
+* - Description
+  -  Both Short and Long Description fields combined
+* - Publisher 
+  - Publisher
+* - Contributor(s) 
+  - Contributor(s)
+* - Created 
+  - Start Date or Date Range if provided
+
 - DCMI Type - Type
 - Format - Format
 - Language - Language
