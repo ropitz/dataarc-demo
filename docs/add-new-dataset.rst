@@ -44,22 +44,19 @@ To edit the markdown file, go to https://stackedit.io/app# and select Start Writ
 
 
 **Markdown File to Dublin Core elements**
-- Title - Title
 
-- Creator - Creator
-
-- Description - Both Short and Long Description fields combined
-
-- Publisher - Publisher
-
-- Contributor(s) - Contributor(s)
-- Created - Start Date or Date Range if provided
-- DCMI Type - Type
-- Format - Format
-- Language - Language
-- Relation - Relation
-- Extent, spatial -  Spatial Coverage
-- Extent, temporal -  Temporal Coverage
+1. Title - Title
+2. Creator - Creator
+3. Description - Both Short and Long Description fields combined
+4. Publisher - Publisher
+5.  Contributor(s) - Contributor(s)
+6. Created - Start Date or Date Range if provided
+7. DCMI Type - Type
+8. Format - Format
+9. Language - Language
+10. Relation - Relation
+11. Extent, spatial -  Spatial Coverage
+12. Extent, temporal -  Temporal Coverage
 
 
 Below the project metadata, you will add the fields level metadata.  To add the data in tabular format, use the pipe symbol (|) to separate cells.  More details are provided in the template form.  
