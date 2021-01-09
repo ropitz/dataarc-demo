@@ -42,25 +42,14 @@ Once the project and field level metadata are complete, you are ready to add it 
    
 To edit the markdown file, go to https://stackedit.io/app# and select Start Writing.  Open mardownk_template.md.  The template contains the titles for the Dublin Core elements; you simply need to fill in the values for your data from your Excel spreadsheet.  The editor is straightforward to use with the ability to add text in the left panel and see the results with markdown formatting on the right.  Transferring the fields to the template should be fairly straightforward but refer to the text below for any questions
 
-.. list-table:: test
-   :widths: 20 50 
-   :header-rows: 1
 
-   * - Markdown File 
-     - Dublin Core elements
-   * - Title 
-     - Title
-   * - Creator 
-     - Creator
-   * - Description
-    -  Both Short and Long Description fields combined
-   * - Publisher 
-     - Publisher
-   * - Contributor(s) 
-     - Contributor(s)
-   * - Created 
-     - Start Date or Date Range if provided
-
+**Markdown File to Dublin Core elements**
+- Title - Title
+- Creator - Creator
+- Description - Both Short and Long Description fields combined
+- Publisher - Publisher
+- Contributor(s) - Contributor(s)
+- Created - Start Date or Date Range if provided
 - DCMI Type - Type
 - Format - Format
 - Language - Language
