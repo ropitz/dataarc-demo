@@ -29,8 +29,6 @@ Create Project and Field-Level Metadata for your dataset
 Metadata is essential because it allows others to know your dataset as well as you do.  Therefore documenting the specifics of your project, how and when the data was collected, and providing descriptions for individual fields is very important.  dataARC requires that you create a markdown (.md) and XML file for your metadata to accompany your geoJSON file.  Metadata templates are provided on Github at https://github.com/castuofa/dataarc-source/tree/main/metadata-templates.
 
 .. image:: _static/excel.jpg
-   :width: 500
-   :class: align-left
    
 The Excel file is recommended for structuring your metadata and to facilitate adding the information to the .md and .xml templates.  Upon downloading and opening the project_metadata_template.xlsx template, you will see a workbook with four sheets (four tabs at the bottom).  The first two tabs (Project Metadata and Field Level Metadata) need to be completed.  The last two tabs (Countries List and FISH Lists) are references to use when completing the Project Metadata.
 
@@ -41,14 +39,12 @@ The Field Level metadata provides the option for you to provide detailed informa
 Once the project and field level metadata are complete, you are ready to add it to the markdown and XML templates.  The recommended editor for markdown files is `StackEdit IO <https://stackedit.io/app#>`__, an in-browser editor that allows you to open and edit the provided template.  Note that you will only add the 15 Dublin Core elements to the MD and XML files.  
 
 .. image:: _static/stackedit.jpg
-   :width: 500
-   :class: align-right
    
 To edit the markdown file, go to https://stackedit.io/app# and select Start Writing.  Open mardownk_template.md.  The template contains the titles for the Dublin Core elements; you simply need to fill in the values for your data from your Excel spreadsheet.  The editor is straightforward to use with the ability to add text in the left panel and see the results with markdown formatting on the right.  Transferring the fields to the template should be fairly straightforward but refer to the text below for any questions
 
 **Markdown File to Dublin Core elements**
-Title - Title
-Creator - Creator
+* Title - Title
+* Creator - Creator
 Description -  Both Short and Long Description fields combined
 Publisher -  Publisher
 Contributor(s) - Contributor(s)
@@ -59,6 +55,7 @@ Language - Language
 Relation - Relation
 Extent, spatial -  Spatial Coverage
 Extent, temporal -  Temporal Coverage
+
 
 Below the project metadata, you will add the fields level metadata.  To add the data in tabular format, use the pipe symbol (|) to separate cells.  More details are provided in the template form.  
 
