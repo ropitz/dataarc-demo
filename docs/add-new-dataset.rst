@@ -22,6 +22,51 @@ A Note about Dates  (The temporal component of your data)
 
 How we reference time varies considerably across different disciplines.  Visit the `Time Synthesis section <https://www.data-arc.org/time/>`__ of the dataARC website for a more detailed discussion of this topic.  To ensure compatibility with the temporal filter options in dataARC, dates can be entered as a single discrete value or a date range.  Dates must also be entered in Common Era/Before Common Era (CE/BCE) numerical format where **CE dates are indicated with a positive number and BCE dates are indicated with a negative number.**   
 
+
+Create Project and Field-Level Metadata for your dataset
+------------------------------------------------------------
+
+Metadata is essential because it allows others to know your dataset as well as you do.  Therefore documenting the specifics of your project, how and when the data was collected, and providing descriptions for individual fields is very important.  dataARC requires that you create a markdown (.md) and XML file for your metadata to accompany your geoJSON file.  Metadata templates are provided on Github at https://github.com/castuofa/dataarc-source/tree/main/metadata-templates.
+
+.. image:: _static/excel.jpg
+   :width: 500
+   :class: align-left
+   
+The Excel file is recommended for structuring your metadata and to facilitate adding the information to the .md and .xml templates.  Upon downloading and opening the project_metadata_template.xlsx template, you will see a workbook with four sheets (four tabs at the bottom).  The first two tabs (Project Metadata and Field Level Metadata) need to be completed.  The last two tabs (Countries List and FISH Lists) are references to use when completing the Project Metadata.
+
+In the Project Metadata, the first fifteen fields with a light gray background are **the required Dublin Core metadata elements** to complete for your project.   The additional fifteen fields with a dark gray background are not required however they provide important information about you and your research that will be provided on the dataARC project website.Hovering over the title for each field provides a short popup description of what information needs to be provided for that field with details on formatting, etc.  If additional guidance is needed for the Dublin Core elements, please visit the `Dublin Core website <https://www.dublincore.org/specifications/dublin-core/dces/>`__ or view examples of other project metadata in the About the Dataset pages on the dataARC website.
+
+The Field Level metadata provides the option for you to provide detailed information about all of the fields in your dataset.  As with the project metadata, hovering over the field title provides a description of what to provide in that field. The description field is used to provide the specifics (value ranges, units of measurement, formats, etc…) for the fields in your data.  Provide all information that will be relevant to the end user. 
+
+Once the project and field level metadata are complete, you are ready to add it to the markdown and XML templates.  The recommended editor for markdown files is `StackEdit IO <https://stackedit.io/app#>`__, an in-browser editor that allows you to open and edit the provided template.  Note that you will only add the 15 Dublin Core elements to the MD and XML files.  
+
+.. image:: _static/stackedit.jpg
+   :width: 500
+   :class: align-right
+   
+To edit the markdown file, go to https://stackedit.io/app# and select Start Writing.  Open mardownk_template.md.  The template contains the titles for the Dublin Core elements; you simply need to fill in the values for your data from your Excel spreadsheet.  The editor is straightforward to use with the ability to add text in the left panel and see the results with markdown formatting on the right.  Transferring the fields to the template should be fairly straightforward but refer to the text below for any questions
+
+**Markdown File to Dublin Core elements**
+Title - Title
+Creator - Creator
+Description -  Both Short and Long Description fields combined
+Publisher -  Publisher
+Contributor(s) - Contributor(s)
+Created - Start Date or Date Range if provided
+DCMI Type - Type
+Format - Format
+Language - Language
+Relation - Relation
+Extent, spatial -  Spatial Coverage
+Extent, temporal -  Temporal Coverage
+
+Below the project metadata, you will add the fields level metadata.  To add the data in tabular format, use the pipe symbol (|) to separate cells.  More details are provided in the template form.  
+
+Once both the project and field level metadata is complete, select Export as Markdown from the import/export options in the right panel.  Save the file to your local drive. You will upload the geoJSON, MD, and XML files together when all are complete. 
+
+To edit the XML file, we recommend using Notepad ++, a free download from `here <https://notepad-plus-plus.org/downloads/>`__.  You can use regular Notepad that comes standard with Windows, however Notepad++ is strongly advised because it provides color coding that helps in creating XML files.  There are instructions provided in the XML file to edit it directly.  You can also use the `Advanced Dublin Core Generator <https://nsteffel.github.io/dublin_core_generator/generator.html>`__ but you will have to edit the file to add FISH Subject lists separately.  For ease of use, we recommend editing the editing the XML file directly using Notepad++.  Once you have added both your project and field level metadata to the XML template, save the XML file in the same location as the geoJSON and MD files.  You are now ready to upload your data and metadata to Github!
+
+
 Create a Github Account and add your data
 --------------------------------------------
 
