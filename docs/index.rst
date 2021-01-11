@@ -24,6 +24,7 @@
    <a href="https://www.data-arc.org/contributors-toolbox/map-your-data/" target="_blank">Conceptual Guide</a>
 
 .. |DNOA| raw:: html
+
    <a href ='<https://github.com/ropitz/dataarc-demo/blob/master/Data%20Network%20Overview%20Analyses%20-%20Final.ipynb" targer="_blank">The Data Network Overview Analyses notebook </a>
 
 .. image:: _static/dataarc_logo_final_sml.png
