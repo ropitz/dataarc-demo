@@ -49,14 +49,15 @@ To edit the markdown file, go to https://stackedit.io/app# and select Start Writ
 2. Creator - Creator
 3. Description - Both Short and Long Description fields combined
 4. Publisher - Publisher
-5.  Contributor(s) - Contributor(s)
+5. Contributor(s) - Contributor(s)
 6. Created - Start Date or Date Range if provided
 7. DCMI Type - Type
 8. Format - Format
 9. Language - Language
 10. Relation - Relation
-11. Extent, spatial -  Spatial Coverage
-12. Extent, temporal -  Temporal Coverage
+11. Subject(s) - Fill in each linked title with your selection.  Archaeological Objects - Subject List 1; Archaeological Sciences: Subject List 2; Events: Subject List 3; Historic Characterization: Subject List 4.
+12. Extent, spatial -  Spatial Coverage
+13. Extent, temporal -  Temporal Coverage
 
 
 Below the project metadata, you will add the fields level metadata.  To add the data in tabular format, use the pipe symbol (|) to separate cells.  More details are provided in the template form.  
