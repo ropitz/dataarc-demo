@@ -23,6 +23,8 @@
 
    <a href="https://www.data-arc.org/contributors-toolbox/map-your-data/" target="_blank">Conceptual Guide</a>
 
+.. |DNOA| raw:: html
+   <a href ='<https://github.com/ropitz/dataarc-demo/blob/master/Data%20Network%20Overview%20Analyses%20-%20Final.ipynb" targer="_blank">The Data Network Overview Analyses notebook </a>
 
 .. image:: _static/dataarc_logo_final_sml.png
    :class: align-center
@@ -47,17 +49,15 @@ Interested in Adding your data?  Learn how...
 Preparing your data for ingest into dataARC will be a multistep process.  If you haven't already, familiarize yourself with the |DST| and take a thorough glance of the contents of the |DPW| to better understand the project context and how the data are structured.  Next, you will want to step through each of the sections below.
   
    
-1. A |WS2| to Devoloping Good Mappings for your Data
+1. A |WS2| to Developing Good Mappings for your Data
 ----------------------------------------------------------------
 .. image:: _static/dataARC_chart3.jpg
    :width: 400
    :class: align-left
 Thinking about how to map your data to the DataArc community's shared concept map can be challenging. Graduate students working with the project team have developed materials to guide PhD students considering contributing their data. These |ws| designed to be used in a workshop, are relevant to anyone considering contributing project data to the DataArc Ecosystem and should be reviewed before creating combinators for your dataset. 
 
-
 |
 |
-
 
 2. `Learn how <ecosystem_explorer.html>`__ to use the dataARC Ecosystem Explorer! 
 ----------------------------------------------------------------------------------
@@ -65,7 +65,7 @@ The |dee| is a virtual sandbox designed to help dataset contributors think throu
 concept of "changing landscapes." It is also designed to help advanced users better understand how data and concepts are connected in the
 DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.  
 
-`The Data Network Overview Analyses notebook <https://github.com/ropitz/dataarc-demo/blob/master/Data%20Network%20Overview%20Analyses%20-%20Final.ipynb>`__ allows you to calculate graph metrics like betweenness centrality on the dataARC concept map.  It is a useful tool for beginning high-level exploration of how different concepts are connected and currently runs off of the dataARC API. 
+|DNOA| allows you to calculate graph metrics like betweenness centrality on the dataARC concept map.  It is a useful tool for beginning high-level exploration of how different concepts are connected and currently runs off of the dataARC API. 
 
 
 3. Add your dataset using Github
