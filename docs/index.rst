@@ -63,7 +63,9 @@ Thinking about how to map your data to the DataArc community's shared concept ma
 ----------------------------------------------------------------------------------
 The |dee| is a virtual sandbox designed to help dataset contributors think through mapping their data to the DataArc community's knowledge map of the
 concept of "changing landscapes." It is also designed to help advanced users better understand how data and concepts are connected in the
-DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.
+DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.  
+
+`The Data Network Overview Analyses notebook <https://github.com/ropitz/dataarc-demo/blob/master/Data%20Network%20Overview%20Analyses%20-%20Final.ipynb>`__ allows you to calculate graph metrics like betweenness centrality on the dataARC concept map.  It is a useful tool for beginning high-level exploration of how different concepts are connected and currently runs off of the dataARC API. 
 
 
 3. Add your dataset using Github
