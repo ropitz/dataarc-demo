@@ -23,9 +23,10 @@
 
    <a href="https://www.data-arc.org/contributors-toolbox/map-your-data/" target="_blank">Conceptual Guide</a>
 
-.. |DNOA| raw:: html
+.. |DNOA2| raw:: html
 
-   <a href='<https://github.com/ropitz/dataarc-demo/blob/master/Data%20Network%20Overview%20Analyses%20-%20Final.ipynb" target="_blank">The Data Network Overview Analyses notebook</a>
+   <a href="https://github.com/ropitz/dataarc-demo/blob/master/Data%20Network%20Overview%20Analyses%20-%20Final.ipynb" target="_blank">The Data Network Overview Analyses notebook</a>
+
 
 .. image:: _static/dataarc_logo_final_sml.png
    :class: align-center
@@ -66,7 +67,7 @@ The |dee| is a virtual sandbox designed to help dataset contributors think throu
 concept of "changing landscapes." It is also designed to help advanced users better understand how data and concepts are connected in the
 DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.  
 
-|DNOA| allows you to calculate graph metrics like betweenness centrality on the dataARC concept map.  It is a useful tool for beginning high-level exploration of how different concepts are connected and currently runs off of the dataARC API. 
+|DNOA2| allows you to calculate graph metrics like betweenness centrality on the dataARC concept map.  It is a useful tool for beginning high-level exploration of how different concepts are connected and currently runs off of the dataARC API. 
 
 
 3. Add your dataset using Github
