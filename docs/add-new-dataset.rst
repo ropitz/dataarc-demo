@@ -89,7 +89,7 @@ If you haven’t already, create a Github account and navigate to the `dataARC s
 Create a dataARC account and finish adding your dataset
 --------------------------------------------------------
 
-1.  Before you begin, you will need to create an account with the dataARC Search Tool to become a data contributor.  Go to the dataARC Search Tool and select Signup.  Fill out the form and select Register.  
+1.  Before you begin, you will need to create an account with the dataARC Search Tool to become a data contributor.  Go to the dataARC Search Tool and select Register.  Fill out the form and select Register.  
 
 2.  Now, select the Login option from the menu and Login using your credentials.
 
