@@ -4,7 +4,7 @@ By now you should have a better understanding of the basics for preparing your d
 
 1.  Open the `dataARC Search Tool <https://ui.data-arc.org/>`__ and select Register to create your account.  Fill out the form and select Register.  
 
-2.  Now, return to the site and select the Login from the menu. Login using your credentials.
+2.  Now, return to the site and select  Login from the menu and login using your credentials.
 
 3.  Next, select Manage - Profile.  On the left side of the screen under User Info, select "Request to be a data Contributor."  Fill out the form and click submit.  
 
