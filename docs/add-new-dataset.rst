@@ -1,8 +1,17 @@
+Create a dataARC account 
+-------------------------
+By now you should have a better understanding of the basics for preparing your data for dataARC.  You should know how to create combinators in order to map your data to the dataARC concept map and you should have a good sense of what concepts are applicable to your dataset. You are now ready to create a dataARC account and to prepare your data for the dataARC Search Tool.
+
+1.  Open the `dataARC Search Tool <https://ui.data-arc.org/>`__ and select Register to create your account.  Fill out the form and select Register.  
+
+2.  Now, return to the site and select the Login from the menu. Login using your credentials.
+
+3.  Next, select Manage - Profile.  On the left side of the screen under User Info, select "Request to be a data Contributor."  Fill out the form and click submit.  
+
+4.  You will receive a follow-up email from a member of the dataARC team in 3-5 business days either requesting your information about your data or granting you access as a data contributor.  Continue with the steps below to begin converting your data.      
 
 Convert your data to GeoJSON and Validate (The spatial component of your data)
 ---------------------------------------------------------------------------------
-By now you should have a better understanding of the basics for preparing your data for dataARC.  You should know how to create combinators in order to map your data to the dataARC concept map and you should have a good sense of what concepts are applicable to your dataset. 
-
 If you have stepped through some of the exercises using the dataARC Ecosystem Explorer, you know that dataARC requires data to be in the GeoJSON format.  GeoJSON is an `open standard format <https://tools.ietf.org/html/rfc7946#section-3.1.2>`__ for representing simple geographic features, in this case point locations, with attribute information.  There are several free tools available online for converting your data to GeoJSON.  `Convert CSV for GeoJSON <https://www.convertcsv.com/csv-to-geojson.htm>`__ is free and is relatively straightforward and easy-to-use.  Feel free to use any GeoJSONconverter available to you. Remember that point locations must be stored as latitude and longitude and in separate columns in your table.
 
 Next it is important to validate your newly created JSON file to ensure that the file is valid before importing it into dataARC.  As with converters, there are a lot of free GeoJSON validators online.  We recommend the following:
@@ -86,14 +95,11 @@ If you haven’t already, create a Github account and navigate to the `dataARC s
  
  
 
-Create a dataARC account and finish adding your dataset
+Open your dataARC account and finish adding your dataset
 --------------------------------------------------------
+1. Log in to your account on the `dataARC Search Tool <https://ui.data-arc.org/>`__ and click on the Manage - Admin button.
 
-1.  Before you begin, you will need to create an account with the dataARC Search Tool to become a data contributor.  Go to the dataARC Search Tool and select Register.  Fill out the form and select Register.  
-
-2.  Now, select the Login option from the menu and Login using your credentials.
-
-3. Click on the Manage - Admin button and select Add a New Dataset.  Fill in all of the fields about your new dataset.
+2. Select Datasets from the left column, and then Select Add New Dataset.  Fill in all of the fields about your new dataset.
 
 .. image:: _static/dataARC_addnew.jpg
 
