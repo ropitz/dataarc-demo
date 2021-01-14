@@ -8,7 +8,7 @@ By now you should have a better understanding of the basics for preparing your d
 
 3.  Next, select Manage - Profile.  On the left side of the screen under User Info, select "Request to be a data Contributor."  Fill out the form and click submit.  
 
-4.  You will receive a follow-up email from a member of the dataARC team in 3-5 business days either requesting your information about your data or granting you access as a data contributor.  Continue with the steps below to begin converting your data.      
+4.  You will receive a follow-up email from a member of the dataARC team in 3-5 business days either requesting more information about your dataset or granting you access as a data contributor.  Continue with the steps below to begin converting your data.      
 
 Convert your data to GeoJSON and Validate (The spatial component of your data)
 ---------------------------------------------------------------------------------
