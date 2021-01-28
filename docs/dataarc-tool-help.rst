@@ -276,7 +276,7 @@ Before you download your data, you can preview the different datasets returned f
 Why? An interactive visualization tool for understanding your results.
 ===================================================================
 
-:bluish: Documentation coming soon!
+Documentation coming soon!
  
 
 
