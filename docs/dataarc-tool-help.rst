@@ -273,10 +273,10 @@ Before you download your data, you can preview the different datasets returned f
 
 .. image:: _static/results.jpg
 
-Why? A powerful visualization tool for understanding your results.
+Why? An interactive visualization tool for understanding your results.
 ===================================================================
 
-
+:bluish: Documentation coming soon!
  
 
 
