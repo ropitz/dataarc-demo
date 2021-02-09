@@ -15,11 +15,15 @@ Prepare your data
 Most data providers find it simplest to prepare their dataset as CSV or another tabular format and then convert to GeoJSON. The basic requirements for your data are:
 
 1. Your data must contain latitude and longitude coordinates in separate columns (so two separate fields) in decimal degree format. Your coordinates should be in WGS84 (EPSG:3857).
+
 2. Your data must contain two temporal fields which contain the dates that represent the start and end points of the date range for which you wish a data entry to be returned. These dates should be provided as BCE/CE style years (not BP or calibrated C14 years or anything else exciting like that!). Only include the year in the field. Do not include an abbreviations such as "BCE".
+
 3. Your data must include a unique ID field, with a different entry for each item.
+
 4. If you are contributing a new dataset, your dataset may include any other fields you wish. If you are updating an existing dataset, you may add new fields. Note that changing the names of existing fields or deleting an existing field will break any combinator (query) that refers to that field.  It is therefore strongly recommended that you keep all existing field names the same when updating your dataset.
 
-We recommend you look at existing datasets on `github <https://github.com/castuofa/dataarc-source/tree/main/datasets>` for examples of both `simple <https://raw.githubusercontent.com/castuofa/dataarc-source/main/datasets/cairns_nw_iceland/cairns_nw_iceland.geojson>` data structures and `nested <https://raw.githubusercontent.com/castuofa/dataarc-source/main/datasets/sead/sead.geojson>` data structures.
+We recommend you look at existing datasets on `github <https://github.com/castuofa/dataarc-source/tree/main/datasets>`__ for examples of both 
+`simple <https://raw.githubusercontent.com/castuofa/dataarc-source/main/datasets/cairns_nw_iceland/cairns_nw_iceland.geojson>`__ data structures and `nested <https://raw.githubusercontent.com/castuofa/dataarc-source/main/datasets/sead/sead.geojson>`__  data structures.
 
 Convert your data to GeoJSON and Validate (The spatial component of your data)
 ---------------------------------------------------------------------------------
