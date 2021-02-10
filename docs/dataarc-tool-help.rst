@@ -28,7 +28,7 @@
 .. role:: conceptyellow
 
 
-What is the dataArc search tool?
+What is the dataARC search tool?
 =================================
 
 This dataARC search tool is designed to help students and researchers discover and explore diverse interconnected data sources relevant for interdisciplinary studies of long-term human ecodynamics in the North Atlantic. Search results produced through this tool will include data provided by specialists in different domains, information about the connections between these datasets, and background information about the data sources and how they are typically used. The aim of the tool is to encourage users to assess the potential relevance to their research of datasets from outside their own area of expertise. It’s important to understand how datasets are interconnected in the tool to apply filters effectively and interpret your search results correctly. 
@@ -38,7 +38,7 @@ This dataARC search tool is designed to help students and researchers discover a
 What kind of data is available through the search tool?
 ----------------------------------------------------------
 
-The dataArc search tool includes diverse datasets contributed by researchers working in domains from Saga Studies through paleoentomology. Because the data are quite varied, and because these very different types of data have to be analysed and interpreted in different ways, we’ve categorized them into three general types:  archaeological, textual, and environmental.  Throughout the dataARC Search Tool, :bluish:`archaeological sources are always shown in blue`, :orangish:`textual in orange`, and :greenish:`environmental in green`.  This simple color scheme is used throughout to visually categorize the data visualization graphs, filter, and result options. 
+The dataARC search tool includes diverse datasets contributed by researchers working in domains from Saga Studies through paleoentomology. Because the data are quite varied, and because these very different types of data have to be analysed and interpreted in different ways, we've categorized them into three general types:  archaeological, textual, and environmental.  Throughout the dataARC Search Tool, :bluish:`archaeological sources are always shown in blue`, :orangish:`textual in orange`, and :greenish:`environmental in green`.  This simple color scheme is used throughout to visually categorize the data visualization graphs, filter, and result options. 
 
 How do I run a basic search?  What happens when multiple filters are applied?
 ------------------------------------------------------------------------------
@@ -129,9 +129,9 @@ Quick Results Evaluation (optional)
 Conceptual Filter: How do I create a conceptual filter?
 =============================================================
 
-Concepts are used to build links across the different disciplines’ datasets represented within dataARC. Building these links is important and is quite challenging in practice! How a zooarchaeologist thinks about and identifies different types of fish and fishing-related activities is quite different from how a saga specialist thinks about the same topics. Yet both researchers do work that involves thinking about and studying them. DataArc uses a ‘map’ of these shared concepts, like fish and fishing, as points of connection between data used by different domains.
+Concepts are used to build links across the different disciplines’ datasets represented within dataARC. Building these links is important and is quite challenging in practice! How a zooarchaeologist thinks about and identifies different types of fish and fishing-related activities is quite different from how a saga specialist thinks about the same topics. Yet both researchers do work that involves thinking about and studying them. dataARC uses a ‘map’ of these shared concepts, like fish and fishing, as points of connection between data used by different domains.
 
-This map of shared concepts was developed by the dataArc community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC ‘changing landscapes’ ontology was developed, visit the dataARC website. 
+This map of shared concepts was developed by the dataARC community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC ‘changing landscapes’ ontology was developed, visit the dataARC website. 
 
 .. image:: _static/concept.jpg
 
@@ -243,9 +243,9 @@ It is important to note that related and contextual results are produced in the 
 Why are related and contextual results important? 
 --------------------------------------------------
 
-The dataArc search tool was created to support intentionally interdisciplinary data discovery. Related and contextual results are important when searching interdisciplinary data and researching interdisciplinary topics.
+The dataARC search tool was created to support intentionally interdisciplinary data discovery. Related and contextual results are important when searching interdisciplinary data and researching interdisciplinary topics.
 
-Each dataset in dataArc is mapped to the community’s set of shared concepts by its contributor, who is an expert in a specific discipline and has a broad familiarity with the other disciplines represented in our tool. Different data contributors will have different ideas about which concepts their data speaks to most directly. This is quite normal, even inevitable! Different disciplines prioritise different concepts and these priorities change as research trends shift over time. An unintended outcome of this situation is that a search on any given concept will become discipline specific. The aim of the dataArc search tool is to encourage interdisciplinary search and to help its users to see connections and find data across these conceptual divides between specialisms and disciplines.
+Each dataset in dataARC is mapped to the community’s set of shared concepts by its contributor, who is an expert in a specific discipline and has a broad familiarity with the other disciplines represented in our tool. Different data contributors will have different ideas about which concepts their data speaks to most directly. This is quite normal, even inevitable! Different disciplines prioritise different concepts and these priorities change as research trends shift over time. An unintended outcome of this situation is that a search on any given concept will become discipline specific. The aim of the dataARC search tool is to encourage interdisciplinary search and to help its users to see connections and find data across these conceptual divides between specialisms and disciplines.
 
 Let’s explore this with an example:
 
@@ -253,18 +253,18 @@ Let’s explore this with an example:
  
   While our experts in this example will (for good reasons) map their data to the concepts to which it speaks with the most fidelity, they’ll agree that the concepts of production and animal husbandry are directly connected. This agreement has been captured in the concept map.
 
-  A second zooarchaeologist using the dataArc search tool would likely search using the concept animal husbandry because he shares a disciplinary background and vocabulary with the other zooarchaeologist. To help this second zooarchaeologist to discover the saga studies data, which might be relevant to his research question, the dataArc search tool presents results connected to topics the interdisciplinary community thinks are closely related - bridging disciplinary divides created when we search using our own discipline’s ‘obvious’ default terms. 
+  A second zooarchaeologist using the dataARC search tool would likely search using the concept animal husbandry because he shares a disciplinary background and vocabulary with the other zooarchaeologist. To help this second zooarchaeologist to discover the saga studies data, which might be relevant to his research question, the dataARC search tool presents results connected to topics the interdisciplinary community thinks are closely related - bridging disciplinary divides created when we search using our own discipline’s ‘obvious’ default terms. 
 
 ---
 
-In the dataArc search tool, the most directly connected concepts and their mapped data are one-degree away on the concept map. Less connected but still potentially relevant concepts and their mapped data are two-degrees away. 
+In the dataARC search tool, the most directly connected concepts and their mapped data are one-degree away on the concept map. Less connected but still potentially relevant concepts and their mapped data are two-degrees away. 
 
 Why not just group all the direct, related and contextual results together?
 ---------------------------------------------------------------------------
 
-The dataArc search tool could, of course, group together all the results, rather than splitting them out based on how closely, conceptually speaking, they are related to the original search term. We’ve chosen to structure the results by how closely they are connected to the original search term, and to expose the explanations of these connections to help users to understand how experts from diverse domains have assessed the relevance of their data to shared different concepts. 
+The dataARC search tool could, of course, group together all the results, rather than splitting them out based on how closely, conceptually speaking, they are related to the original search term. We’ve chosen to structure the results by how closely they are connected to the original search term, and to expose the explanations of these connections to help users to understand how experts from diverse domains have assessed the relevance of their data to shared different concepts. 
 
-Because the data and disciplines collected together through the dataArc search tool are so diverse, it’s likely that as a user you will encounter data with which you’re really quite unfamiliar and find yourself uncertain about how relevant it is to your original search terms and what that relevance might be. The ‘direct’, ‘related’ and ‘contextual’ tiers of search results indicate the degree of relevance. 
+Because the data and disciplines collected together through the dataARC search tool are so diverse, it’s likely that as a user you will encounter data with which you’re really quite unfamiliar and find yourself uncertain about how relevant it is to your original search terms and what that relevance might be. The ‘direct’, ‘related’ and ‘contextual’ tiers of search results indicate the degree of relevance. 
  
 Results -  Preview the data 
 ----------------------------
@@ -276,9 +276,129 @@ Before you download your data, you can preview the different datasets returned f
 Why? An interactive visualization tool for understanding your results.
 ===================================================================
 
-Documentation coming soon!
- 
+The *Why* section is broken into 6 linked-view panels to help you to understand *why* the tool has returned your filtered search results. This section of the tool exposes relationships that not only exist between the different concepts used in your search, but also between concepts and related data (combinators). The combinators have been handcrafted by dataset creators and domain experts and are intended to enable users from other disciplines to discover the conceptual links which are implicit in domain-specific knowledge, which wouldn't be obvious outside the specialist research community. These connections are described with reference to key literature in each domain. These descriptions and citations can be accessed in the "Combinator details" panel.
+
+The 3 panels along the top portion of this section display the concepts, combinators, and datasets (from left to right) returned by your query, while the panels in the lower portion update to show the details for concepts, combinators, and datasets selected elsewhere in the *Why* section. In any of the 6 linked views, clicking on concepts or combinator items allows you to see additional details. Hovering over concepts or combinators will highlight them in any box where they are displayed, enabling you to see connections, and whether they were included in your query.
+
+Why: Concepts for Query
+-----------------------
+
+The upper left panel is the main panel for exploring concepts returned by your query. It provides several viewing options for the concepts, and is linked with many of the other panels to help explain connections to your query results, which you can use to help refine and/or broaden your search. You can expect that the concepts that you hover over in this section will highlight concepts and related combinators (relationships with datasets that include the concept) in other panels, and that hovering over concepts and combinators in other panels will highlight concepts in this panel. 
+
+* Filters:
+
+  * View all concepts, or filter on matched, related, contextual
+
+* Views:
+
+  * **Listed** - Scrollable list view of the filtered, clickable concepts and concept type
+
+  * **Grouped** - Clickable concepts are collected under expandable lists of concept type
+
+  * **Inline** - All the filtered, clickable concepts displayed with little whitespace for maximum concept viewing.
+
+* Actions:
+
+  * Hover over a concept to highlight the same concept in any other linked-view panel along with any combinators that include the concept. It may be most useful to click the “Inline” view of Concepts in panels where they are displayed to see all highlighted concepts. 
+
+  * Clicking on individual concepts provides more details about the concept in the lower left panel. 
+
+Why: Combinators for query
+--------------------------
+
+The upper middle panel lists the combinators related to your query. Combinators are the relationships, or mappings, between datasets and concepts, and have been constructed by the researchers who have contributed or worked closely with the connected dataset. These mappings include their own explanations of *why* the data is relevant to the concepts, and provide the citations for these explanations. The descriptions of the combinators are essential to this project’s attempt to explain how your search results are constructed and *why* data from different sources are connected through shared concepts.
+
+Clicking on a listed combinator populates the lower middle panel with its details, including a description of the combinator, its related concepts (these may not have been included in your query), and supporting citations. The full set of concepts mapped to your combinator provides further insight into the research context in which the data is usually interpreted by the data contributor.
+
+* Filters:
+
+  * View all combinators, or filter on matched, related, and contextual results
+
+* Views:
+
+  * A scrollable list of combinators related to your query
+
+* Actions:
+
+  * Hover over a combinator to highlight related concepts that are displayed in any other linked-view panel. It may be most useful to click the “Inline” view of concepts in panels where they are displayed to see all highlighted concepts. 
+
+  * Click on a combinator to view its details in the lower middle panel, including a description of the combinator, its connected concepts, and citations from which the combinator was derived. See the "Combinator details" description below for interpreting information further. 
+
+  * Once a combinator is selected and its details are displayed in the lower middle panel, hover over other combinators in the upper middle panel to highlight related concepts in any *Why* panel displaying concepts.
+
+Why: Dataset results for query
+------------------------------
+
+The upper right panel lists the datasets returned by your query, color coded by their  :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` classifications. Similar to the "Combinators for query" panel, here you can explore the datasets to gain a better understanding of the scope of applications and connections researchers associate with the individual datasets. Click on a dataset in the list to populate the lower right panel with its details, including a brief description and a list of all the dataset’s combinators. From there, each of the combinators and its concepts can be explored by the same methods as those returned in the query.
+
+* Filters:
+
+  * View all datasets, or filter on matched, related, and contextual results
+
+* Views:
+
+  * A scrollable list of datasets related to your query
+
+* Actions:
+
+  * Click on a dataset to populate the lower right panel with a full list of the combinators associated with the dataset, some of which may not have been returned by your query.
+
+  * Click on a combinator in the lower right section will populate its details in the "Combinator details" panel
 
 
- 
-  
+Why: Concept Details
+--------------------
+
+The lower left panel is initially blank, but populates with the details of concepts selected in the other *Why* panels -- "Concepts for query" and "Combinator details". Concept details include concept type, a link to the full scope notes for the concept, citations for reference, and related and contextual concepts.
+
+* Actions:
+
+  * Click on the link beside "For further details" to open the Scope Notes on a concept in a new window or tab.
+
+  * Click on the black arrow beside the concept to expand a list of nested related and contextual concepts and their respective concept types.
+
+  * Hover over a concept to highlight the same concept in any other linked-view panel along with any combinators that include the concept.
+
+
+Why: Combinator Details
+-----------------------
+
+The lower middle panel is initially blank, but populates with the details of Combinators selected in the other *Why* panels -- "Combinators for query" and "Dataset details". Combinator details include a brief description of *why* the data is related to the concepts, all of the concepts associated with the combinator (including those that may not have shown up in your query), and citations for reference.
+
+This section is a key to considering how you may be able to widen and/or refine the scope of your query to include additional datasets since it allows you to explicitly see the distinct connections other researchers make between concepts and datasets.
+
+
+* Views:
+
+  * **Listed** - Scrollable list view of filtered clickable concepts and concept type
+
+  * **Grouped** - Clickable concepts are collected under expandable lists of concept type
+
+  * **Inline** - A view of all the filtered clickable concepts
+
+* Actions:
+
+  * Click on a concept to explore it in more detail in the lower left "Concept details" panel.
+
+  * Hover over a concept to highlight the same concept in any other linked-view panel along with any combinators that include the concept.
+
+
+
+Why: Dataset details
+--------------------
+
+The lower right panel is initially blank, but populates with the details of a dataset selected in the "Datasets for query" panel. Details include a description of the dataset, which is scrollable for longer descriptions, and a scrollable list of clickable combinators associated with this dataset (including those that may not have shown up in your query). The linked-view of all the panels once again means that hovering over combinators will highlight its connected concepts appearing in other Why panels.
+
+* Views:
+
+  * A scrollable list of combinators related to a selected dataset.
+
+* Actions:
+
+  * Scroll through the entire dataset description
+
+  * Click on combinator to view its details in the lower middle "Combinator details" section.
+
+  * Hover over a combinator to highlight concepts that are displayed in any other linked-view panel. It may be most useful to click the "Inline" view of concepts in panels where they are displayed to see all highlighted concepts. 
+
+
