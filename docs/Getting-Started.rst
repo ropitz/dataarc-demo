@@ -90,11 +90,11 @@ Exploring the existing Knowledge Map
 
 .. |about_dataarc| raw:: html
 
-    <a href=https://beta.data-arc.org/about target=_blank> DataArc website &#8663;</a>
+    <a href=https://data-arc.org/about target=_blank> DataArc website &#8663;</a>
 
 .. |web_dataarc| raw:: html
 
-    <a href=https://beta.data-arc.org/ target=_blank> DataArc website &#8663;</a>
+    <a href=https://data-arc.org/ target=_blank> DataArc website &#8663;</a>
 
 .. |use_and_learn| raw:: html
 
