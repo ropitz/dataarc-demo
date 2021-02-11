@@ -213,7 +213,7 @@ Related and Contextual Results
 -------------------------------
 Related and contextual results are linked **conceptually** to the matched results.  These result sets contain the data that are linked to first-degree (related) and second-degree (contextual) connections of the concepts included in the matched result subset.  This is explained in greater detail below and applies to any combination of temporal, spatial, and keyword filters.  When a concept filter is applied (individually or in combination with another filter), the related and contextual are the first-degree (related) and second-degree (contextual) concept connections of only the selected concept.  
 
-Let’s revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In the example shown below, lets say that there are 3500 results and that those results share 50 concepts.  Those 50 shared concepts referred to as "matched concepts" are depicted as :conceptgreen:`green circles` in the Concept graph. The related results are the first degree connections of the matched concepts depicted as :conceptyellow:`yellow triangles` and the contextual results are the second degree connections of the matched concepts depicted as :conceptblue:`blue circles`.  
+Let's revisit the first filter example, Temporal filter (500-700 CE).  Conveniently, dataARC has the visualization tools built-in to help convey how related and contextual results work.   After applying “Temporal filter (500-700 CE)”, scroll down to the Concepts map and view all of the selected concepts pertaining to the new record subset.  In the example shown below, lets say that there are 3500 results and that those results share 50 concepts.  Those 50 shared concepts referred to as "matched concepts" are depicted as :conceptgreen:`green circles` in the Concept graph. The related results are the first degree connections of the matched concepts depicted as :conceptyellow:`yellow triangles` and the contextual results are the second degree connections of the matched concepts depicted as :conceptblue:`blue circles`.  
 
 .. image:: _static/updated_concepts.jpg
 
@@ -228,7 +228,7 @@ Therefore the matched results, related results, and contextual results for the t
 
 * **Contextual results:**  All data records with concepts identified as second degree connections of the original matched concepts LESS the related results AND LESS the matched results 
 
-It is important to note that related and contextual results are produced in the same manner for any combination of temporal, spatial, and keyword filters however when a concept filter is also added, then the related and contextual results will only apply to the selected concept(s).  Let’s add a Concept Filter = Fishing to the filter example above.
+It is important to note that related and contextual results are produced in the same manner for any combination of temporal, spatial, and keyword filters however when a concept filter is also added, then the related and contextual results will only apply to the selected concept(s).  Let's add a Concept Filter = Fishing to the filter example above.
 
 **Temporal filter (500-700 CE) AND Concept Filter (Fishing)**
 
@@ -247,7 +247,7 @@ The dataARC search tool was created to support intentionally interdisciplinary d
 
 Each dataset in dataARC is mapped to the community’s set of shared concepts by its contributor, who is an expert in a specific discipline and has a broad familiarity with the other disciplines represented in our tool. Different data contributors will have different ideas about which concepts their data speaks to most directly. This is quite normal, even inevitable! Different disciplines prioritise different concepts and these priorities change as research trends shift over time. An unintended outcome of this situation is that a search on any given concept will become discipline specific. The aim of the dataARC search tool is to encourage interdisciplinary search and to help its users to see connections and find data across these conceptual divides between specialisms and disciplines.
 
-Let’s explore this with an example:
+Let's explore this with an example:
 
   A specialist in Saga Studies might feel confident that some of her data is directly relevant to studies of production, but not feel confident that it provides direct evidence for animal husbandry. A zooarchaeologist might think that some of his data speaks directly to animal husbandry, but that the concept of production is too broad to be useful. These two researchers won’t map their data to the same concepts. This means that a search on any given concept will  likely miss out relevant data from other disciplines because of basic gaps in their core vocabularies and how researchers trained in them think about their data. 
  
@@ -255,7 +255,7 @@ Let’s explore this with an example:
 
   A second zooarchaeologist using the dataARC search tool would likely search using the concept animal husbandry because he shares a disciplinary background and vocabulary with the other zooarchaeologist. To help this second zooarchaeologist to discover the saga studies data, which might be relevant to his research question, the dataARC search tool presents results connected to topics the interdisciplinary community thinks are closely related - bridging disciplinary divides created when we search using our own discipline’s ‘obvious’ default terms. 
 
----
+------
 
 In the dataARC search tool, the most directly connected concepts and their mapped data are one-degree away on the concept map. Less connected but still potentially relevant concepts and their mapped data are two-degrees away. 
 
