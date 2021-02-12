@@ -1,7 +1,7 @@
 Choosing which data to add
 ==========================
 
-It can be difficult to determine which of your data to map to the DataArc concept map. Every data set is different, and there is no single right answer for what to include in your DataArc mappings.
+It can be difficult to determine which of your data to map to the dataARC concept map. Every data set is different, and there is no single right answer for what to include in your dataARC mappings.
 
 Here are some factors to consider:
 
@@ -11,6 +11,6 @@ Here are some factors to consider:
 * It could be helpful to flag data that you feel could provide a false sense of connection to the other observations and/or data points within your dataset. The *description* part of the combinator mapping is designed to allow data contributors to highlight caveats about mappings or contributed data which might lead to dubious interpretations.
 
 
-The exercises for exploring the DataArc Concept Map provide options for you to add mappings to new datasets, but you
+The exercises for exploring the dataARC Concept Map provide options for you to add mappings to new datasets, but you
 should recall that these notebooks are designed as "sandboxes" -- exploratory tools -- and do not directly connect to
-the official public facing DataArc repository. If you'd like to add your full JSON data set to the DataArc repository, please contact us to discuss that process.
+the official public facing dataARC repository. If you'd like to add your full JSON data set to the dataARC repository, please contact us to discuss that process.

@@ -106,7 +106,7 @@ If you haven’t already, create a GitHub account and navigate to the `dataARC s
 
 5.  At this point, a moderator of the dataARC repository will decide whether or not to accept your pull request. They may ask for you to edit or revise your code prior to accepting the pull request.  
 
-6.  Once approved by a moderator and merged, you will add your dataset to the dataarc admin panel using the instructions below. 
+6.  Once approved by a moderator and merged, you will add your dataset to the dataARC admin panel using the instructions below. 
  
  
 

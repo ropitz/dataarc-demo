@@ -1,19 +1,19 @@
-.. DataArc Ecosystem Explorer documentation master file, created by
+.. dataARC Ecosystem Explorer documentation master file, created by
    sphinx-quickstart on Sat Jul 11 15:20:33 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 .. |DEE| raw:: html
 
-   <a href="https://github.com/ropitz/dataarc-demo" target="_blank">DataArc Ecosystem Explorer</a>
+   <a href="https://github.com/ropitz/dataarc-demo" target="_blank">dataARC Ecosystem Explorer</a>
    
 .. |DPW| raw:: html
 
-   <a href="https://www.data-arc.org/" target="_blank">DataArc project website</a>
+   <a href="https://www.data-arc.org/" target="_blank">dataARC project website</a>
 
 .. |DST| raw:: html
 
-   <a href="https://ui.data-arc.org/" target="_blank">DataARC Search Tool</a>
+   <a href="https://ui.data-arc.org/" target="_blank">dataARC Search Tool</a>
    
 .. |WS| raw:: html
 
@@ -56,16 +56,16 @@ Preparing your data for ingest into dataARC will be a multistep process.  If you
 .. image:: _static/dataARC_chart3.jpg
    :width: 400
    :class: align-left
-Thinking about how to map your data to the DataArc community's shared concept map can be challenging. Graduate students working with the project team have developed materials to guide PhD students considering contributing their data. |ws| designed to be used in a workshop, are relevant to anyone considering contributing project data to the DataArc Ecosystem and should be reviewed before creating combinators for your dataset. 
+Thinking about how to map your data to the dataARC community's shared concept map can be challenging. Graduate students working with the project team have developed materials to guide PhD students considering contributing their data. |ws| designed to be used in a workshop, are relevant to anyone considering contributing project data to the dataARC Ecosystem and should be reviewed before creating combinators for your dataset. 
 
 |
 |
 
 2. `Learn how <ecosystem_explorer.html>`__ to use the dataARC Ecosystem Explorer! 
 ----------------------------------------------------------------------------------
-The |dee| is a virtual sandbox designed to help dataset contributors think through mapping their data to the DataArc community's knowledge map of the
+The |dee| is a virtual sandbox designed to help dataset contributors think through mapping their data to the dataARC community's knowledge map of the
 concept of "changing landscapes." It is also designed to help advanced users better understand how data and concepts are connected in the
-DataArc Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.  
+dataARC Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.  
 
 |DNOA2| allows you to calculate graph metrics like betweenness centrality on the dataARC concept map.  It is a useful tool for beginning high-level exploration of how different concepts are connected and currently runs off of the dataARC API. 
 
