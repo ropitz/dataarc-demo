@@ -1,6 +1,10 @@
 .. |Cidoc| raw:: html
 
    <a href="http://www.cidoc-crm.org/" target="_blank">CIDOC CRM ontology</a>
+
+.. |DataARC| raw:: html
+
+   <a href="https://www.data-arc.org/" target="_blank">dataARC website</a>
   
 .. raw:: html
 
@@ -66,13 +70,13 @@ Assess data availability and create a temporal filter for a period of interest
 
 1.  To begin using the timeline graph, select a millennium of interest.  Once a millennium is selected, the graph changes to show the data availability by century.  Select a century (if applicable).  The graph changes again to show data availability by decade.  Select a decade (if applicable).
 
-2.  To view exact data numbers, hover over each colored square in the graph to view the exact number of data records available in the desired time period.  
+2.  To view the exact number of data records availble in the desired time period, hover over each colored square in the graph.
 
-3.  When you are ready to begin entering your filter parameters, it is important to note that the time last selected in the timeline graph will be auto-populated in the Start Date and End Date boxes of the Filter dialog.
+3.  When you are ready to begin entering your filter parameters, it is important to note that the time last selected in the timeline graph will be auto-populated in the *Begin Date* and *End Date* boxes of the Filter dialog.
 
-4.  Modify the Start and End Dates if necessary to reflect the period of interest.  Make sure all BCE dates are represented with a negative number.
+4.  Modify the *Begin Date* and *End Date* if necessary to reflect the period of interest.  Make sure all BCE dates are represented with a negative number.
 
-5.  Select Add Temporal Filter. 
+5.  Select *Add Temporal Filter*.
 
 .. note:: Note:  If little data is available for the desired time period, consider widening your date range to include more data.  Use the graph to view data richness in neighboring time windows to better inform your decision.
 
@@ -81,13 +85,13 @@ Create a Temporal Filter for a predefined time period.
 
 Archaeologists, geologists, climatologists, and literary historians all think about time differently. Predefined time periods are focused on discrete events (e.g. the Indonesian volcano eruption in 1257), rapid events (e.g. the Black Death in Norway from 1347-1350), or larger periods of time (e.g. the Early Medieval Period from 1050-1250) that are commonly referenced in the different disciplines represented in dataARC.  
 
-1.  To see a list of the available predefined time periods,  select the dropdown list under Time Period.
+1.  To see a list of the available predefined time periods,  select the dropdown list under *Time Period*.
 
 2.  Choose a predefined time period. 
 
 3.  Ensure the start and end dates match the desired predefined time period. Make sure all BCE dates are represented with a negative number.
 
-4.  Select Apply Filter
+4.  Select *Apply Filter*.
 
 
 Quick Results Evaluation (optional)
@@ -95,24 +99,24 @@ Quick Results Evaluation (optional)
 .. image:: _static/filter_box.jpg
    :width: 400
    :class: align-left
-   
-1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
 
-2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__)  or continue on to another section to add another filter.
+1.  Once the filter has been applied, the gray *Filters and Results* dialogue box on the right of the screen will update to show the new filter and results subsets.
 
-3.  It is important to note that the data displayed in the other visualization graphs be updated based on newly applied filter and results subset. 
+2.  Click on the Matched, Related, or Contextual links to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__)  or continue on to another section to add another filter.
+
+3.  It is important to note that the data displayed in the other visualization graphs are updated based on newly applied filter and results subset. 
 
 
 Spatial Filter: How do I create a spatial filter?
 ===================================================================
 
-Much like the timeline, the dataARC map interface is meant to rapidly convey data availability and richness across the multiple countries and island groups that make up the North Atlantic.
+Much like the timeline, the dataARC earth map interface is meant to rapidly convey data availability and richness across the multiple countries and island groups that make up the North Atlantic.
 
 .. image:: _static/maps.jpg
 
-Assess data availability for a area/country of interest and create a spatial filter
+Assess data availability for an area/country of interest and create a spatial filter
 --------------------------------------------------------------------------------------
-1.  First zoom in on the map and view the distribution of :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` records available for your area of interest. To zoom in on the map, either scroll or use the plus and minus icons located in the upper right corner of the map.  Pan using the left mouse button.
+1.  First zoom in on the map and view the distribution of :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` records available for your area of interest. To zoom in on the map, either scroll with your mouse or use the plus and minus icons located in the upper right corner of the map.  Pan using the left mouse button.
 
 2.  Once an area of interest has been identified, use the Box Select or Lasso Select tools located in the upper right corner to draw a polygon around the area.   The filter is automatically applied when you release the left mouse button.
 
@@ -131,59 +135,60 @@ Conceptual Filter: How do I create a conceptual filter?
 
 Concepts are used to build links across the different disciplines’ datasets represented within dataARC. Building these links is important and is quite challenging in practice! How a zooarchaeologist thinks about and identifies different types of fish and fishing-related activities is quite different from how a saga specialist thinks about the same topics. Yet both researchers do work that involves thinking about and studying them. dataARC uses a ‘map’ of these shared concepts, like fish and fishing, as points of connection between data used by different domains.
 
-This map of shared concepts was developed by the dataARC community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC ‘changing landscapes’ ontology was developed, visit the dataARC website. 
+This map of shared concepts was developed by the dataARC community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC ‘changing landscapes’ ontology was developed, visit the |dataARC|.
 
 .. image:: _static/concept.jpg
 
 Explore the concept map, observe concepts and their connections.  Create a conceptual filter.
 ------------------------------------------------------------------------------------------------
 
-1.  Zoom in on the concept map by using the middle mouse button to scroll.  Select a concept of interest or use the drop down list at the top right to select a specific concept.
+1.  Zoom in on the concept map by using your mouse's scroll feature.  Select a concept of interest or use the drop down list at the top right to select a specific concept.
 
-2.  Once selected, the graph changes to show the selected concept as a :conceptgreen:`green star`.  Concepts directly related (first degree) to the selected concept are shown with :conceptyellow:`yellow triangles` and concepts loosely related (second degree) to the selected concept are shown with :conceptblue:`blue circles`  The first-degree connections become related results and the second-degree connections become contextual results.  * See additional info box below for a more in-depth explanation. 
+2.  Once selected, the graph changes to show the selected concept as a :conceptgreen:`green star`.  Concepts directly related (first degree) to the selected concept are shown with :conceptyellow:`yellow triangles` and concepts loosely related (second degree) to the selected concept are shown with :conceptblue:`blue circles`  The first-degree connections become related results and the second-degree connections become contextual results.  See the :ref:`Why?<Why? An interactive visualization tool for understanding your results>` section at the bottom of the screen for a more in-depth explanation of connections.
 
 3.  Selecting another concept resets the graph and focuses the graph on the newly selected concept.  
 
-4.  To filter based on the selected concept (shown with a green star), select the green Add Filter button at the top left.  
+4.  To filter based on the selected concept (shown with a :conceptgreen:`green star`), select the green *Add Filter* button at the top left.  
 
-5.  Select the Show All Concepts button in the top right corner to reset the graph.
+5.  Select the *Show All Concepts* button in the top right corner to reset the graph.
 
-6.  Repeat for multiple concepts if desired. Filtering by more concepts will yield more results.  Filtering by the "insects" and "land management" concepts will return fields that have been tagged with either the "insects" or "land management" concepts but not necessarily both.
+6.  Repeat for multiple concepts, if desired. Filtering by more concepts will yield more results.  Filtering by the "insects" and "land management" concepts will return fields that have been tagged with either the "insects" or "land management" concepts but not necessarily both.
 
 
 Quick Results Evaluation (optional)
 --------------------------------
-1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
+1.  Once the filter has been applied, the gray *Filters and Results* dialogue box on the right of the screen will update to show the new filter and results subsets.
 
-2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__) or continue on to another section to add another filter.
+2.  Click on the Matched, Related, or Contextual links to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__) or continue on to another section to add another filter.
 
-3.  It is important to note that the data displayed in the other visualization graphs be updated based on newly applied filter and results subset. 
+3.  It is important to note that the data displayed in the other visualization graphs are updated based on newly applied filter and results subset. 
 
 
 .. image:: _static/fishing2.jpg
-   :width: 350
+   :height: 550
    :class: align-left
 
 **A closer look at concepts**
-In the example to the left, fishing is the selected concept (represented with a green star).  In the image, we can see that fishing is also directly (one degree) related to fish, boat, spear, port, bone, luck, and production. These items are first-degree connections.  Continuing outward, we observe that some first-degree connections also have connections.  For example, production is related to fishing and is also related to other forms of production (e.g. hunting, miking, shearing, etc..). These other forms of production second-degree connections to fishing.  They are the friends-of-friends, so to speak, in the social world.  First- and second-degree concept connections are important in dataARC because they are used to create the Related Results (first degree) and Contextual Results (second degree) for your search. Go to the  `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__ for a complete description of how the results are generated.
+
+In the example to the left, fishing is the selected concept (represented with a :conceptgreen:`green star`).  In the image, we can see that fishing is also directly (one degree) related to fish, boat, spear, port, bone, luck, and production. These items are first-degree connections (represented with :conceptyellow:`yellow triangles`).  Continuing outward, we observe that some first-degree connections also have connections.  For example, production is related to fishing and is also related to other forms of production (e.g. hunting, milking, shearing, etc..), represented by :conceptblue:`blue circles`. These other forms of production are second-degree connections to fishing.  They are the friends-of-friends, so to speak, in the social world.  First- and second-degree concept connections are important in dataARC because they are used to create the Related Results (first degree) and Contextual Results (second degree) for your search. Go to the  `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__ for a complete description of how the results are generated.
    
 Keywords Filter: How do I search by keywords?
 ====================================================
 
-When you want to search the database for a specific term (that is not a dataARC concept), a keyword search is likely best.  In dataARC, keywords are commonly occurring words that have been auto-generated from the text fields in the database.  It is recommended to first check the Concepts list for your term before doing a keyword search because a Concept Search specific to the term will return more valuable and directly applicable related and contextual results.
+When you want to search the database for a specific term (that is not a dataARC concept), a keyword search is likely best.  In dataARC, keywords are commonly occurring words that have been auto-generated from the text fields in the database.  It is recommended to first check the Concepts list for your term before doing a keyword search because a Concept Search specific to the term will return more valuable and directly-applicable related and contextual results.
 
-To search by keyword, type the word and click the Add button on the right.  To remove the keyword from the search, select the Remove Tag button next to the term.  Like Concepts, the Keyword search is cumulative. So the more keywords that you add to the search, the more results you'll get.  Searching by "ice" and "fjord" and "valley" will return fields that have either the ice or fjord or valley keywords in their text. 
+To search by keyword, type the word and click the *Add* button on the right.  To remove the keyword from the search, select the *Remove Tag* button next to the term.  Like Concepts, the Keyword search is cumulative. So the more keywords that you add to the search, the more results you'll get.  Searching by "ice" and "fjord" and "valley" will return fields that have either the ice or fjord or valley keywords in their text. 
 
 When a keyword search is combined with another filter, like a temporal filter, it is combined using AND logic.  For example, if temporal filter = 1,000 - 1,200 CE, keywords filter = ice or fjord, the results will return all records with a date in the range of 1,000 - 1,200 CE that also have either the ice or fjord keywords in their text.
 
 Filters/Download Data
-========================
+=====================
 
 .. image:: _static/filters.jpg
 
 The filters section provides a list of all of the applied filters by filter type (temporal, spatial, conceptual, or keyword) and also provides options to save/download your results.  Filters in dataARC are applied using AND logic meaning that all filter criteria are met.  For example, if spatial filter = Iceland and concept filter = fishing, then the results will contain records located in Iceland that have also been tagged with the fishing concept.  
 
-To remove a filter, click the remove button (X) to the right of each filter. Removing a filter will update the results list.   A running list of applied filters and results is also shown in the Quick Filters/Results dialog box on the right side of the screen.
+To remove a filter, click the remove button (X) to the right of each filter. Removing a filter will update the results list.   A running list of applied filters and results is also shown in the *Filters and Results* dialog box on the right side of the screen.
 
 Download Data
 --------------
@@ -198,7 +203,7 @@ Now that you are successfully logged in, you are ready to download your data.  G
 
 .. image:: _static/SaveSearch.jpg
 
-The newly saved dataset can now be accessed in your dataARC profile.  Select Manage - Profile (replaced Login text) located at the top right of the menu.  Your new dataset will be listed under Saved Searches.   Select Request Download to download the data in jSON format.  If you are interested in previewing what datasets are in your search result, go to the `Results Preview section <#results----preview-the-data-before-you-download below>`__.  To better understand the three types of results (matched, related, and contextual), refer to the `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__ section below.  To better understand **why** you recieved the results that you did, visit the `Why Section <#why-a-powerful-visualization-tool-for-understanding-your-results>`__.  
+The newly saved dataset can now be accessed in your dataARC profile.  Select Manage - Profile (replaced Login text) located at the top right of the menu.  Your new dataset will be listed under Saved Searches.   Select Request Download to download the data in jSON format.  If you are interested in previewing what datasets are in your search result, go to the :ref:`Results Preview<Results - Preview the data>` section.  To better understand the three types of results (matched, related, and contextual), refer to the :ref:`Interpreting Results<Interpreting Results: Why do I have three sets of results?>` section below.  To better understand **why** you recieved the results that you did, visit the :ref:`Why?<Why? An interactive visualization tool for understanding your results>` Section.
 
 Interpreting Results: Why do I have three sets of results?   
 ===============================================================
@@ -228,7 +233,7 @@ Therefore the matched results, related results, and contextual results for the t
 
 * **Contextual results:**  All data records with concepts identified as second degree connections of the original matched concepts LESS the related results AND LESS the matched results 
 
-It is important to note that related and contextual results are produced in the same manner for any combination of temporal, spatial, and keyword filters however when a concept filter is also added, then the related and contextual results will only apply to the selected concept(s).  Let's add a Concept Filter = Fishing to the filter example above.
+It is important to note that related and contextual results are produced in the same manner for any combination of temporal, spatial, and keyword filters. However, when a concept filter is also added, then the related and contextual results will only apply to the selected concept(s).  Let's add a Concept Filter = Fishing to the filter example above.
 
 **Temporal filter (500-700 CE) AND Concept Filter (Fishing)**
 
@@ -264,17 +269,17 @@ Why not just group all the direct, related and contextual results together?
 
 The dataARC search tool could, of course, group together all the results, rather than splitting them out based on how closely, conceptually speaking, they are related to the original search term. We’ve chosen to structure the results by how closely they are connected to the original search term, and to expose the explanations of these connections to help users to understand how experts from diverse domains have assessed the relevance of their data to shared different concepts. 
 
-Because the data and disciplines collected together through the dataARC search tool are so diverse, it’s likely that as a user you will encounter data with which you’re really quite unfamiliar and find yourself uncertain about how relevant it is to your original search terms and what that relevance might be. The ‘direct’, ‘related’ and ‘contextual’ tiers of search results indicate the degree of relevance. 
+Because the data and disciplines collected together through the dataARC search tool are so diverse, it’s likely that as a user you will encounter data with which you’re really quite unfamiliar and find yourself uncertain about how relevant it is to your original search terms and what that relevance might be. The *direct*, *related* and *contextual* tiers of search results indicate the degree of relevance. 
  
 Results -  Preview the data 
 ----------------------------
 
-Before you download your data, you can preview the different datasets returned from your search filters in the Results section. The results are grouped by the :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` classification used throughout the site with the number of records returned listed under each category. The different datasets and the number of records returned in each dataset are also listed under each category. To view the records returned, click on the dataset name.  Once in the dataset view window, you can view individual records and also basic metadata about the project and the dataset fields.  When you are ready to to download your data results, return to the `Filters/Data Download section <#filtersdownload-data>`__.  To better understand why you received the results that you did, visit the `Why Section <#why-a-powerful-visualization-tool-for-understanding-your-results>`__.
+Before you download your data, you can preview the different datasets returned from your search filters in the Results section. The results are grouped by the :bluish:`archaeological`, :orangish:`textual`, and :greenish:`environmental` classification used throughout the site with the number of records returned listed under each category. The different datasets and the number of records returned in each dataset are also listed under each category. To view the records returned, click on the dataset name.  Once in the dataset view window, you can view individual records and also basic metadata about the project and the dataset fields.  When you are ready to download your data results, return to the :ref:`Filters/Download Data` section.  To better understand why you received the results that you did, visit the :ref:`Why?<Why? An interactive visualization tool for understanding your results>` Section.
 
 .. image:: _static/results.jpg
 
-Why? An interactive visualization tool for understanding your results.
-===================================================================
+Why? An interactive visualization tool for understanding your results
+=====================================================================
 
 The *Why* section is broken into 6 linked-view panels to help you to understand *why* the tool has returned your filtered search results. This section of the tool exposes relationships that not only exist between the different concepts used in your search, but also between concepts and related data (combinators). The combinators have been handcrafted by dataset creators and domain experts and are intended to enable users from other disciplines to discover the conceptual links which are implicit in domain-specific knowledge, which wouldn't be obvious outside the specialist research community. These connections are described with reference to key literature in each domain. These descriptions and citations can be accessed in the "Combinator details" panel.
 
