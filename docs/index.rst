@@ -32,7 +32,7 @@
    :class: align-center
   
   
-Accompanying the |DPW| and the |DST|, this guide provides "how-to" information on all things dataARC.  The result of two successful NSF awards (cyberNABO 1.0 and 2.0 - SMA 1439389 and1637076) and a strong international research collaboration, dataARC bridges data from the humanities to the environmental sciences to support the interdisciplinary study of human ecodynamics in the North Atlantic.  Read more about the project background, the research team, and the wide array of datasets available in dataARC on the |DPW| and learn how to use the |DST| in your research.  
+Accompanying the |DPW| and the |DST|, this guide provides "how-to" information on all things dataARC.  The result of two successful NSF awards (cyberNABO 1.0 and 2.0 - SMA 1439389 and1637076) and a strong international research collaboration, dataARC bridges data from the humanities to the environmental sciences to support the interdisciplinary study of human ecodynamics in the North Atlantic.  Read more about the project background, the research team, and the wide array of datasets available in dataARC on the |DPW| and learn how to use the |DST| in your research. You may also find the dataARC API useful in your project. Learn more about it by visiting the `API Documentation page <dataarc-api.html>`__.
 
 Reference the `dataARC Search Tool Help <dataarc-tool-help.html>`__ to learn how to use the temporal, spatial, and conceptual visualization graphs, how to create and combine filters, and how to download and interpret your results.  Finally, interested in adding your data to dataARC?  DataARC is built to encourage and support open data and collaboration. :ref:`Interested in Adding your data?  Learn how...`.
 
