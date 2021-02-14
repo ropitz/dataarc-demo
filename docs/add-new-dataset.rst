@@ -50,7 +50,7 @@ How we reference time varies considerably across different disciplines.  Visit t
 Create Project and Field-Level Metadata for your dataset
 ------------------------------------------------------------
 
-Metadata is essential because it allows others to know your dataset as well as you do.  Therefore documenting the specifics of your project, how and when the data was collected, and providing descriptions for individual fields is very important.  dataARC requires that you create a markdown (.md) and XML file for your metadata to accompany your geoJSON file.  Metadata templates are provided on GitHub at https://github.com/castuofa/dataarc-source/tree/main/metadata-templates.
+Metadata is essential because it allows others to know your dataset as well as you do.  Therefore documenting the specifics of your project, how and when the data was collected, and providing descriptions for individual fields is very important. DataARC requires that you create a markdown (.md) and XML file for your metadata to accompany your geoJSON file.  Metadata templates are provided on GitHub at https://github.com/castuofa/dataarc-source/tree/main/metadata-templates.
 
 .. image:: _static/excel.jpg
    

@@ -1,11 +1,11 @@
-DataArc Ecosystem Explorer Guide
+DataARC Ecosystem Explorer Guide
 ================================
 
-The DataArc Ecosystem Explorer is a Jupyter Notebook designed to allow for interactive exploration of existing DataArc
+The dataARC Ecosystem Explorer is a Jupyter Notebook designed to allow for interactive exploration of existing dataARC
 datasets and concepts, and their relationships. This guide will walk you through how to navigate the Jupyter Notebook
-while learning about DataArc.
+while learning about dataARC.
 
-Open the DataArc Ecosystem Explorer
+Open the dataARC Ecosystem Explorer
 -----------------------------------
 
 .. note::
@@ -16,7 +16,7 @@ Open the DataArc Ecosystem Explorer
 
 .. |demo| raw:: html
 
-  <a href="https://github.com/ropitz/dataarc-demo" target=_blank> DataArc Demo GitHub Repository</a>
+  <a href="https://github.com/ropitz/dataarc-demo" target=_blank> dataARC Demo GitHub Repository</a>
 
 2. Scroll down a bit and click on |launch_binder|.
 
@@ -44,7 +44,7 @@ Open the DataArc Ecosystem Explorer
   </center>
 
 
-3. When Binder has completed its spinup process, click on the Jupyter Notebook ``dataarc_pyvis.ipynb``
+3. When Binder has completed its spin-up process, click on the Jupyter Notebook ``dataarc_pyvis.ipynb``
 
    |jupyter_home|
 
@@ -75,7 +75,7 @@ You may find that your Jupyter Notebook looks like this:
 
   |github_notebook_view|
 
-In this case, Binder is not running. Return to Step 1, and ensure that you wait for the Binder spinup to complete.
+In this case, Binder is not running. Return to Step 1, and ensure that you wait for the Binder spin-up to complete.
 
 
 .. |github_notebook_view| raw:: html

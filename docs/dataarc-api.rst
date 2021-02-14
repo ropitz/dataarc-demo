@@ -23,7 +23,7 @@ the classes, which include:
   centered around "changing landscape". May be related to many combinators, and
   may have many concept topics.
 * *Dataset* -- a dataset with defined attributes. The dataset will belong to one
-  category, but may have many Combinators, Dataset fields, and fieatures
+  category, but may have many combinators, dataset fields, and features
 * *Event* -- automatic events logged by the API, such as create, update, delete,
   etc.
 * *Features* -- relates to individual data points. Belongs to one dataset, but may
@@ -39,3 +39,9 @@ the classes, which include:
   dataset.
 * *Spatial-coverage* -- predefined spatial areas
 * *Temporal-coverage* -- predefined time periods for the timeline.
+
+
+In addition, there is a `GraphQL playground
+<https://api.data-arc.org/graphql>`__ available to test out your API use cases.
+Feel free to use the interactive web-based interface to practice and hone your
+perfect API calls, or to explore and manage data.

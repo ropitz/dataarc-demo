@@ -70,7 +70,7 @@ Assess data availability and create a temporal filter for a period of interest
 
 1.  To begin using the timeline graph, select a millennium of interest.  Once a millennium is selected, the graph changes to show the data availability by century.  Select a century (if applicable).  The graph changes again to show data availability by decade.  Select a decade (if applicable).
 
-2.  To view the exact number of data records availble in the desired time period, hover over each colored square in the graph.
+2.  To view the exact number of data records available in the desired time period, hover over each colored square in the graph.
 
 3.  When you are ready to begin entering your filter parameters, it is important to note that the time last selected in the timeline graph will be auto-populated in the *Begin Date* and *End Date* boxes of the Filter dialog.
 
@@ -133,9 +133,9 @@ Quick Results Evaluation (optional)
 Conceptual Filter: How do I create a conceptual filter?
 =============================================================
 
-Concepts are used to build links across the different disciplines’ datasets represented within dataARC. Building these links is important and is quite challenging in practice! How a zooarchaeologist thinks about and identifies different types of fish and fishing-related activities is quite different from how a saga specialist thinks about the same topics. Yet both researchers do work that involves thinking about and studying them. dataARC uses a ‘map’ of these shared concepts, like fish and fishing, as points of connection between data used by different domains.
+Concepts are used to build links across the different disciplines’ datasets represented within dataARC. Building these links is important and is quite challenging in practice! How a zooarchaeologist thinks about and identifies different types of fish and fishing-related activities is quite different from how a saga specialist thinks about the same topics. Yet both researchers do work that involves thinking about and studying them. DataARC uses a ‘map’ of these shared concepts, like fish and fishing, as points of connection between data used by different domains.
 
-This map of shared concepts was developed by the dataARC community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC ‘changing landscapes’ ontology was developed, visit the |dataARC|.
+This map of shared concepts was developed by the dataARC community in the form of a domain ontology, also referred to in our documentation as a concept map, around the central concept of the 'changing landscape' in the North Atlantic. All of the concepts shown on the concept map are broadly related to, or directly connected to, one another.  This concept map, represented as a graph where concepts appear as nodes and the reasons for connections between them appear as edges, is the primary means for visualizing and exploring connected concepts in dataARC. For more on how the dataARC 'changing landscapes' ontology was developed, visit the |dataARC|.
 
 .. image:: _static/concept.jpg
 
@@ -300,7 +300,7 @@ The upper left panel is the main panel for exploring concepts returned by your q
 
   * **Grouped** - Clickable concepts are collected under expandable lists of concept type
 
-  * **Inline** - All the filtered, clickable concepts displayed with little whitespace for maximum concept viewing.
+  * **Inline** - All the filtered, clickable concepts displayed with little white space for maximum concept viewing.
 
 * Actions:
 

@@ -1,4 +1,4 @@
-.. dataARC Ecosystem Explorer documentation master file, created by
+.. DataARC Ecosystem Explorer documentation master file, created by
    sphinx-quickstart on Sat Jul 11 15:20:33 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -32,7 +32,7 @@ Getting Started
 ===============
 
 This section includes some helpful background information if you aren't yet familiar with CIDOC CRM Concepts, existing
-dataARC data sets, or how you might start thinking about adding your own data sets.
+dataARC datasets, or how you might start thinking about adding your own datasets.
 
 .. toctree::
    :maxdepth: 2

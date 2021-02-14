@@ -33,7 +33,7 @@ Concept Map Overview
       landscape change.
     - For an exploratory examination of the CIDOC CRM concepts, visit the |use_and_learn|.
 
-  * dataARC concepts are related to one another and these relationships can be visualized as a graph.
+  * DataARC concepts are related to one another and these relationships can be visualized as a graph.
 
     - There are two main types of relationships between concepts: *class-instances* and *cross-references* 
     - *Class-instances* are essentially sub-type relationships. For example, a "beached whale" is a sub-type of "whale"
@@ -119,11 +119,13 @@ yourself as you work.
 - Identify the key datasets and data elements for your mapping task.
 
   - See Choosing which data to add later in this document for more guidelines to consider.
-    1
+
     - The main dataset you’ll be creating mappings for will probably be your own dataset. Alternatively, you may be
       proposing new mappings for an existing dataset contributed by someone else.
+
     - You may also wish to focus on another dataset with which you want your own dataset to share concepts in order to
       build connections between them.
+
     - Within the dataset which you are mapping to the concept map, you need to choose which fields (data elements) or
       combinations of fields to use in your mappings.
 

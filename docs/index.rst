@@ -1,4 +1,4 @@
-.. dataARC Ecosystem Explorer documentation master file, created by
+.. DataARC Ecosystem Explorer documentation master file, created by
    sphinx-quickstart on Sat Jul 11 15:20:33 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -48,7 +48,7 @@ The |dst| is the online interface that allows users to query the archaeological,
 Interested in Adding your data?  Learn how...
 =============================================
 
-Preparing your data for ingest into dataARC will be a multistep process.  If you haven't already, familiarize yourself with the |DST| and take a thorough glance of the contents of the |DPW| to better understand the project context and how the data are structured.  Next, you will want to step through each of the sections below.
+Preparing your data for ingest into dataARC will be a multi-step process.  If you haven't already, familiarize yourself with the |DST| and take a thorough glance of the contents of the |DPW| to better understand the project context and how the data are structured.  Next, you will want to step through each of the sections below.
   
    
 1. A |WS2| to Developing Good Mappings for your Data
@@ -65,9 +65,9 @@ Thinking about how to map your data to the dataARC community's shared concept ma
 ----------------------------------------------------------------------------------
 The |dee| is a virtual sandbox designed to help dataset contributors think through mapping their data to the dataARC community's knowledge map of the
 concept of "changing landscapes." It is also designed to help advanced users better understand how data and concepts are connected in the
-dataARC Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer toolset that is provided as a Jupyter Notebook.  
+dataARC Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you through learning the Ecosystem Explorer tool set that is provided as a Jupyter Notebook.  
 
-|DNOA2| allows you to calculate graph metrics like betweenness centrality on the dataARC concept map.  It is a useful tool for beginning high-level exploration of how different concepts are connected and currently runs off of the dataARC API. 
+|DNOA2| allows you to calculate graph metrics like betweenness centrality on the dataARC concept map.  It is a useful tool for beginning high-level exploration of how different concepts are connected and currently runs off of the dataARC API (check out the `dataARC API documentation <dataarc-api.html>`).
 
 
 3. Add your dataset using Github
@@ -75,7 +75,7 @@ dataARC Ecosystem. Use `this guide <ecosystem_explorer.html>`__ to walk you thro
 .. image:: _static/GitHub.png
    :width: 150
    :class: align-left
-Now that you have a better understanding of how to map your data to the dataARC concept map and you've experimented with creating combinators using the dataARC Ecosystem Explorer, you are ready to begin uploading your data into dataARC.  `Click here <add-new-dataset.html>`__ for step-by-step guidance for creating your dataset, uploading it to Github, and creating combinators in dataARC.  
+Now that you have a better understanding of how to map your data to the dataARC concept map and you've experimented with creating combinators using the dataARC Ecosystem Explorer, you are ready to begin uploading your data into dataARC.  `Click here <add-new-dataset.html>`__ for step-by-step guidance for creating your dataset, uploading it to GitHub, and creating combinators in dataARC.  
 
 
 
