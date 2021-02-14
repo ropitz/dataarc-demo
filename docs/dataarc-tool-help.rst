@@ -281,9 +281,11 @@ Before you download your data, you can preview the different datasets returned f
 Why? An interactive visualization tool for understanding your results
 =====================================================================
 
+.. image:: _static/LinkedViewHuman.png
+
 The *Why* section is broken into 6 linked-view panels to help you to understand *why* the tool has returned your filtered search results. This section of the tool exposes relationships that not only exist between the different concepts used in your search, but also between concepts and related data (combinators). The combinators have been handcrafted by dataset creators and domain experts and are intended to enable users from other disciplines to discover the conceptual links which are implicit in domain-specific knowledge, which wouldn't be obvious outside the specialist research community. These connections are described with reference to key literature in each domain. These descriptions and citations can be accessed in the "Combinator details" panel.
 
-The 3 panels along the top portion of this section display the concepts, combinators, and datasets (from left to right) returned by your query, while the panels in the lower portion update to show the details for concepts, combinators, and datasets selected elsewhere in the *Why* section. In any of the 6 linked views, clicking on concepts or combinator items allows you to see additional details. Hovering over concepts or combinators will highlight them in any box where they are displayed, enabling you to see connections, and whether they were included in your query.
+The 3 panels along the top portion of this section display the concepts, combinators, and datasets (from left to right) returned by your query (in the sample shown above, only the concept "human" was queried), while the panels in the lower portion update to show the details for concepts, combinators, and datasets selected elsewhere in the *Why* section. In any of the 6 linked views, clicking on concepts or combinator items allows you to see additional details. Hovering over concepts or combinators will highlight them in any box where they are displayed (the example above shows the result of hovering over the "humans" concept), enabling you to see connections, and whether they were included in your query.
 
 Why: Concepts for Query
 -----------------------
