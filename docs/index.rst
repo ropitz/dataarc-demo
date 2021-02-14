@@ -79,4 +79,7 @@ Now that you have a better understanding of how to map your data to the dataARC 
 
 
 
- 
+4. Register as a contributor
+----------------------------
+
+Fill out the `dataARC contributor form <https://www.data-arc.org/request-to-be-a-data-contributor/>`__ to register as a member of the dataARC contributors team.

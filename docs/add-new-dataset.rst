@@ -2,13 +2,15 @@ Create a dataARC account
 -------------------------
 By now you should have a better understanding of the basics for preparing your data for dataARC.  You should know how to create combinators in order to map your data to the dataARC concept map and you should have a good sense of what concepts are applicable to your dataset. You are now ready to create a dataARC account and to prepare your data for the dataARC Search Tool.
 
-1.  Open the `dataARC Search Tool <https://ui.data-arc.org/>`__ and select Register to create your account.  Fill out the form and select Register.  
+#.  Open the `dataARC Search Tool <https://ui.data-arc.org/>`__ and select Register to create your account.  Fill out the form and select Register.  
 
-2.  Now, return to the site and select  Login from the menu and login using your credentials.
+#.  If you are planning to contribute to the dataARC data (datsets or combinators), please also fill out the `dataARC contributor form <https://www.data-arc.org/request-to-be-a-data-contributor/>`__.
 
-3.  Next, select Manage - Profile.  On the left side of the screen under User Info, select "Request to be a data Contributor."  Fill out the form and click submit.  
+#.  Now, return to the site and select  Login from the menu and login using your credentials.
 
-4.  You will receive a follow-up email from a member of the dataARC team in 3-5 business days either requesting more information about your dataset or granting you access as a data contributor.  Continue with the steps below to begin converting your data.  
+#.  Next, select Manage - Profile.  On the left side of the screen under User Info, select "Request to be a data Contributor."  Fill out the form and click submit.  
+
+#.  You will receive a follow-up email from a member of the dataARC team in 3-5 business days either requesting more information about your dataset or granting you access as a data contributor.  Continue with the steps below to begin converting your data.  
 
 Prepare your data
 -------------------------
