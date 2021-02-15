@@ -2,7 +2,7 @@ Add Your Own Combinator Tutorial
 ================================
 
 In this tutorial, we'll work to edit the combinators CSV file in GitHub, then use the updated file to visualize your
-new combinator in the DataArc Ecosystem Explorer (Explorer, for short) alongside the existing DataArc mappings.
+new combinator in the dataARC Ecosystem Explorer (Explorer, for short) alongside the existing dataARC mappings.
 
 **You will need to be signed into GitHub for this tutorial.**
 
@@ -15,7 +15,7 @@ Learning Objectives
 * Visually check your combinator.
 
 
-Fork the DataArc Repository
+Fork the dataARC Repository
 ---------------------------
 
 .. note::
@@ -33,11 +33,11 @@ Fork the DataArc Repository
     `https://github.com/[user name here]/experiments>`
 
 You now have a fork of the `experiments` repository. This is your own sandbox. You can freely change it without causing
-any harm to the main DataArc repository.
+any harm to the main dataARC repository.
 
 .. |DataArc| raw:: html
 
-   <a href=https://github.com/ropitz/experiments target=_blank>the DataArc GitHub</a>
+   <a href=https://github.com/ropitz/experiments target=_blank>the dataARC GitHub</a>
 
 .. |fork| raw:: html
 
@@ -107,7 +107,7 @@ Your combinator is now saved in your fork!
 Get the raw URL for the CSV file
 --------------------------------
 
-Once you have a combinator saved to your fork, you need to find the URL to teh raw CSV file.
+Once you have a combinator saved to your fork, you need to find the URL to the raw CSV file.
 
 1. Navigate to your GitHub fork in your browser.
 
@@ -120,7 +120,7 @@ Once you have a combinator saved to your fork, you need to find the URL to teh r
 
    ``raw.githubusercontent.com/...``
 
-Visualize your combinator with the DataArc Ecosystem Explorer
+Visualize your combinator with the dataARC Ecosystem Explorer
 -------------------------------------------------------------
 
 1. **Open the Explorer.**
@@ -138,7 +138,7 @@ Visualize your combinator with the DataArc Ecosystem Explorer
    Change the variable ``url`` in the code block to the URL you saved from the previous section
    (i.e., ``raw.githubusercontent.com/...``).
 
-4. Now, run all the cells in the notebook, as instructed by the DataArc Ecosystem Explorer guidance.
+4. Now, run all the cells in the notebook, as instructed by the dataARC Ecosystem Explorer guidance.
 
 
 For any of the visualizations in the Explorer, you should now see your combinator and (potentially) new dataset. This
@@ -146,7 +146,7 @@ process can be repeated many times for tweaking existing combinators, or adding 
 
 .. |demo| raw:: html
 
-  <a href="https://github.com/ropitz/dataarc-demo" target=_blank> DataArc Demo GitHub Repository</a>
+  <a href="https://github.com/ropitz/dataarc-demo" target=_blank> dataARC Demo GitHub Repository</a>
 
 .. |launch| raw:: html
 

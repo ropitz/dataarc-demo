@@ -5,7 +5,7 @@ Learning Objectives
 -------------------
 
 * Open and navigate a Jupyter Notebook using Binder
-* Introduce conventions adopted by DataArc Ecosystem Explorer
+* Introduce conventions adopted by dataARC Ecosystem Explorer
 * Become comfortable with running cells and making minor edits to code blocks.
 
 
@@ -21,7 +21,7 @@ Open the Tutorial Notebook
 
 .. |demo| raw:: html
 
-  <a href="https://github.com/ropitz/dataarc-demo" target=_blank> DataArc Demo GitHub Repository</a>
+  <a href="https://github.com/ropitz/dataarc-demo" target=_blank> dataARC Demo GitHub Repository</a>
 
 2. Scroll down a bit and click on |launch|.
 
@@ -50,7 +50,7 @@ Open the Tutorial Notebook
 
 
 
-3. When Binder has completed its spinup process, click on the Jupyter Notebook `Jupyter Notebook Tutorial.ipynb`
+3. When Binder has completed its spin-up process, click on the Jupyter Notebook `Jupyter Notebook Tutorial.ipynb`
 
    |jupyter_home|
 
@@ -82,7 +82,7 @@ You may find that your Jupyter Notebook looks like this:
 
   |github_notebook_view|
 
-In this case, Binder is not running. Return to Step 1, and ensure that you wait for the Binder spinup to complete.
+In this case, Binder is not running. Return to Step 1, and ensure that you wait for the Binder spin-up to complete.
 
 
 .. |github_notebook_view| raw:: html

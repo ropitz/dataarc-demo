@@ -2,7 +2,7 @@ Include your data and mappings
 ==============================
 
 .. note::
-   This procedure is meant to aid the incorporation of data into the set of Jupyter Notebooks that are supported for mapping ventures. The data included via this procedure **will not** be uploaded to the main DataArc catalog for dissemination on the AR platform.
+   This procedure is meant to aid the incorporation of data into the set of Jupyter Notebooks that are supported for mapping ventures. The data included via this procedure **will not** be uploaded to the main dataARC catalog for dissemination on the AR platform.
 
 To add a dataset to the visualization tool, **you will need to be signed into your GitHub account.**
 
@@ -31,7 +31,7 @@ Procedure
 
 .. |DataArc| raw:: html
 
-   <a href=https://github.com/ropitz/experiments target=_blank>the DataArc GitHub</a>
+   <a href=https://github.com/ropitz/experiments target=_blank>the dataARC GitHub</a>
 
 .. |fork| raw:: html
 
