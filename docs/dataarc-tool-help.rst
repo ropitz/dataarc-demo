@@ -35,9 +35,10 @@
 What is the dataARC search tool?
 =================================
 
-This dataARC search tool is designed to help students and researchers discover and explore diverse interconnected data sources relevant for interdisciplinary studies of long-term human ecodynamics in the North Atlantic. Search results produced through this tool will include data provided by specialists in different domains, information about the connections between these datasets, and background information about the data sources and how they are typically used. The aim of the tool is to encourage users to assess the potential relevance to their research of datasets from outside their own area of expertise. It’s important to understand how datasets are interconnected in the tool to apply filters effectively and interpret your search results correctly. 
+This dataARC search tool is designed to help students and researchers discover and explore diverse interconnected data sources relevant for interdisciplinary studies of long-term human ecodynamics in the North Atlantic. Search results produced through this tool will include data provided by specialists in different domains, information about the connections between these datasets, and background information about the data sources and how they are typically used. The aim of the tool is to encourage users to assess the potential relevance to their research of datasets from outside their own area of expertise. It’s important to understand how datasets are interconnected in the tool to apply filters effectively and interpret your search results correctly.
 
 .. image:: _static/dataarc.jpg
+
 
 What kind of data is available through the search tool?
 ----------------------------------------------------------
@@ -85,7 +86,7 @@ Create a Temporal Filter for a predefined time period.
 
 Archaeologists, geologists, climatologists, and literary historians all think about time differently. Predefined time periods are focused on discrete events (e.g. the Indonesian volcano eruption in 1257), rapid events (e.g. the Black Death in Norway from 1347-1350), or larger periods of time (e.g. the Early Medieval Period from 1050-1250) that are commonly referenced in the different disciplines represented in dataARC.  
 
-1.  To see a list of the available predefined time periods,  select the dropdown list under *Time Period*.
+1.  To see a list of the available predefined time periods, select the drop down list under *Time Period*.
 
 2.  Choose a predefined time period. 
 
@@ -95,7 +96,7 @@ Archaeologists, geologists, climatologists, and literary historians all think ab
 
 
 Quick Results Evaluation (optional)
---------------------------------
+-----------------------------------
 .. image:: _static/filter_box.jpg
    :width: 400
    :class: align-left
@@ -122,7 +123,7 @@ Assess data availability for an area/country of interest and create a spatial fi
 
 
 Quick Results Evaluation (optional)
---------------------------------
+-----------------------------------
 1.  Once the filter has been applied, the gray Filter and Results dialogue box on the right of the screen will update to show the new filter and results subsets.
 
 2.  Click on the Matched, Related, or Contextual texts to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__) or continue on to another section to add another filter.
@@ -156,7 +157,7 @@ Explore the concept map, observe concepts and their connections.  Create a conce
 
 
 Quick Results Evaluation (optional)
---------------------------------
+------------------------------------
 1.  Once the filter has been applied, the gray *Filters and Results* dialogue box on the right of the screen will update to show the new filter and results subsets.
 
 2.  Click on the Matched, Related, or Contextual links to go to the appropriate result section at the bottom of the screen (and go to `Interpreting Results <#interpreting-results-why-do-i-have-three-sets-of-results>`__) or continue on to another section to add another filter.
@@ -203,7 +204,7 @@ Now that you are successfully logged in, you are ready to download your data.  G
 
 .. image:: _static/SaveSearch.jpg
 
-The newly saved dataset can now be accessed in your dataARC profile.  Select Manage - Profile (replaced Login text) located at the top right of the menu.  Your new dataset will be listed under Saved Searches.   Select Request Download to download the data in jSON format.  If you are interested in previewing what datasets are in your search result, go to the :ref:`Results Preview<Results - Preview the data>` section.  To better understand the three types of results (matched, related, and contextual), refer to the :ref:`Interpreting Results<Interpreting Results: Why do I have three sets of results?>` section below.  To better understand **why** you recieved the results that you did, visit the :ref:`Why?<Why? An interactive visualization tool for understanding your results>` Section.
+The newly saved dataset can now be accessed in your dataARC profile.  Select Manage - Profile (replaced Login text) located at the top right of the menu.  Your new dataset will be listed under Saved Searches.   Select Request Download to download the data in jSON format.  If you are interested in previewing what datasets are in your search result, go to the :ref:`Results Preview<Results - Preview the data>` section.  To better understand the three types of results (matched, related, and contextual), refer to the :ref:`Interpreting Results<Interpreting Results: Why do I have three sets of results?>` section below.  To better understand **why** you received the results that you did, visit the :ref:`Why?<Why? An interactive visualization tool for understanding your results>` Section.
 
 Interpreting Results: Why do I have three sets of results?   
 ===============================================================
@@ -267,7 +268,7 @@ In the dataARC search tool, the most directly connected concepts and their mappe
 Why not just group all the direct, related and contextual results together?
 ---------------------------------------------------------------------------
 
-The dataARC search tool could, of course, group together all the results, rather than splitting them out based on how closely, conceptually speaking, they are related to the original search term. We’ve chosen to structure the results by how closely they are connected to the original search term, and to expose the explanations of these connections to help users to understand how experts from diverse domains have assessed the relevance of their data to shared different concepts. 
+The dataARC search tool could, of course, group together all the results, rather than splitting them out based on how closely, conceptually speaking, they are related to the original search term. We've chosen to structure the results by how closely they are connected to the original search term, and to expose the explanations of these connections to help users to understand how experts from diverse domains have assessed the relevance of their data to shared different concepts. 
 
 Because the data and disciplines collected together through the dataARC search tool are so diverse, it’s likely that as a user you will encounter data with which you’re really quite unfamiliar and find yourself uncertain about how relevant it is to your original search terms and what that relevance might be. The *direct*, *related* and *contextual* tiers of search results indicate the degree of relevance. 
  
@@ -278,12 +279,14 @@ Before you download your data, you can preview the different datasets returned f
 
 .. image:: _static/results.jpg
 
-Why? An interactive visualization tool for understanding your results
-=====================================================================
+.. _why-a-powerful-visualization-tool-for-understanding-your-results:
 
-.. image:: _static/LinkedViewHuman.png
+Why? An interactive visualization tool for understanding your results
+======================================================================
 
 The *Why* section is broken into 6 linked-view panels to help you to understand *why* the tool has returned your filtered search results. This section of the tool exposes relationships that not only exist between the different concepts used in your search, but also between concepts and related data (combinators). The combinators have been handcrafted by dataset creators and domain experts and are intended to enable users from other disciplines to discover the conceptual links which are implicit in domain-specific knowledge, which wouldn't be obvious outside the specialist research community. These connections are described with reference to key literature in each domain. These descriptions and citations can be accessed in the "Combinator details" panel.
+
+.. image:: _static/LinkedViewHuman.png
 
 The 3 panels along the top portion of this section display the concepts, combinators, and datasets (from left to right) returned by your query (in the sample shown above, only the concept "human" was queried), while the panels in the lower portion update to show the details for concepts, combinators, and datasets selected elsewhere in the *Why* section. In any of the 6 linked views, clicking on concepts or combinator items allows you to see additional details. Hovering over concepts or combinators will highlight them in any box where they are displayed (the example above shows the result of hovering over the "humans" concept), enabling you to see connections, and whether they were included in your query.
 

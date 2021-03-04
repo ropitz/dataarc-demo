@@ -36,6 +36,7 @@ Next it is important to validate your newly created JSON file to ensure that the
 .. image:: _static/JSONFormatter.jpg
    :width: 400
    :class: align-left
+
 `JSON Formatter <https://jsonformatter.org/>`__  is one of the easiest, yet advanced, formatting and validating tools.  It can be used as a JSON validator, editor, and viewer.  While a login isn’t required to save your JSON data, data saved without a login becomes public.  To ensure that your data is private, create an account and login first.  
 
 
