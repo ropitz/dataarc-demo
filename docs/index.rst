@@ -67,10 +67,9 @@ The |dst| is the online interface that allows users to query the archaeological,
 DataARC API
 ===========
 
-Find more information about using the dataARC API by visiting the `API Documentation page <dataarc-api.html>`__.
+The dataARC REST API is a useful tool for gathering, exploring, and modifying dataARC information to help researchers interested in automation and deeper data analytics. Find more information about using the dataARC API by visiting the `API Documentation page <dataarc-api.html>`__.
 
 Use cases are demonstrated in Python with `this Jupyter Notebook <https://github.com/ropitz/dataarc-notebook/blob/main/use_cases_examples.ipynb/>`__
-
 
 DataARC Ecosystem Explorer
 ==========================
