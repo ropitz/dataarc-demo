@@ -69,7 +69,7 @@ DataARC API
 
 Find more information about using the dataARC API by visiting the `API Documentation page <dataarc-api.html>`__.
 
-Use cases are demonstrated in Python with `this Jupyter Notebook <https://github.com/ropitz/dataarc-notebook/blob/main/use_cases_examples.ipynb>`
+Use cases are demonstrated in Python with `this Jupyter Notebook <https://github.com/ropitz/dataarc-notebook/blob/main/use_cases_examples.ipynb/>`__
 
 
 DataARC Ecosystem Explorer
