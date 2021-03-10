@@ -97,7 +97,7 @@ To edit the XML file, we recommend using Notepad ++, a free download from `here 
 Create a GitHub Account and add your data
 --------------------------------------------
 
-If you haven’t already, create a GitHub account and navigate to the `dataARC source repository <https://github.com/castuofa/dataarc-source.>`__  `Digital Ocean <https://www.digitalocean.com/community/tutorials?q=github>`__ (referenced here) has a good set of tutorials to familiarize you with working with data in GitHub.  Feel free to look at other sections of their documentation for additional information.
+If you haven’t already, create a GitHub account and navigate to the `dataARC source repository. <https://github.com/castuofa/dataarc-source>`__  `Digital Ocean <https://www.digitalocean.com/community/tutorials?q=github>`__ has a good set of tutorials to familiarize you with working with data in GitHub.  Feel free to look at other sections of their documentation for additional information.
 
 1.  `Fork <https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github#create-a-copy-of-the-repository>`__ the dataarc-source repository with the "Fork" button located on the right side of the screen.  
 
